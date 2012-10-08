@@ -7,7 +7,7 @@ $strSiteName = "BootstraPHP";
 $strTagline = "Twitter Bootstrap based modular framework";
 $strBootswatch = ""; // Should we load a Bootswatch? Leave blank for no.
 $strResponsive = true; // Load responsive stylesheet?
-$strUserIP = Request.ServerVariables("REMOTE_ADDR");
+$strUserIP = $_SERVER['REMOTE_ADDR'];
 
 // Page Specific
 // You could set default values here and overide them per page
@@ -24,7 +24,7 @@ $strBSJS = "bs/docs/assets/js/";
 $strTwitterName = "Trippnology";
 $strFacebookURL = "http://www.facebook.com/Trippnology";
 $strGoogleAnalID = "UA-XXXXX-X";
-$strGoogleFonts = "Squada+One";
+$strGoogleFonts = 'Squada+One';
 
 // Form to email
 // Server Setup
@@ -40,8 +40,8 @@ $strMsgHeader = "Someone has sent you a message:";
 
 // Set fields to use here
 //DIM strName, strEmail, strTelephone, strMessage
-$strName = request.form("Name");
-$strEmail = request.form("Email");
-$strTelephone = request.form("Telephone");
-$strMessage = request.form("Message");
+$strName = $_REQUEST["Name"];
+$strEmail = $_REQUEST["Email"];
+$strTelephone = $_REQUEST["Telephone"];
+$strMessage = $_REQUEST["Message"];
 ?>

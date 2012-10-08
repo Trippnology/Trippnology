@@ -1,13 +1,13 @@
 <?php 
-include "inc/strings.asp";
+include "inc/strings.php";
 
-$strPageName = "BootstrASP";
-$strCanonical = "default.asp";
+$strPageName = "BootstraPHP";
+$strCanonical = "start.php";
 $strDescription = "Twitter bootstrap based modular framework";
 $strKeywords = "keyword1, keyword2, keyword3";
 $strTweetText = $strPageName;
 
-include "setup.asp";
+include "setup.php";
 ?>
 
 <body>
