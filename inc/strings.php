@@ -1,12 +1,12 @@
 <?php
 // Global
 //Dim strDomain, strAdminEmail, strSiteName, strTagline, strBootswatch, strResponsive, strUserIP
-$strDomain = "http://localhost/bootstrasp/";
+$strDomain = "http://localhost/projects/bootstraPHP/";
 $strAdminEmail = "";
-$strSiteName = "BootstrASP";
-$strTagline = "Twitter Bootstrap with some ASP goodies";
-$strBootswatch = ""; // Should we load a Bootswatch?;
-$strResponsive = true; // Load responsive stylesheet?;
+$strSiteName = "BootstraPHP";
+$strTagline = "Twitter Bootstrap based modular framework";
+$strBootswatch = ""; // Should we load a Bootswatch? Leave blank for no.
+$strResponsive = true; // Load responsive stylesheet?
 $strUserIP = Request.ServerVariables("REMOTE_ADDR");
 
 // Page Specific
