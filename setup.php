@@ -34,7 +34,7 @@
     ?>
 
     <link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
-    <link rel="canonical" href="<?=$strDomain & $strCanonical?>">
+    <link rel="canonical" href="<?=$strDomain?><?=$strCanonical?>">
     <link rel="author" href="<?=$strDomain?>humans.txt">
     
     <script src="js/libs/modernizr.min.js"></script>
