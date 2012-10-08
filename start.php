@@ -18,7 +18,7 @@ include "setup.php";
 			<div id="left" class="span2 tiltright shadowleft roundlrg">
 				<?php 
 				include "inc/vert-menu.php";
-				include "inc/share.php";
+				//include "inc/share.php";
 				?>
 			</div>
 			
@@ -81,7 +81,7 @@ include "setup.php";
 			</div>
 			
 			<div id="right" class="span3 tiltleft shadowright roundlrg">
-			<?php //include "inc/sidebar.php"; ?>
+			<?php include "inc/sidebar.php"; ?>
 			</div>
 		</div>
 		
