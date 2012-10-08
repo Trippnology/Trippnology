@@ -63,7 +63,7 @@
     
 <!-- Additional items used during development and testing
 Remove this reference for production - integrate the contents of inc/dev.asp or lose it! -->
-<?php include "inc/dev.asp"; ?>
+<?php include "inc/dev.php"; ?>
 
 <!-- Global Modal Window -->
 <?php //include "inc/global-modal.asp"; ?>
