@@ -11,7 +11,7 @@ include "setup.php";
 ?>
 
 <body>
-	<?php //include "inc/bs-navbar.php"; ?>
+	<?php include "inc/navbar.php"; ?>
 	<div class="container">
 		
 		<div class="row tiltwrapper">
