@@ -10,9 +10,9 @@
 
 <!-- Submodules -->
 <!-- FitText -->
-<script src="fittext/jquery.fittext.js"></script>
+<!-- <script src="fittext/jquery.fittext.js"></script> -->
 <!-- Bootstrap -->
-<script src="<%=strBSJS%>bootstrap-transition.js"></script>
+<!-- <script src="<%=strBSJS%>bootstrap-transition.js"></script>
 <script src="<%=strBSJS%>bootstrap-alert.js"></script>
 <script src="<%=strBSJS%>bootstrap-modal.js"></script>
 <script src="<%=strBSJS%>bootstrap-dropdown.js"></script>
@@ -24,7 +24,9 @@
 <script src="<%=strBSJS%>bootstrap-collapse.js"></script>
 <script src="<%=strBSJS%>bootstrap-carousel.js"></script>
 <script src="<%=strBSJS%>bootstrap-typeahead.js"></script>
-<script src="<%=strBSJS%>application.js"></script>
+<script src="<%=strBSJS%>application.js"></script> -->
+<!-- Now all in one -->
+<script src="<?=$strBSJS?>bootstrap.js"></script>
 
 <!-- DO NOT modify the following (including the comments) -->
 <!-- scripts concatenated and minified via ant build script-->
@@ -35,15 +37,16 @@
 <!-- Global jQuery settings -->
 <script>
 	$(document).ready(function() {
-		/* FitText */
-		$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
-		/* Bootstrap */
+		// FitText
+		// FitText might be going so it's commented out for now
+		//$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
+		// Bootstrap
 		$('.dropdown-toggle').dropdown();
 		$('a.hastooltip').tooltip({
 			'placement' : 'right'
 		});
 		$('#globalmodal').modal('hide')
-		/* Fancybox */
+		// Fancybox
 		$("#fancybox-trigger").fancybox({
 			'titlePosition'		: 'inside',
 			'transitionIn'		: 'elastic',
