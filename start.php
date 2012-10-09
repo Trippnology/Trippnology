@@ -27,10 +27,10 @@ include "setup.php";
 				<article>
 					<img src="img/trippnology-logo-square-180.png" alt="Trippnology square logo" class="right roundlrg">
 					<h1>About</h1>
-					<p>The idea is to use Bootstrap and ASP to build a framework of modules used for rapid development of web projects. We're trying to make it flexible (as in, useful in may senarios), responsive, standards compliant (where practical), and ensure it contains everything the modern website needs right out of the box.</p>
+					<p>The idea is to use Bootstrap and PHP to build a framework of modules used for rapid development of web projects. We're trying to make it flexible (as in, useful in many senarios), responsive, standards compliant (where practical), and ensure it contains everything the modern website needs right out of the box.</p>
 					<p>There will be some components that aren't needed but it is easy to remove what's not required as things are laid out nice and logically.</p>
 					<p>Please report bugs via the <a href="https://github.com/Trippnology/BootstraPHP/issues" title="BootstraPHP Issues">Github issue tracker</a> or better still, fix them and send a pull request! Likewise if you have suggestions for improvement, send a pull request.</p>
-					<p>BootstrPHP is licenced under <a class="label" rel="external" href="https://creativecommons.org/licenses/by-sa/2.0/uk/">CC BY-SA 2.0</a> which means you are free to copy, distribute, hack, slice, make derivatives and even to make commercial use of it provided that you both credit <a rel="external" href="http://www.trippnology.com/">Trippnology</a> and release your work under a licence identical to this one.</p>
+					<p>BootstrPHP is licenced under <a class="label hastooltip" rel="license" target="_blank" href="https://creativecommons.org/licenses/by-sa/2.0/uk/" title="Attribution-ShareAlike 2.0 UK: England &amp; Wales">CC BY-SA 2.0</a> which means you are free to copy, distribute, hack, slice, make derivatives and even to make commercial use of it provided that you both credit <a rel="external" href="http://www.trippnology.com/">Trippnology</a> and release your work under a licence identical to this one.</p>
 					<p>Please be aware that some of the components of Bootstrasp are covered by different licenses which are listed below.</p>
 				</article>
 
@@ -40,7 +40,7 @@ include "setup.php";
 					<ul>
 						<li><a rel="external" href="https://github.com/twitter/bootstrap.git">Bootstrap</a> <a class="label" rel="external" href="https://github.com/twitter/bootstrap/blob/master/LICENSE">Apache</a>
 						<li><a rel="external" href="https://github.com/Modernizr/Modernizr.git">Modernizr</a> <a class="label" rel="external" href="http://modernizr.com/license/">MIT</a>
-						<li><a rel="external" href="https://github.com/davatron5000/FitText.js.git">FitText</a> <a class="label" rel="external" href="http://sam.zoy.org/wtfpl/">WTFPL</a>
+						<!-- <li><a rel="external" href="https://github.com/davatron5000/FitText.js.git">FitText</a> <a class="label" rel="external" href="http://sam.zoy.org/wtfpl/">WTFPL</a> -->
 						<li><a rel="external" href="https://github.com/h5bp/ant-build-script.git">H5BP Ant Build Script</a>
 					</ul>
 
@@ -53,12 +53,12 @@ include "setup.php";
 					<ul>
 						<li><a rel="external" href="http://jquery.com/">jQuery</a> <a class="label" rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a> and these plugins:
 							<ul>
-								<li><a rel="external" href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a>
+								<!-- <li><a rel="external" href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a>
 								<li><a rel="external" href="http://archive.plugins.jquery.com/project/mousewheel">jQuery Mousewheel</a> <a class="label" rel="external" href="https://github.com/brandonaaron/jquery-mousewheel/blob/master/LICENSE.txt">&copy;Brandon Aaron</a>
 								<li><a rel="external" href="http://bassistance.de/jquery-plugins/jquery-plugin-validation/">jQuery Validation</a> <a class="label" rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>
 								<li><a rel="external" href="http://www.codefocus.ca/goodies/blockfader">BlockFader</a> <a class="label" rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>
 								<li><a rel="external" href="http://fancybox.net/">Fancybox</a> <a class="label" rel="external" href="https://www.gnu.org/licenses/gpl-3.0.html">GPL</a>
-								<li>ExternalLinks
+								<li>ExternalLinks -->
 							</ul>
 						</li>
 						<li><a rel="external" href="http://www.google.com/analytics/">Google Analytics</a>
@@ -66,9 +66,9 @@ include "setup.php";
 
 					<p>Social:</p>
 					<ul>
-						<li><a rel="external" href="http://twitter.com/about/resources/buttons">Twitter Tweet Button</a>
+						<!-- <li><a rel="external" href="http://twitter.com/about/resources/buttons">Twitter Tweet Button</a>
 						<li><a rel="external" href="http://developers.facebook.com/docs/reference/plugins/like/">Facebook Like Button</a>
-						<li><a rel="external" href="http://www.addthis.com/">AddThis Button</a>
+						<li><a rel="external" href="http://www.addthis.com/">AddThis Button</a> -->
 					</ul>
 
 					<p>Development</p>
