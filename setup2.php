@@ -26,7 +26,7 @@
 <script src="<%=strBSJS%>bootstrap-typeahead.js"></script>
 <script src="<%=strBSJS%>application.js"></script> -->
 <!-- Now all in one -->
-<script src="<?=$strBSJS?>bootstrap.js"></script>
+<script src="<?=$strBSJS?>bootstrap.min.js"></script>
 
 <!-- DO NOT modify the following (including the comments) -->
 <!-- scripts concatenated and minified via ant build script-->
