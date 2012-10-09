@@ -23,7 +23,7 @@ include "setup.php";
 			</div>
 			
 			<div class="span7" id="main" role="main">
-				<h1 id="pagetitle"><a href="<?php $strCanonical ?>" title="<?php $strPageName ?>"><?php $strPageName ?></a></h1>
+				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?php $strPageName ?></a></h1>
 				<article>
 					<img src="img/trippnology-logo-square-180.png" alt="Trippnology square logo" class="right roundlrg">
 					<h1>About</h1>
@@ -87,7 +87,7 @@ include "setup.php";
 		
 		<div class="row">
 			<div class="span12">
-			<?php //include "inc/footer.php"; ?>
+			<?php include "inc/footer.php"; ?>
 			</div>
 		</div>
     </div>       
