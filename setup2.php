@@ -34,6 +34,13 @@
 <script src="js/script.js"></script>
 <!-- end scripts-->
 
+<!-- Additional items used during development and testing
+Remove this reference for production - integrate the contents of inc/dev.asp or lose it! -->
+<?php include "inc/dev.php"; ?>
+
+<!-- Global Modal Window -->
+<?php include "inc/global-modal.php"; ?>
+
 <!-- Global jQuery settings -->
 <script>
 	$(document).ready(function() {
@@ -60,13 +67,6 @@
 <script>window.jQuery || document.write("<script src="js/libs/dd-belated-png-0.0.8-min.js"></script>")</script>
 <script>DD_belatedPNG.fix("img, .png_bg");</script>
 <![endif]-->
-    
-<!-- Additional items used during development and testing
-Remove this reference for production - integrate the contents of inc/dev.asp or lose it! -->
-<?php include "inc/dev.php"; ?>
-
-<!-- Global Modal Window -->
-<?php //include "inc/global-modal.asp"; ?>
 
 <!-- Google Analytics -->
 <script>
