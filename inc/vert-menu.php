@@ -1,4 +1,4 @@
-<nav>
+<nav class="vert-menu shadowleft roundlrg borderlight">
     <ul class="nav nav-list">
 		<li class="nav-header">Bootstrap:
 		<li><a href="bs/docs/" target="_blank" class="hastooltip" title="An overview of what is included in Bootstrap"><i class="icon-info-sign"></i> Overview</a>

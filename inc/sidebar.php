@@ -1,4 +1,4 @@
-<aside class="sidebar">
+<aside class="sidebar shadowright roundlrg borderlight">
 	<h1>Sidebar</h1>
 	<p>Need some reusable content in a sidebar? No problem, just put it in inc/sidebar.php and call it,  wherever you want it to appear:</p>
 	<p><code>&lt;?php include &quot;inc/sidebar.php&quot;; ?&gt;</code></p>
