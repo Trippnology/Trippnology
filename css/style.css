@@ -28,11 +28,11 @@ body {
 }
 header[role=banner] { } /* Alternative to static navbar */
 #sitetitlebox { } /* Alternative to static navbar */
-#left { margin-top:20px; }
-nav.vert-menu { padding:0.5em; }
-#share { padding-left:0.5em; }
-#right { margin-top:20px; }
-aside.sidebar { padding: 0.5em; }
+.columnleft { margin-top:2em; }
+  nav.vert-menu { padding:0.5em; }
+  #share { padding-left:0.5em; }
+.columnright { margin-top:2em; }
+  aside.sidebar { padding: 0.5em; }
 footer[role=contentinfo] { text-align:center; }
 
 /* Utilities */
@@ -40,8 +40,8 @@ footer[role=contentinfo] { text-align:center; }
 .current { font-weight:bold; }
 .left { float:left; }
 .right { float:right; }
-img.left  { margin:0 20px 0 0; }
-img.right { margin:0 0 0 20px; }
+img.left  { margin:0 1.5em 0 0; }
+img.right { margin:0 0 0 1.5em; }
 .borderdark { border:1px solid #444; }
 .borderlight { border: 1px solid #ccc; }
 /* Round Corners */

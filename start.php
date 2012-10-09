@@ -15,7 +15,7 @@ include "setup.php";
 	<div class="container">
 		
 		<div class="row">
-			<div id="left" class="span2">
+			<div class="span2 columnleft">
 				<?php 
 				include "inc/vert-menu.php";
 				//include "inc/share.php";
@@ -80,7 +80,7 @@ include "setup.php";
 				</article>
 			</div>
 			
-			<div id="right" class="span3">
+			<div class="span3 columnright">
 			<?php include "inc/sidebar.php"; ?>
 			</div>
 		</div>
