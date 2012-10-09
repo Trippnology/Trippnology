@@ -11,27 +11,19 @@
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <?php // Are there any Google Fonts to load?
-        if ($strGoogleFonts != NULL): 
-            //echo $strGoogleFonts; ?>
-            <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<?=$strGoogleFonts?>">
-        <?php endif;
-    
-    // Is there a Bootswatch theme to load?
-        if ($strBootswatch != NULL):
-            //echo $strBootswatch; ?>
-            <link rel="stylesheet" href="http://bootswatch.com/<?=$strBootswatch?>/bootstrap.min.css">
-        <?php else:
-            //echo $strBSCSS; ?>
-            <link rel="stylesheet" href="<?=$strBSCSS?>bootstrap.css">
-        <?php endif;
+    <?php if ($strGoogleFonts != NULL): // Are there any Google Fonts to load? ?>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<?=$strGoogleFonts?>">
+    <?php endif;
 
-    // Should we load the responsive stylesheet?
-        if ($strResponsive = true):
-            //echo "Responsive should load"; ?>
-            <link rel="stylesheet" href="<?=$strBSCSS?>bootstrap-responsive.css">
-        <?php endif;
-    ?>
+    if ($strBootswatch != NULL): // Is there a Bootswatch theme to load? ?>
+        <link rel="stylesheet" href="http://bootswatch.com/<?=$strBootswatch?>/bootstrap.min.css">
+    <?php else: // If not, use the default Bootstrap ?>
+        <link rel="stylesheet" href="<?=$strBSCSS?>bootstrap.css">
+    <?php endif;
+
+    if ($strResponsive = true): // Should we load the responsive stylesheet? ?>
+        <link rel="stylesheet" href="<?=$strBSCSS?>bootstrap-responsive.css">
+    <?php endif; ?>
 
     <link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
     <link rel="canonical" href="<?=$strDomain?><?=$strCanonical?>">
