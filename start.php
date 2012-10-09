@@ -14,8 +14,8 @@ include "setup.php";
 	<?php include "inc/navbar.php"; ?>
 	<div class="container">
 		
-		<div class="row tiltwrapper">
-			<div id="left" class="span2 tiltright shadowleft roundlrg">
+		<div class="row">
+			<div id="left" class="span2 shadowleft roundlrg">
 				<?php 
 				include "inc/vert-menu.php";
 				//include "inc/share.php";
@@ -80,7 +80,7 @@ include "setup.php";
 				</article>
 			</div>
 			
-			<div id="right" class="span3 tiltleft shadowright roundlrg">
+			<div id="right" class="span3 shadowright roundlrg">
 			<?php include "inc/sidebar.php"; ?>
 			</div>
 		</div>
