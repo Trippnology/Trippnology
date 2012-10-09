@@ -32,6 +32,7 @@ header[role=banner] { } /* Alternative to static navbar */
 #left nav { padding-top:0.5em; }
 #share { padding-left:0.5em; }
 #right { margin-top:20px; }
+aside.sidebar { padding: 0.5em; }
 footer[role=contentinfo] { text-align:center; }
 
 /* Utilities */
