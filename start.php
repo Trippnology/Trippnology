@@ -1,5 +1,5 @@
 <?php 
-include "inc/strings.php";
+include "inc/settings.php";
 
 $strPageName = "BootstraPHP";
 $strCanonical = "start.php";
@@ -7,7 +7,7 @@ $strDescription = "Twitter bootstrap based modular framework";
 $strKeywords = "keyword1, keyword2, keyword3";
 $strTweetText = $strPageName;
 
-include "setup.php";
+include "head.php";
 ?>
 
 <body>
@@ -91,7 +91,7 @@ include "setup.php";
 			</div>
 		</div>
     </div>       
-<?php include "setup2.php"; ?>
+<?php include "scriptblock.php"; ?>
 
 <!-- Put page specific script stuff here -->
 <?php include "inc/modal-readme.php" ?>
