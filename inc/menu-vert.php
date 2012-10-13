@@ -11,12 +11,13 @@
 		<li><a href="bs/docs/examples.html" target="_blank" class="hastooltip" title="We've included a few basic examples as starting points for your work with Bootstrap. We encourage folks to iterate on these examples and not simply use them as an end result."><i class="icon-info-sign"></i> Examples</a>
 		
 		<li class="nav-header">Demos
-        <li><a href="demo-blockfader.asp" class="hastooltip" title="Blockfader jQuery plugin"><i class="icon-play"></i> Blockfader</a>
-        <li><a href="demo-fancybox.asp" class="hastooltip" title="Fancybox jQuery plugin"><i class="icon-play"></i> Fancybox</a>
-        <li><a href="demo-3d-rollover.asp" class="hastooltip" title="3D rollover effect in CSS3"><i class="icon-play"></i> 3D Rollover</a>
-        <li><a href="demo-bootswatch.asp" class="hastooltip" title="Bootswatch - A collection of free themes for your Bootstap site"><i class="icon-play"></i> Bootswatch</a>
+        <li><a href="demo-blockfader.php" class="hastooltip" title="Blockfader jQuery plugin"><i class="icon-play"></i> Blockfader</a>
+        <li><a href="demo-fancybox.php" class="hastooltip" title="Fancybox jQuery plugin"><i class="icon-play"></i> Fancybox</a>
+        <li><a href="demo-3d-rollover.php" class="hastooltip" title="3D rollover effect in CSS3"><i class="icon-play"></i> 3D Rollover</a>
+        <li><a href="demo-bootswatch.php" class="hastooltip" title="Bootswatch - A collection of free themes for your Bootstap site"><i class="icon-play"></i> Bootswatch</a>
 
         <li class="nav-header">Example Pages
-        <li><a href="template-contact.asp" class="hastooltip" title="Example contact page with Microdata and a contact form"><i class="icon-th"></i> Contact Page</a>
+        <li><a href="template-blank.php" class="hastooltip" title="A bare page with just the basic setup options"><i class="icon-th"></i> Blank Page</a>
+        <li><a href="template-contact.php" class="hastooltip" title="Example contact page with Microdata and a contact form"><i class="icon-th"></i> Contact Page</a>
     </ul>
 </nav>

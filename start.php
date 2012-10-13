@@ -17,7 +17,7 @@ include "head.php";
 		<div class="row">
 			<div class="span2 columnleft">
 				<?php 
-				include "inc/vert-menu.php";
+				include "inc/menu-vert.php";
 				//include "inc/share.php";
 				?>
 			</div>
