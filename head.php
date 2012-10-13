@@ -28,6 +28,9 @@
     <link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
     <link rel="canonical" href="<?=$strDomain?><?=$strCanonical?>">
     <link rel="author" href="<?=$strDomain?>humans.txt">
+    <?php if ($strTwitterName != NULL): // Establish a link to your twitter profile ?>
+        <link rel="me" href="http://twitter.com/<?=strTwitterName?>">
+    <?php endif; ?>
     
     <script src="js/libs/modernizr.min.js"></script>
 </head>
