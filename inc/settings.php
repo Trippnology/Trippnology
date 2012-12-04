@@ -25,7 +25,7 @@ $strBSJS = "bs/docs/assets/js/";
 $strTwitterName = "Trippnology";
 $strFacebookURL = "http://www.facebook.com/Trippnology";
 $strGoogleAnalID = "UA-XXXXX-X";
-$strGoogleFonts = 'Squada+One';
+$strGoogleFonts = 'Source+Code+Pro';
 
 // Form to email
 // Server Setup

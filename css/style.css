@@ -20,21 +20,25 @@
 
 /* Text styling */
 /* ######################################################### */
-h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; }
-.brand { font-family:'Squada One', Verdana, Geneva, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family:'Source Code Pro', Verdana, Geneva, sans-serif; }
+.brand { font-family:'Source Code Pro', Verdana, Geneva, sans-serif; }
 .pagetitle { width: 100%; line-height: 1.5em; }
 .pagetitle a:hover { text-decoration: none; }
 
 /* Section styling */
 /* ######################################################### */
 body { 
-  padding-top:50px; /* To account for the static navbar */
+  padding-top: 50px; /* To account for the static navbar */
+  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
 }
 .columnleft { margin-top: 2em; }
-  nav.vert-menu { padding: 0.5em; }
+  nav.vert-menu { padding: 0.5em 0.5em 0.5em 1em; }
+    nav.vert-menu ul.nav { padding: 0;}
   .share { padding: 0 1.5em 0.5em; }
 .columnright { margin-top: 2em; }
-  aside.sidebar { padding: 0.5em; }
+  aside.sidebar { padding: 0.75em; }
+    aside.sidebar h1 { margin-top: 0; }
 footer[role=contentinfo] { text-align: center; }
 
 /* Utilities */
