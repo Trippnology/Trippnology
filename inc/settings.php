@@ -7,7 +7,6 @@ $strSiteName = "BootstraPHP";
 $strTagline = "Twitter Bootstrap based modular framework";
 $strBootswatch = ""; // Should we load a Bootswatch? Leave blank for no.
 $strResponsive = true; // Load responsive stylesheet?
-$strShowShortURLs = true; // Display a shortened URL in the <head>
 $strUserIP = $_SERVER['REMOTE_ADDR'];
 
 // Page Specific
