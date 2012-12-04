@@ -25,36 +25,6 @@ Remove this reference for production - integrate the contents of inc/dev.asp or 
 <!-- Global Modal Window -->
 <?php include "inc/global-modal.php"; ?>
 
-<!-- Global jQuery settings -->
-<script>
-	$(document).ready(function() {
-		// FitText
-		// FitText might be going so it's commented out for now
-		//$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
-		// Bootstrap
-		$('.dropdown-toggle').dropdown();
-		$('a.tooltip-top').tooltip({
-			'placement' : 'top'
-		});
-		$('a.tooltip-right').tooltip({
-			'placement' : 'right'
-		});
-		$('a.tooltip-bottom').tooltip({
-			'placement' : 'bottom'
-		});
-		$('a.tooltip-left').tooltip({
-			'placement' : 'left'
-		});
-		$('#globalmodal').modal('hide')
-		// Fancybox
-		$("#fancybox-trigger").fancybox({
-			'titlePosition'		: 'inside',
-			'transitionIn'		: 'elastic',
-			'transitionOut'		: 'elastic'
-		})
-	});
-</script>
-
 <!--[if lt IE 7 ]>
 <script src="http://cachedcommons.org/cache/dd-belated-png/0.0.8/javascripts/dd-belated-png-min.js"></script>
 <script>window.jQuery || document.write("<script src="js/libs/dd-belated-png-0.0.8-min.js"></script>")</script>
