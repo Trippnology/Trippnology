@@ -14,11 +14,13 @@ include "head.php";
 	<div class="container">
 		
 		<div class="row">
-			<div class="span2 columnleft">
-				<?php 
-				include "inc/menu-vert.php";
-				//include "inc/share.php";
-				?>
+			<div class="span2">
+				<div class="columnleft shadowleft roundlrg borderlight">
+					<?php 
+					include "inc/menu-vert.php";
+					include "inc/share.php";
+					?>
+				</div>
 			</div>
 			
 			<div class="span7" id="main" role="main">

@@ -46,6 +46,7 @@ Social:
 
 -   [Twitter tweet button](http://twitter.com/about/resources/buttons)
 -   [Facebook like button](http://developers.facebook.com/docs/reference/plugins/like/)
+-   [AddThis button](http://www.addthis.com/)
 
 Development:
 

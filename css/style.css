@@ -32,7 +32,7 @@ body {
 }
 .columnleft { margin-top: 2em; }
   nav.vert-menu { padding: 0.5em; }
-  #share { padding-left: 0.5em; }
+  .share { padding: 0 1.5em 0.5em; }
 .columnright { margin-top: 2em; }
   aside.sidebar { padding: 0.5em; }
 footer[role=contentinfo] { text-align: center; }
