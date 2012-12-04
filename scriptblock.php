@@ -18,10 +18,6 @@
 <script src="js/script.js"></script>
 <!-- end scripts-->
 
-<!-- Additional items used during development and testing
-Remove this reference for production - integrate the contents of inc/dev.asp or lose it! -->
-<?php include "inc/dev.php"; ?>
-
 <!-- Global Modal Window -->
 <?php include "inc/global-modal.php"; ?>
 
@@ -38,3 +34,8 @@ Remove this reference for production - integrate the contents of inc/dev.asp or 
 	g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 	s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
+
+<!-- Additional items used during development and testing -->
+<?php if ($devmode) :
+	include "inc/dev.php";
+endif ?>
