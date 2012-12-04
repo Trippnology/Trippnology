@@ -33,8 +33,17 @@ Remove this reference for production - integrate the contents of inc/dev.asp or 
 		//$("#pagetitle").fitText(0.8, { minFontSize: '44px' });
 		// Bootstrap
 		$('.dropdown-toggle').dropdown();
-		$('a.hastooltip').tooltip({
+		$('a.tooltip-top').tooltip({
+			'placement' : 'top'
+		});
+		$('a.tooltip-right').tooltip({
 			'placement' : 'right'
+		});
+		$('a.tooltip-bottom').tooltip({
+			'placement' : 'bottom'
+		});
+		$('a.tooltip-left').tooltip({
+			'placement' : 'left'
 		});
 		$('#globalmodal').modal('hide')
 		// Fancybox
