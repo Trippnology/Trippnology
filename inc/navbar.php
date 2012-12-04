@@ -25,15 +25,15 @@
 					</li>
 					<li class="dropdown" id="demosmenu">
 						<a href="#demosmenu" class="dropdown-toggle" data-toggle="dropdown">Demos<b class="caret"></b></a>
-						<ul class="dropdown-menu nav-list">
-							<li class="nav-header">jQuery</li>
-							<li><a href="demo-blockfader.asp">Blockfader</a></li>
-							<li><a href="demo-fancybox.asp">Fancybox</a></li>
-							<li class="divider"></li>
-							<li class="nav-header">CSS3</li>
-							<li><a href="demo-3d-rollover.asp">3D Rollovers</a></li>
-							<li><a href="demo-bootswatch.asp" class="tooltip-right" title="Bootswatch - A collection of free themes for your Bootstap site">Bootswatch</a></li>
-						</ul>
+							<ul class="dropdown-menu">
+								<li class="nav-header">jQuery</li>
+								<li><a href="demo-blockfader.asp">Blockfader</a></li>
+								<li><a href="demo-fancybox.asp">Fancybox</a></li>
+								<li class="divider"></li>
+								<li class="nav-header">CSS3</li>
+								<li><a href="demo-3d-rollover.asp">3D Rollovers</a></li>
+								<li><a href="demo-bootswatch.asp" class="tooltip-right" title="Bootswatch - A collection of free themes for your Bootstap site">Bootswatch</a></li>
+							</ul>
 					</li>
 				</ul>
 				<form class="navbar-search pull-right">
