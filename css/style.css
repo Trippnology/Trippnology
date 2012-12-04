@@ -16,47 +16,43 @@
 /* ######################################################### */
 h1, h2, h3, h4, h5, h6 { font-family:'Squada One', Verdana, Geneva, sans-serif; }
 .brand { font-family:'Squada One', Verdana, Geneva, sans-serif; }
-#sitetitle { } /* Alternative to static navbar */
-#tagline { } /* Use with #sitetitle */
-#pagetitle { width:100%; line-height:1.5em; }
-#pagetitle a:hover { text-decoration:none; }
+.pagetitle { width: 100%; line-height: 1.5em; }
+.pagetitle a:hover { text-decoration: none; }
 
 /* Section styling */
 /* ######################################################### */
 body { 
   padding-top:50px; /* To account for the static navbar */
 }
-header[role=banner] { } /* Alternative to static navbar */
-#sitetitlebox { } /* Alternative to static navbar */
-.columnleft { margin-top:2em; }
-  nav.vert-menu { padding:0.5em; }
-  #share { padding-left:0.5em; }
-.columnright { margin-top:2em; }
+.columnleft { margin-top: 2em; }
+  nav.vert-menu { padding: 0.5em; }
+  #share { padding-left: 0.5em; }
+.columnright { margin-top: 2em; }
   aside.sidebar { padding: 0.5em; }
-footer[role=contentinfo] { text-align:center; }
+footer[role=contentinfo] { text-align: center; }
 
 /* Utilities */
 /* ######################################################### */
-.current { font-weight:bold; }
-.left { float:left; }
-.right { float:right; }
-img.left  { margin:0 1.5em 0 0; }
-img.right { margin:0 0 0 1.5em; }
-.borderdark { border:1px solid #444; }
+.current { font-weight: bold; }
+.left { float: left; }
+.right { float: right; }
+img.left  { margin: 0 1.5em 0 0; }
+img.right { margin: 0 0 0 1.5em; }
+.borderdark { border: 1px solid #444; }
 .borderlight { border: 1px solid #ccc; }
 /* Round Corners */
 .roundsm {
-  -webkit-border-radius:5px;
-     -moz-border-radius:5px;
-          border-radius:5px;
+  -webkit-border-radius: 5px;
+     -moz-border-radius: 5px;
+          border-radius: 5px;
           background-clip: padding-box;
   -webkit-background-clip: padding-box;
      -moz-background-clip: padding;
 }
 .roundlrg {
-  -webkit-border-radius:10px;
-     -moz-border-radius:10px;
-          border-radius:10px;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
           background-clip: padding-box; 
   -webkit-background-clip: padding-box;
      -moz-background-clip: padding;

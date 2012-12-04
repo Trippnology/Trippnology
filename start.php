@@ -5,7 +5,6 @@ $strPageName = "BootstraPHP";
 $strCanonical = "start.php";
 $strDescription = "Twitter bootstrap based modular framework";
 $strKeywords = "keyword1, keyword2, keyword3";
-$strTweetText = $strPageName;
 
 include "head.php";
 ?>
@@ -23,9 +22,9 @@ include "head.php";
 			</div>
 			
 			<div class="span7" id="main" role="main">
-				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?php $strPageName ?></a></h1>
+				<h1 class="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<article class="readme">
-					<img src="img/trippnology-logo-square-180.png" alt="Trippnology square logo" class="right roundlrg">
+					<img src="img/trippnology-logo-square-180.png" alt="Trippnology square logo" class="pull-right roundlrg">
 				</article>
 			</div>
 			
