@@ -18,6 +18,9 @@
 @import url('3d-rollover-effect.css');
 @import url('3d-tilt-effect.css');
 
+/* apply a natural box layout model to all elements */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 /* Text styling */
 /* ######################################################### */
 h1, h2, h3, h4, h5, h6 { font-family:'Source Code Pro', Verdana, Geneva, sans-serif; }

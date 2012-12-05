@@ -6,7 +6,7 @@
 		<li><a href="bs/docs/scaffolding.html" target="_blank" class="tooltip-right" title="Bootstrap is built on a responsive 12-column grid."><i class="icon-info-sign"></i> Scaffolding</a>
 		<li><a href="bs/docs/base-css.html" target="_blank" class="tooltip-right" title="On top of the scaffolding, basic HTML elements are styled and enhanced with extensible classes to provide a fresh, consistent look and feel."><i class="icon-info-sign"></i> Base CSS</a>
 		<li><a href="bs/docs/components.html" target="_blank" class="tooltip-right" title="Dozens of reusable components are built into Bootstrap to provide navigation, alerts, popovers, and much more."><i class="icon-info-sign"></i> Components</a>
-		<li><a href="bs/docs/javascript.html" target="_blank" class="tooltip-right" title="Bring Bootstrap's components to life. Now with 12 custom jQuery plugins."><i class="icon-info-sign"></i> Javascript Plugins</a></li>
+		<li><a href="bs/docs/javascript.html" target="_blank" class="tooltip-right" title="Bring Bootstrap's components to life. Now with 12 custom jQuery plugins."><i class="icon-info-sign"></i> Plugins</a></li>
 		<li><a href="bs/docs/customize.html" target="_blank" class="tooltip-right" title="Download the full repository or customize your entire Bootstrap build by selecting only the components, javascript plugins, and assets you need."><i class="icon-info-sign"></i> Customise</a>
 		
 		<li class="nav-header">Demos
