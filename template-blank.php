@@ -5,7 +5,7 @@ $strPageName = "Blank Page";
 $strCanonical = "template-blank.php";
 $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
-$SEOtitle = $strPageName . " | " . $strSiteName;
+$SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "blank";
 $strTweetText = $strPageName;
 

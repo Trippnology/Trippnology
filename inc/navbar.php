@@ -7,7 +7,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</a>
-			<a class="brand" href="<?=$strDomain?>" title="<?=$strSiteName?>"><?=$strSiteName?></a>
+			<a class="brand" href="<?=$siteDomain?>" title="<?=$siteName?>"><?=$siteName?></a>
 			<div class="nav-collapse">
 				<ul class="nav">
 					<li><a href="start.php" title="Home">Home</a></li>

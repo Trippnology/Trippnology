@@ -5,7 +5,7 @@ $strPageName = "BootstraPHP";
 $strCanonical = "start.php";
 $strDescription = "Twitter bootstrap based modular framework";
 $strKeywords = "keyword1, keyword2, keyword3";
-$SEOtitle = $strPageName . " | " . $strSiteName;
+$SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "start";
 
 include "head.php";

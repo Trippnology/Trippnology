@@ -11,26 +11,26 @@
     <meta name="robots" content="index,follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <?php if ($strGoogleFonts): // Are there any Google Fonts to load? ?>
-        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<?=$strGoogleFonts?>">
+    <?php if ($styleGoogleFonts): // Are there any Google Fonts to load? ?>
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=<?=$styleGoogleFonts?>">
     <?php endif;
 
-    if ($strBootswatch): // Is there a Bootswatch theme to load? ?>
-        <link rel="stylesheet" href="http://bootswatch.com/<?=$strBootswatch?>/bootstrap.min.css">
+    if ($styleBootswatch): // Is there a Bootswatch theme to load? ?>
+        <link rel="stylesheet" href="http://bootswatch.com/<?=$styleBootswatch?>/bootstrap.min.css">
     <?php else: // If not, use the default Bootstrap ?>
-        <link rel="stylesheet" href="<?=$strBSCSS?>bootstrap.css">
+        <link rel="stylesheet" href="<?=$dirBSCSS?>bootstrap.css">
     <?php endif;
 
-    if ($strResponsive): // Should we load the responsive stylesheet? ?>
-        <link rel="stylesheet" href="<?=$strBSCSS?>bootstrap-responsive.css">
+    if ($styleResponsive): // Should we load the responsive stylesheet? ?>
+        <link rel="stylesheet" href="<?=$dirBSCSS?>bootstrap-responsive.css">
     <?php endif; ?>
 
     <link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
-    <link rel="canonical" href="<?=$strDomain?><?=$strCanonical?>">
-    <link rel="author" href="<?=$strDomain?>humans.txt">
+    <link rel="canonical" href="<?=$siteDomain?><?=$strCanonical?>">
+    <link rel="author" href="<?=$siteDomain?>humans.txt">
 
-    <?php if ($strTwitterName): // Establish a link to your twitter profile ?>
-        <link rel="me" href="http://twitter.com/<?=$strTwitterName?>">
+    <?php if ($socialTwitterName): // Establish a link to your twitter profile ?>
+        <link rel="me" href="http://twitter.com/<?=$socialTwitterName?>">
     <?php endif; ?>
 
     <script src="js/libs/modernizr.min.js"></script>

@@ -1,41 +1,36 @@
 <?php
-// Global
-//Dim strDomain, strAdminEmail, strSiteName, strTagline, strBootswatch, strResponsive, strUserIP
-$strDomain = "http://localhost/projects/bootstraPHP/";
-$strAdminEmail = "";
-$strSiteName = "BootstraPHP";
-$strTagline = "Twitter Bootstrap based modular framework";
-$strBootswatch = ""; // Should we load a Bootswatch? Leave blank for no.
-$strResponsive = true; // Load responsive stylesheet?
-$devmode = true; // Load developments stuff?
-$strUserIP = $_SERVER['REMOTE_ADDR'];
+// Global Site Settings
+$siteName = "BootstraPHP";
+$siteDomain = "http://localhost/projects/bootstraPHP/"; // Be sure to include trailing slash
+$siteTagline = "Twitter Bootstrap based modular framework";
 
-// Page Specific
-// You could set default values here and overide them per page
-//Dim strPageName, strCanonical, strDescription, strKeywords
+// Back end stuff
+$adminEmail = "";
+$adminDevMode = true; // Load development stuff?
+$adminGoogleAnalID = "UA-XXXXX-X";
+$userIP = $_SERVER['REMOTE_ADDR'];
 
-//Bootstrap
-//Dim strBSCSS, strBSImg, strBSJS
-$strBSCSS = "bs/docs/assets/css/";
-$strBSImg = "bs/docs/assets/img/";
-$strBSJS = "bs/docs/assets/js/";
+// Style Settings
+$styleBootswatch = ""; // Should we load a Bootswatch? Leave blank for no.
+$styleResponsive = true; // Load responsive stylesheet?
+$styleGoogleFonts = 'Source+Code+Pro';
+
+//Bootstrap directories
+$dirBSCSS = "bs/docs/assets/css/";
+$dirBSImg = "bs/docs/assets/img/";
+$dirBSJS = "bs/docs/assets/js/";
 
 // External sites
-//Dim strTwitterName, strTweetText, strFacebookURL, strGoogleAnalID, strGoogleFonts
-$strTwitterName = "Trippnology";
-$strFacebookURL = "http://www.facebook.com/Trippnology";
-$strGoogleAnalID = "UA-XXXXX-X";
-$strGoogleFonts = 'Source+Code+Pro';
+$socialTwitterName = "Trippnology";
+$socialFacebookURL = "http://www.facebook.com/Trippnology";
 
 // Form to email
 // Server Setup
-//Dim Mailer, strMsgHeader, qryItem, strMsgInfo
-//Dim strFromName, strFromAdd, strMailHost, strRecipientName, strRecipientEmail, strSubject
-$strFromName = $strSiteName;
-$strFromAdd = $strAdminEmail;
+$strFromName = $siteName;
+$strFromAdd = $adminEmail;
 $strMailHost = "";
 $strRecipientName = "Trippnology";
-$strRecipientEmail = $strAdminEmail;
+$strRecipientEmail = $adminEmail;
 $strSubject = "Contact from your website";
 $strMsgHeader = "Someone has sent you a message:";
 

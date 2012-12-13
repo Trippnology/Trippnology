@@ -10,7 +10,7 @@
 
 <!-- Submodules -->
 <!-- Bootstrap -->
-<script src="<?=$strBSJS?>bootstrap.min.js"></script>
+<script src="<?=$dirBSJS?>bootstrap.min.js"></script>
 
 <!-- DO NOT modify the following (including the comments) -->
 <!-- scripts concatenated and minified via ant build script-->
@@ -29,13 +29,13 @@
 
 <!-- Google Analytics -->
 <script>
-	var _gaq=[["_setAccount","<?=$strGoogleAnalID?>"],["_trackPageview"]];
+	var _gaq=[["_setAccount","<?=$adminGoogleAnalID?>"],["_trackPageview"]];
 	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
 	g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
 	s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
 
 <!-- Additional items used during development and testing -->
-<?php if ($devmode) :
+<?php if ($adminDevMode) :
 	include "inc/dev.php";
 endif ?>
