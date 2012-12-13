@@ -5,6 +5,7 @@ $strPageName = "Contact Us";
 $strCanonical = "template-contact.php";
 $strDescription = "An example contact page with microdata.";
 $strKeywords = "keyword1, keyword2, keyword3";
+$SEOtitle = $strPageName . " | " . $strSiteName;
 $strTweetText = $strPageName;
 
 include "head.php";

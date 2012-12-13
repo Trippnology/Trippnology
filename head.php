@@ -5,7 +5,7 @@
 <!--[if (gte IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
-    <title><?=$strPageName?> | <?=$strSiteName?></title>
+    <title><?=$SEOtitle?></title>
     <meta name="description" content="<?=$strDescription?>">
     <meta name="keywords" content="<?=$strKeywords?>">
     <meta name="robots" content="index,follow">
