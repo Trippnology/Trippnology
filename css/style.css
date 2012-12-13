@@ -49,6 +49,7 @@ footer[role=contentinfo] { text-align: center; }
 .current { font-weight: bold; }
 .borderdark { border: 1px solid #444; }
 .borderlight { border: 1px solid #ccc; }
+.antispam { cursor: help; }
 /* Round Corners */
 .roundsm {
   -webkit-border-radius: 5px;
