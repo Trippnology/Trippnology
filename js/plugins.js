@@ -1,10 +1,5 @@
 // Place any jQuery/helper plugins in here, instead of separate, slower script files.
 
-// Global site settings
-// ##########################################################
-// Makes all links with rel="external" open in a new tab
-$('a[rel="external"]').attr('target', '_blank');
-
 // Twitter tweet button
 !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
 

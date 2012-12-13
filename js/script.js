@@ -21,4 +21,6 @@ $(document).ready(function() {
 		'transitionIn'		: 'elastic',
 		'transitionOut'		: 'elastic'
 	})
+	
+	$('a[rel="external"]').attr('target', '_blank');
 });
