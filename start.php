@@ -24,7 +24,6 @@ include "head.php";
 			</div>
 			
 			<div class="span7" id="main" role="main">
-				<h1 class="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<article class="readme">
 					<img src="img/trippnology-logo-square-180.png" alt="Trippnology square logo" class="pull-right roundlrg">
 				</article>
