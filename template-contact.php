@@ -20,7 +20,7 @@ include "head.php";
 			<div class="span7 offset1" id="main" role="main">
 				<article class="well">
 					<h1 id="pagetitle"><a href="<?=$strCanonical?>" title="<?=$strPageName?>"><?=$strPageName?></a></h1>
-					<img src="http://placekitten.com/128/200/" width="128" height="200" class="right roundsm" alt="Contact <?=siteName?>">
+					<img src="http://placekitten.com/128/200/" width="128" height="200" class="pull-right roundsm" alt="Contact <?=siteName?>">
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
