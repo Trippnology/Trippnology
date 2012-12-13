@@ -52,3 +52,10 @@ Development:
 
 -   [Console.log Wrapper](https://github.com/cpatik/console.log-wrapper.git) ([MIT](https://github.com/cpatik/console.log-wrapper/blob/master/LICENSE))
 -   [Live.js](http://livejs.com/) ([MIT](http://livejs.com/license))
+
+###TODO
+
+- 	Convert IDs to classes where practical
+- 	Add short URL option
+- 	Add Fancybox demo
+- 	Add 3D rollover demo
