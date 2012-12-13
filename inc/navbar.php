@@ -10,7 +10,7 @@
 			<a class="brand" href="<?=$strDomain?>" title="<?=$strSiteName?>"><?=$strSiteName?></a>
 			<div class="nav-collapse">
 				<ul class="nav">
-					<li><a href="start.asp" title="Home">Home</a></li>
+					<li><a href="start.php" title="Home">Home</a></li>
 					<li class="dropdown" id="bootstrapmenu">
 						<a href="#bootstrapmenu" class="dropdown-toggle" data-toggle="dropdown">Bootstrap<b class="caret"></b></a>
 							<ul class="dropdown-menu">
@@ -27,12 +27,12 @@
 						<a href="#demosmenu" class="dropdown-toggle" data-toggle="dropdown">Demos<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li class="nav-header">jQuery</li>
-								<li><a href="demo-blockfader.asp">Blockfader</a></li>
-								<li><a href="demo-fancybox.asp">Fancybox</a></li>
+								<li><a href="demo-blockfader.php">Blockfader</a></li>
+								<li><a href="demo-fancybox.php">Fancybox</a></li>
 								<li class="divider"></li>
 								<li class="nav-header">CSS3</li>
-								<li><a href="demo-3d-rollover.asp">3D Rollovers</a></li>
-								<li><a href="demo-bootswatch.asp" class="tooltip-right" title="Bootswatch - A collection of free themes for your Bootstap site">Bootswatch</a></li>
+								<li><a href="demo-3d-rollover.php">3D Rollovers</a></li>
+								<li><a href="demo-bootswatch.php" class="tooltip-right" title="Bootswatch - A collection of free themes for your Bootstap site">Bootswatch</a></li>
 							</ul>
 					</li>
 				</ul>
