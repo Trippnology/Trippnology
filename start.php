@@ -6,11 +6,12 @@ $strCanonical = "start.php";
 $strDescription = "Twitter bootstrap based modular framework";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | " . $strSiteName;
+$pageSlug = "start";
 
 include "head.php";
 ?>
 
-<body>
+<body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
 	<div class="container">
 		

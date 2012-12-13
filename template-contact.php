@@ -6,12 +6,13 @@ $strCanonical = "template-contact.php";
 $strDescription = "An example contact page with microdata.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | " . $strSiteName;
+$pageSlug = "contact";
 $strTweetText = $strPageName;
 
 include "head.php";
 ?>
 
-<body>
+<body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
 	<div class="container">
 		

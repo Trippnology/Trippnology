@@ -6,12 +6,13 @@ $strCanonical = "template-blank.php";
 $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | " . $strSiteName;
+$pageSlug = "blank";
 $strTweetText = $strPageName;
 
 include "head.php";
 ?>
 
-<body>
+<body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
 	<div class="container">
 		
