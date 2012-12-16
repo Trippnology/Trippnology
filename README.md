@@ -1,15 +1,16 @@
 #BootstraPHP v0.1
 
+Demo: http://bootstraphp.trippnology.net/
+
 ##About
 
 The idea is to use Bootstrap and PHP to build a framework of modules
 used for rapid development of web projects. Goals are to make it
-flexible (as in, useful in many senarios), responsive (as in RWD), standards
-compliant (where practical), and ensure it contains everything the
-modern website needs right out of the box.
+flexible (as in, useful in many senarios), responsive (as in RWD) and 
+ensure it contains everything the modern website needs right out of the box.
 
 There will be some components that aren’t needed but it is easy to
-remove what’s not required as things are laid out nice and logically.
+remove what’s not required.
 
 Please report bugs via the [Github issue tracker](https://github.com/Trippnology/BootstraPHP/issues) or better still, fix
 them and send a pull request! Likewise if you have suggestions for
@@ -52,6 +53,21 @@ Development:
 
 -   [Console.log Wrapper](https://github.com/cpatik/console.log-wrapper.git) ([MIT](https://github.com/cpatik/console.log-wrapper/blob/master/LICENSE))
 -   [Live.js](http://livejs.com/) ([MIT](http://livejs.com/license))
+
+Templates:
+
+- 	template-blank.php Just the bare minimum.
+- 	template-contact.php A sample contact page with microdata and a Google map popup.
+
+Page Blocks:
+
+- 	navbar.php Top navigation menu.
+- 	menu-vert.php Vertical navigation menu.
+- 	sidebar.php Reusable sidebar content.
+- 	footer.php Copyright info and social links.
+- 	share.php Social buttons.
+- 	modal-global.php A modal window available to all pages.
+- 	dev.php Useful development tools (remove for production).
 
 ###TODO
 
