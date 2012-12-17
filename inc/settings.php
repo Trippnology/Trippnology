@@ -1,8 +1,8 @@
 <?php
 // Global Site Settings
-$siteName = "BootstraPHP";
-$siteDomain = "http://bootstraphp.trippnology.net/"; // Be sure to include trailing slash
-$siteTagline = "Twitter Bootstrap based modular framework";
+$siteName = "Trippnology";
+$siteDomain = "http://www.trippnology.com/"; // Be sure to include trailing slash
+$siteTagline = "We're good with technology";
 
 // Back end stuff
 $adminEmail = "";
