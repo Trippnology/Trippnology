@@ -11,7 +11,12 @@
  *    Utilities
  *    Media Queries
  *    Print Styles 
- *
+ *    Colours:
+ *      Burgundy: #332532
+ *      Grape: #634C52
+ *      Bright Orange: #F87A52
+ *      Light Orange: #FF974E
+ *      Grey: #A59A88
  */
 
 /* $Plugin stylesheets */
@@ -33,9 +38,10 @@ h1, h2, h3, h4, h5, h6 { font-family: MetaPro-Bold, "Helvetica Neue", Helvetica,
 /* $Section styling */
 /* ######################################################### */
 body { 
-  padding-top: 50px; /* To account for the static navbar */
   font-family: museo_sans_300regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
+  /* background-image: url(../img/tmt_ondula5.png); */
+  background-repeat: repeat;
 }
 .columnleft { margin-top: 2em; }
   nav.vert-menu { padding: 0.5em 0.5em 0.5em 1em; }
@@ -48,7 +54,8 @@ footer[role=contentinfo] { text-align: center; }
 
 /* $Page Specific Styles */
 /* ######################################################### */
-#stuck { width: 258px; }
+body.page-home { padding-top: 3.5em; }
+#stuck { width: 228px; }
 .affix {
   position: fixed; 
   top: 1em;
@@ -142,6 +149,62 @@ footer[role=contentinfo] { text-align: center; }
 .carousel-caption .btn {
   margin-top: 10px;
 }
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span3 {
+  text-align: center;
+}
+  .marketing h2 {
+    font-weight: normal;
+  }
+  .marketing .span3 p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+
+/* Featurettes
+------------------------- */
+
+.divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  height: 5px;
+  border: 0;
+  background: rgb(51,37,50); /* Old browsers */
+  background: -moz-linear-gradient(left, rgba(51,37,50,1) 0%, rgba(51,37,50,1) 20%, rgba(99,76,82,1) 20%, rgba(99,76,82,1) 40%, rgba(248,122,82,1) 40%, rgba(248,122,82,1) 60%, rgba(255,151,78,1) 60%, rgba(255,151,78,1) 80%, rgba(165,154,136,1) 80%, rgba(165,154,136,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(51,37,50,1)), color-stop(20%,rgba(51,37,50,1)), color-stop(20%,rgba(99,76,82,1)), color-stop(40%,rgba(99,76,82,1)), color-stop(40%,rgba(248,122,82,1)), color-stop(60%,rgba(248,122,82,1)), color-stop(60%,rgba(255,151,78,1)), color-stop(80%,rgba(255,151,78,1)), color-stop(80%,rgba(165,154,136,1)), color-stop(100%,rgba(165,154,136,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left, rgba(51,37,50,1) 0%,rgba(51,37,50,1) 20%,rgba(99,76,82,1) 20%,rgba(99,76,82,1) 40%,rgba(248,122,82,1) 40%,rgba(248,122,82,1) 60%,rgba(255,151,78,1) 60%,rgba(255,151,78,1) 80%,rgba(165,154,136,1) 80%,rgba(165,154,136,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, rgba(51,37,50,1) 0%,rgba(51,37,50,1) 20%,rgba(99,76,82,1) 20%,rgba(99,76,82,1) 40%,rgba(248,122,82,1) 40%,rgba(248,122,82,1) 60%,rgba(255,151,78,1) 60%,rgba(255,151,78,1) 80%,rgba(165,154,136,1) 80%,rgba(165,154,136,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, rgba(51,37,50,1) 0%,rgba(51,37,50,1) 20%,rgba(99,76,82,1) 20%,rgba(99,76,82,1) 40%,rgba(248,122,82,1) 40%,rgba(248,122,82,1) 60%,rgba(255,151,78,1) 60%,rgba(255,151,78,1) 80%,rgba(165,154,136,1) 80%,rgba(165,154,136,1) 100%); /* IE10+ */
+  background: linear-gradient(to right, rgba(51,37,50,1) 0%,rgba(51,37,50,1) 20%,rgba(99,76,82,1) 20%,rgba(99,76,82,1) 40%,rgba(248,122,82,1) 40%,rgba(248,122,82,1) 60%,rgba(255,151,78,1) 60%,rgba(255,151,78,1) 80%,rgba(165,154,136,1) 80%,rgba(165,154,136,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#332532', endColorstr='#a59a88',GradientType=1 ); /* IE6-9 */
+}
+.featurette {
+  padding-top: 3em; /* Vertically center images part 1: add padding above and below text. */
+  overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+  margin-top: -1em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+  width:256px;
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+  margin-right: 40px;
+}
+.featurette-image.pull-right {
+  margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-size: 50px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
 
 
 /* $Utilities */
@@ -153,6 +216,25 @@ footer[role=contentinfo] { text-align: center; }
 .borderdark { border: 1px solid #444; }
 .borderlight { border: 1px solid #ccc; }
 .antispam { cursor: help; }
+
+.burgundy {background-color: #332532;}
+.grape {background-color: #634C52;}
+.brightorange {background-color: #F87A52;}
+.lightorange {background-color: #FF974E;}
+.grey {background-color: #A59A88;}
+
+/* Images */
+img.aligncenter {
+    clear: both;
+    display: block;
+    margin: 10px auto;
+}
+img.alignleft, img.alignright, img.aligncenter, img.alignnone {
+    background: none repeat scroll 0 0 #FCFCFC;
+    border: 1px solid #C6C9CB;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+    padding: 5px;
+}
 
 /* Round Corners */
 .roundsm {
