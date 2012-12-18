@@ -61,10 +61,16 @@ include "head.php";
 			<div class="span3">
 				<div id="stuck" class="columnleft shadowleft roundlrg borderlight" data-spy="affix" data-offset-top="585">
 					<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
-					<?php 
-					include "inc/menu-vert.php";
-					include "inc/share.php";
-					?>
+					<p class="btn button-menu" data-toggle="collapse" data-target="#menu-vert">Menu</p>
+					<?php include "inc/menu-vert.php"; ?>
+					<hr class="divider roundsm">
+					<p class="contact-info">t: 01953 451231<br>
+						e: mail@trippnology.com</p>
+					<p class="social-links">
+						<span class="badge">twitter</span>
+						<span class="badge">github</span>
+						<span class="badge">facebook</span>
+					</p>
 				</div>
 			</div>
 			
@@ -123,7 +129,6 @@ include "head.php";
 	<div class="container">
 		<div class="row">
 			<div class="span12">
-				<hr class="divider roundsm">
 				<?php include "inc/footer.php"; ?>
 			</div>
 		</div>
@@ -131,7 +136,14 @@ include "head.php";
 <?php include "scriptblock.php"; ?>
 
 <!-- Put page specific script stuff here -->
-
+<script>
+  !function ($) {
+    $(function(){
+      // carousel demo
+      $('#homeCarousel').carousel();
+    })
+  }(window.jQuery)
+</script>
 <!-- End of page specific script stuff -->
 </body>
 </html>

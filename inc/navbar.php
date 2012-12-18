@@ -1,5 +1,5 @@
 <div class="navbar">
-	<div class="navbar-inner">
+	<div class="navbar-inner roundlrg">
 		<div class="container">
 			<!-- .btn-navbar is used as the toggle for collapsed navbar content -->
 			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">Menu</a>
