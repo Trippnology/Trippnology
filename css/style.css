@@ -129,6 +129,9 @@ body.page-home { padding-top: 3.5em; }
 /* Carousel base class */
 .carousel {
   margin-bottom: 60px;
+  -webkit-box-shadow: 0px 10px 10px rgba(50, 50, 50, 0.75);
+     -moz-box-shadow: 0px 10px 10px rgba(50, 50, 50, 0.75);
+          box-shadow: 0px 10px 10px rgba(50, 50, 50, 0.75);
 }
 
 .carousel .container {

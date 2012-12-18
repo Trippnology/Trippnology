@@ -12,9 +12,15 @@ include "head.php";
 ?>
 
 <body class="page-<?=$pageSlug?>">
+    <div class="navbar-wrapper">
+    	<div class="container">
+			<?php include "inc/navbar.php"; ?>   		
+    	</div>
+    </div>
+
     <!-- Carousel -->
-	<div id="homeCarousel" class="carousel slide">
-		<div class="carousel-inner">
+	<div id="homeCarousel" class="carousel slide roundsm">
+		<div class="carousel-inner roundsm">
 			<div class="item active">
 				<img src="img/home/2700278384_79bc7e21f9_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
 				<div class="container">
@@ -50,12 +56,6 @@ include "head.php";
     	<a class="right carousel-control" href="#homeCarousel" data-slide="next">›</a>
     </div><!-- /.carousel -->
 
-    <div class="navbar-wrapper">
-    	<div class="container">
-			<?php include "inc/navbar.php"; ?>   		
-    	</div>
-    </div>
-
 	<div class="container">
 		<div class="row">
 			<div class="span3">
@@ -76,6 +76,37 @@ include "head.php";
 			
 			<div class="span9 marketing" id="main" role="main">
 				<!-- START THE FEATURETTES -->
+				<div class="featurette">
+					<!-- Placeholder/inspiration only -->
+					<h1>We built the company that we’d want to do business with. We hope you do too.</h1>
+					<div class="span4">
+						<ol>
+							<li>Useful is forever<br>
+	Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don’t.</li>
+							<li>Great service is everything<br>
+	We’re famous for fast and friendly customer service. We work hard to make sure we live up to that reputation every day. See how our customers rate our service</li>
+							<li>Clarity is king<br>
+	Buzzwords, lingo, and sensationalized sales-and-marketing-speak have no place at 37signals. We communicate clearly and honestly.</li>
+							<li>Our customers are our investors<br>
+	Our customers fund our daily operations by paying for our products. We answer to them — not investors, the stock market, or a board of directors.</li>
+						</ol>
+					</div>
+					<div class="span4">
+						<ol start="5">
+							<li>The basics are beautiful<br>
+	We’ll never overlook what really matters: The basics. Great service, ease of use, honest pricing, and respect for our customer’s time, money, and trust.</li>
+							<li>No hidden fees or secret prices<br>
+	We believe everyone is entitled to the best price we can offer. Our prices are public, published right on our site, and the same no matter who you are.</li>
+							<li>Software should be easy<br>
+	Our products are intuitive. You’ll pick them up in seconds or minutes, not hours, days or weeks. We don’t sell you training because you don’t need it.</li>
+							<li>Long-term contracts are obscene<br>
+	No one likes being locked into something they don’t want anymore. Our customers can cancel at any time, no questions asked. No setup/termination fees either.</li>
+						</ol>
+					</div>
+				</div>
+
+				<hr class="divider roundsm">
+
 				<div class="featurette">
 					<img class="featurette-image pull-right" src="bs/docs/assets/img/examples/browser-icon-chrome.png">
 					<h2 class="featurette-heading">First featurette heading. <span class="muted">It'll blow your mind.</span></h2>
