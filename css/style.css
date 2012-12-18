@@ -15,6 +15,7 @@
 
 /* $Plugin stylesheets */
 /* ######################################################### */
+@import url('fonts.css');
 @import url('fancybox.css');
 @import url('3d-photo-effect.css');
 @import url('3d-rollover-effect.css');
@@ -23,8 +24,8 @@
 
 /* $Text styling */
 /* ######################################################### */
-h1, h2, h3, h4, h5, h6 { font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
-.brand { font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+h1, h2, h3, h4, h5, h6 { font-family: MetaPro-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+.brand { font-family: MetaPro-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif; }
 .pagetitle { width: 100%; line-height: 1.5em; }
 .pagetitle a:hover { text-decoration: none; }
 
@@ -32,7 +33,7 @@ h1, h2, h3, h4, h5, h6 { font-family: "Source Code Pro", "Helvetica Neue", Helve
 /* ######################################################### */
 body { 
   padding-top: 50px; /* To account for the static navbar */
-  font-family: "Source Code Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: museo_sans_300regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
 }
 .columnleft { margin-top: 2em; }
