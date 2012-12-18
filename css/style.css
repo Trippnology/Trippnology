@@ -48,7 +48,8 @@ body {
 .columnleft { margin-top: 2em; }
   .button-menu { 
     width: 80%; 
-    margin: 1em 0 0 1.5em;
+    margin: 1em auto 0;
+    display: block;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   }
   nav.vert-menu { padding: 0.5em 0.5em 0.5em 1em; }
@@ -75,7 +76,7 @@ body.page-home { padding-top: 3.5em; }
 }
 .affix {
   position: fixed; 
-  top: 1em;
+  top: 0;
 }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
@@ -201,26 +202,27 @@ body.page-home { padding-top: 3.5em; }
   padding-top: 1em; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
-.featurette-image {
-  margin-top: -1em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
-  width:256px;
-}
+  .featurette ol.lead li { margin-bottom: 0.5em; }
+  .featurette-image {
+    margin-top: -1em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    width:256px;
+  }
 
-/* Give some space on the sides of the floated elements so text doesn't run right into it. */
-.featurette-image.pull-left {
-  margin-right: 40px;
-}
-.featurette-image.pull-right {
-  margin-left: 40px;
-}
+  /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+  .featurette-image.pull-left {
+    margin-right: 40px;
+  }
+  .featurette-image.pull-right {
+    margin-left: 40px;
+  }
 
-/* Thin out the marketing headings */
-.featurette-heading {
-  font-size: 50px;
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
-}
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
 
 
 /* $Utilities */
@@ -315,12 +317,20 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   body { padding-top:0; }
-  #left { display:none; }
+  .navbar-wrapper { margin-top: 0; }
+  #stuck {
+    position: static;
+    width: auto;
+    top: 0;
+  }
+    .button-menu { width:35%; }
+  .featurette-image { width: 128px; }
 }
  
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 980px) {
   body { padding-top:0; }
+  #stuck { width: 200px; margin-left: -1.5em; }
 }
 
 /* Most Desktop browsers */

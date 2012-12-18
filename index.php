@@ -59,7 +59,7 @@ include "head.php";
 	<div class="container">
 		<div class="row">
 			<div class="span3">
-				<div id="stuck" class="columnleft shadowleft roundlrg borderlight" data-spy="affix" data-offset-top="585">
+				<div id="stuck" class="columnleft shadowleft roundlrg borderlight" data-spy="affix" data-offset-top="590">
 					<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
 					<p class="btn button-menu" data-toggle="collapse" data-target="#menu-vert">Menu</p>
 					<?php include "inc/menu-vert.php"; ?>
@@ -80,7 +80,7 @@ include "head.php";
 					<!-- Placeholder/inspiration only -->
 					<h1>We built the company that we’d want to do business with. We hope you do too.</h1>
 					<div class="span4">
-						<ol>
+						<ol class="lead">
 							<li>Useful is forever<br>
 	Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don’t.</li>
 							<li>Great service is everything<br>
@@ -92,7 +92,7 @@ include "head.php";
 						</ol>
 					</div>
 					<div class="span4">
-						<ol start="5">
+						<ol start="5" class="lead">
 							<li>The basics are beautiful<br>
 	We’ll never overlook what really matters: The basics. Great service, ease of use, honest pricing, and respect for our customer’s time, money, and trust.</li>
 							<li>No hidden fees or secret prices<br>
