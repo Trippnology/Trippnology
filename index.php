@@ -42,7 +42,7 @@ include "head.php";
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/bg/webtreats_red1.png" alt="">
+				<img src="img/home/4150657215_a411d19e5e_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/manchester-monkey/4150657215/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>IT Support</h1>
