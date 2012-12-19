@@ -1,4 +1,4 @@
-<div class="modal fade" id="globalmodal">
+<div class="modal fade" id="modal-global">
 	<div class="modal-header">
 		<a class="close" data-dismiss="modal">×</a>
 		<p><b>This is a modal window</b></p>
@@ -8,6 +8,6 @@
 	</div>
 	<div class="modal-footer">
 		<a href="#" class="btn btn-primary">Dummy button</a>
-		<a href="#globalmodal" class="btn" data-dismiss="modal">Close</a>
+		<a href="#modal-global" class="btn" data-dismiss="modal">Close</a>
 	</div>
 </div>

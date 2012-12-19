@@ -71,7 +71,7 @@ footer[role=contentinfo] {
 /* ######################################################### */
 body.page-home { padding-top: 3.5em; }
 #stuck { 
-  width: 228px;
+  width: 234px;
   padding: 1em;
 }
 .affix {
@@ -114,7 +114,8 @@ body.page-home { padding-top: 3.5em; }
 /* Downsize the brand/project name a bit */
 .navbar .brand {
   padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(248, 121, 82, 0.75);
 }
 
 /* Navbar links: increase padding for taller navbar */

@@ -94,13 +94,13 @@ include "head.php";
 					<div class="span4">
 						<ol start="5" class="lead">
 							<li>The basics are beautiful<br>
-	We’ll never overlook what really matters: The basics. Great service, ease of use, honest pricing, and respect for our customer’s time, money, and trust.</li>
+							We’ll never overlook what really matters: The basics. Great service, ease of use, honest pricing, and respect for our customer’s time, money, and trust.</li>
 							<li>No hidden fees or secret prices<br>
-	We believe everyone is entitled to the best price we can offer. Our prices are public, published right on our site, and the same no matter who you are.</li>
+							We believe everyone is entitled to the best price we can offer. Our prices are public, published right on our site, and the same no matter who you are.</li>
 							<li>Software should be easy<br>
-	Our products are intuitive. You’ll pick them up in seconds or minutes, not hours, days or weeks. We don’t sell you training because you don’t need it.</li>
+							Our products are intuitive. You’ll pick them up in seconds or minutes, not hours, days or weeks. We don’t sell you training because you don’t need it.</li>
 							<li>Long-term contracts are obscene<br>
-	No one likes being locked into something they don’t want anymore. Our customers can cancel at any time, no questions asked. No setup/termination fees either.</li>
+							No one likes being locked into something they don’t want anymore. Our customers can cancel at any time, no questions asked. No setup/termination fees either.</li>
 						</ol>
 					</div>
 				</div>
@@ -109,7 +109,7 @@ include "head.php";
 
 				<div class="featurette">
 					<img class="featurette-image pull-right" src="bs/docs/assets/img/examples/browser-icon-chrome.png">
-					<h2 class="featurette-heading">First featurette heading. <span class="muted">It'll blow your mind.</span></h2>
+					<h2 class="featurette-heading">We build websites. <span class="muted">Pretty darn good ones too.</span></h2>
 					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 				</div>
 
@@ -117,7 +117,7 @@ include "head.php";
 
 				<div class="featurette">
 					<img class="featurette-image pull-left" src="bs/docs/assets/img/examples/browser-icon-firefox.png">
-					<h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
+					<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
 					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 				</div>
 

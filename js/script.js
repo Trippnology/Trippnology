@@ -14,13 +14,13 @@ $(document).ready(function() {
 	$('a.tooltip-left').tooltip({
 		'placement' : 'left'
 	});
-	$('#globalmodal').modal('hide')
+	$('#modal-global').modal('hide');
 	// Fancybox
 	$("#fancybox-trigger").fancybox({
 		'titlePosition'		: 'inside',
 		'transitionIn'		: 'elastic',
 		'transitionOut'		: 'elastic'
-	})
+	});
 
 // UI.toTop 
 /* Change settings here or pass through in the call
