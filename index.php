@@ -22,7 +22,7 @@ include "head.php";
 	<div id="homeCarousel" class="carousel slide roundsm">
 		<div class="carousel-inner roundsm">
 			<div class="item active">
-				<img src="img/home/2700278384_79bc7e21f9_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
+				<img src="img/home/4150657215_a411d19e5e_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/manchester-monkey/4150657215/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Web Design</h1>
@@ -42,7 +42,7 @@ include "head.php";
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/home/4150657215_a411d19e5e_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/manchester-monkey/4150657215/">
+				<img src="img/home/2700278384_79bc7e21f9_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>IT Support</h1>
@@ -58,37 +58,45 @@ include "head.php";
 
 	<div class="container">
 		<div class="row">
-			<div class="span3">
-				<div id="stuck" class="columnleft shadowleft roundlrg borderlight" data-spy="affix" data-offset-top="590">
-					<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
-					<p class="btn button-menu" data-toggle="collapse" data-target="#menu-vert">Menu</p>
-					<?php include "inc/menu-vert.php"; ?>
-					<hr class="divider roundsm">
-					<p class="contact-info">t: 01953 451231<br>
-						e: mail@trippnology.com</p>
-					<p class="social-links">
-						<span class="badge">twitter</span>
-						<span class="badge">github</span>
-						<span class="badge">facebook</span>
-					</p>
-				</div>
-			</div>
-			
 			<div class="span9 marketing" id="main" role="main">
 				<!-- START THE FEATURETTES -->
 				<div class="featurette">
-					<!-- Placeholder/inspiration only -->
-					<h1>We built the company that we’d want to do business with. We hope you do too.</h1>
+					<img class="featurette-image img-circle border-dark border-fat pull-right" src="img/home/code.png" alt="Web design screenshot">				
+					<h2 class="featurette-heading">We build websites. <span class="muted">Pretty darn good ones too.</span></h2>
+					<p class="lead">Driven by our passion for the web, we create user focussed sites that meet your needs and build your business. Find out more about our <a href="web-design-attleborough">web design</a> services or <a href="contact">contact us</a> today, we'd love to hear your plans.</p>
+				</div>
+
+				<hr class="divider roundsm">
+
+				<div class="featurette">
+					<img class="featurette-image pull-left" src="img/home/graph.png" alt="Graph">
+					<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
+					<p class="lead">All websites need a little maintenance over time as content gets updated and new technologies emerge. With our <a href="search-engine-optimisation">search engine optimisation</a> service, your site will bring in more visitors, which means more customers!</p>
+				</div>
+
+				<hr class="divider roundsm">
+
+				<div class="featurette">
+					<img class="featurette-image img-circle border-dark border-fat pull-right" src="img/home/it-support.jpg" alt="IT Support">
+					<h2 class="featurette-heading">Fed up with IT problems? <span class="muted">We're here to help.</span></h2>
+					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				</div>
+
+				<hr class="divider roundsm">
+
+				<div class="featurette">
+					<!-- Move to About page -->
+					<h1>You know your business. We know the web. Let's get together and make something great!</h1>
 					<div class="span4">
 						<ol class="lead">
 							<li>Useful is forever<br>
-	Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don’t.</li>
+							Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don’t.</li>
 							<li>Great service is everything<br>
-	We’re famous for fast and friendly customer service. We work hard to make sure we live up to that reputation every day. See how our customers rate our service</li>
+							We’re famous for fast and friendly customer service. We work hard to make sure we live up to that reputation every day. See how our customers rate our service</li>
 							<li>Clarity is king<br>
-	Buzzwords, lingo, and sensationalized sales-and-marketing-speak have no place at 37signals. We communicate clearly and honestly.</li>
+							Buzzwords, lingo, and sensationalized sales-and-marketing-speak have no place at 37signals. We communicate clearly and honestly.</li>
 							<li>Our customers are our investors<br>
-	Our customers fund our daily operations by paying for our products. We answer to them — not investors, the stock market, or a board of directors.</li>
+							Our customers fund our daily operations by paying for our products. We answer to them — not investors, the stock market, or a board of directors.</li>
 						</ol>
 					</div>
 					<div class="span4">
@@ -104,32 +112,6 @@ include "head.php";
 						</ol>
 					</div>
 				</div>
-
-				<hr class="divider roundsm">
-
-				<div class="featurette">
-					<img class="featurette-image pull-right" src="bs/docs/assets/img/examples/browser-icon-chrome.png">
-					<h2 class="featurette-heading">We build websites. <span class="muted">Pretty darn good ones too.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-				</div>
-
-				<hr class="divider roundsm">
-
-				<div class="featurette">
-					<img class="featurette-image pull-left" src="bs/docs/assets/img/examples/browser-icon-firefox.png">
-					<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-				</div>
-
-				<hr class="divider roundsm">
-
-				<div class="featurette">
-					<img class="featurette-image pull-right" src="bs/docs/assets/img/examples/browser-icon-safari.png">
-					<h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-				</div>
-
-				<hr class="divider roundsm">
 				<!-- /END THE FEATURETTES -->
 
 				<!-- Three columns of text boxes -->
@@ -154,6 +136,21 @@ include "head.php";
 					</div><!-- /.span4 -->
 				</div><!-- /.row -->
 			</div><!-- /.span9 -->
+			<div class="span3">
+				<div id="stuck" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="590">
+					<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
+					<?php include "inc/menu-vert.php"; ?>
+					<hr class="divider roundsm">
+					<p class="contact-info">t: 01953 451231<br>
+						e: mail@trippnology.com</p>
+					<ul class="inline social-links">
+						<li><a rel="external" href="http://twitter.com/Trippnology" class="twitter tooltip-top" title="twitter"><span>twitter</span></a></li>
+						<li><a rel="external" href="https://github.com/Trippnology" class="github"><span>github</span></a></li>
+						<li><a rel="external" href="http://bitbucket.org/Trippnology" class="bitbucket"><span>bitbucket</span></a></li>
+						<li><a rel="external" href="http://facebook.com/Trippnology" class="facebook"><span>facebook</span></a></li>
+					</ul>
+				</div>
+			</div><!-- /.span3 -->
 		</div><!-- /.row -->
 	</div><!-- /.container -->
 	
@@ -170,7 +167,6 @@ include "head.php";
 <script>
   !function ($) {
     $(function(){
-      // carousel demo
       $('#homeCarousel').carousel();
     })
   }(window.jQuery)
