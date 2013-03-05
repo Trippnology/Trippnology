@@ -13,7 +13,7 @@ $userIP = $_SERVER['REMOTE_ADDR'];
 // Style Settings
 $styleBootswatch = ""; // Should we load a Bootswatch? Leave blank for no.
 $styleResponsive = true; // Load responsive stylesheet?
-$styleGoogleFonts = 'Source+Code+Pro';
+$styleGoogleFonts = '';
 
 //Bootstrap directories
 $dirBSCSS = "bs/docs/assets/css/";
