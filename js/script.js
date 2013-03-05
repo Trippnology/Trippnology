@@ -35,4 +35,18 @@ $(document).ready(function() {
 
 	// Make external links open in a new window	
 	$('a[rel="external"]').attr('target', '_blank');
+
+	// 3D text links
+	function initRollLinks(){
+		if( typeof is_ie_lte9 !== 'undefined' || typeof is_ie_10 !== 'undefined' )
+			return; 
+		$('.featurette p a, footer a').each(function(i,e){
+			var link = $(e);
+			if( !link.html().match(/<img/gi) ){
+				link.addClass('roll-link');
+				link.html('<span data-title="'+ link.text() +'">' + link.html() + '</span>');
+			};
+		});
+	};
+	initRollLinks();
 });
