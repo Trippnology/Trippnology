@@ -1,0 +1,28 @@
+<div class="media">
+  <a href="%file_url%" class="pull-left" title="Download %file_display_name%">
+    <img src="%file_icon_url%" class="media-object" alt="%file_display_name%">
+  </a>
+  <div class="media-body">
+    <h4 class="media-heading"><a href="%file_url%" title="Download %file_display_name%">%file_display_name%</a></h4>
+    <!-- IF %file_version% -->%'Version:'% %file_version%<br /><!-- ENDIF -->
+    <!-- IF %file_post_id% AND %post_id% != %file_post_id% --><a href="%file_post_url%" class="wpfilebase-postlink">%'View post'%</a><!-- ENDIF -->
+    <div class="filedetails" id="wpfilebase-filedetails%uid%">
+      <div class="description">%file_description%</div>
+      <table class="table table-condensed">
+        <!-- IF %file_languages% --><tr><td><strong>%'Languages'%:</strong></td><td>%file_languages%</td></tr><!-- ENDIF -->
+        <!-- IF %file_author% --><tr><td><strong>%'Author'%:</strong></td><td>%file_author%</td></tr><!-- ENDIF -->
+        <!-- IF %file_platforms% --><tr><td><strong>%'Platforms'%:</strong></td><td>%file_platforms%</td></tr><!-- ENDIF -->
+        <!-- IF %file_requirements% --><tr><td><strong>%'Requirements'%:</strong></td><td>%file_requirements%</td></tr><!-- ENDIF -->
+        <!-- IF %file_category% --><tr><td><strong>%'Category:'%</strong></td><td>%file_category%</td></tr><!-- ENDIF -->
+        <!-- IF %file_license% --><tr><td><strong>%'License'%:</strong></td><td>%file_license%</td></tr><!-- ENDIF -->
+        <tr><td><strong>%'Date'%:</strong></td><td>%file_date%</td></tr>
+        <!-- <tr><td><strong>%'MD5 Hash'%:</strong></td><td><small>%file_hash%</small></td></tr> -->
+      </table>
+    </div>
+
+    <div class="fileinfo">
+      %file_size%<br />
+      %file_hits% %'Downloads'%<br />
+    </div>
+  </div>
+</div>
