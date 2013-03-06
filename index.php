@@ -56,26 +56,38 @@ include "head.php";
 		<div class="row">
 			<div class="span9 marketing" id="main" role="main">
 				<!-- START THE FEATURETTES -->
-				<div class="featurette">
-					<img class="featurette-image img-circle border-dark border-fat pull-right" src="img/home/code.png" alt="Web design screenshot">				
-					<h2 class="featurette-heading">We build websites. <span class="muted">Pretty darn good ones too.</span></h2>
-					<p class="lead">Driven by our passion for the web, we create user focussed sites that meet your needs and build your business. Find out more about our <a href="web-design-attleborough">web design</a> services or <a href="contact">contact us</a> today, we'd love to hear your plans.</p>
+				<div class="featurette row">
+					<div class="span6">
+						<h2 class="featurette-heading">We build websites. <span class="muted">Pretty darn good ones too.</span></h2>
+						<p class="lead">Driven by our passion for the web, we create user focussed sites that meet your needs and build your business. Find out more about our <a href="web-design-attleborough">web design</a> services or <a href="contact">contact us</a> today, we'd love to hear your plans.</p>
+					</div>
+					<div class="span3">
+						<img class="featurette-image img-circle border-dark border-fat" src="img/home/code.png" alt="Web design screenshot">
+					</div>
 				</div>
 
 				<hr class="divider roundsm">
 
-				<div class="featurette">
-					<img class="featurette-image pull-left" src="img/home/graph.png" alt="Graph">
-					<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
-					<p class="lead">All websites need a little maintenance over time as content gets updated and new technologies emerge. With our <a href="search-engine-optimisation">search engine optimisation</a> service, your site will bring in more visitors, which means more customers!</p>
+				<div class="featurette row">
+					<div class="span3">						
+						<img class="featurette-image pull-left" src="img/home/graph.png" alt="Graph">
+					</div>
+					<div class="span6">
+						<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
+						<p class="lead">All websites need a little maintenance over time as content gets updated and new technologies emerge. With our <a href="search-engine-optimisation">search engine optimisation</a> service, your site will bring in more visitors, which means more customers!</p>
+					</div>
 				</div>
 
 				<hr class="divider roundsm">
 
-				<div class="featurette">
-					<img class="featurette-image img-circle border-dark border-fat pull-right" src="img/home/it-support.jpg" alt="IT Support">
-					<h2 class="featurette-heading">Fed up with IT problems? <span class="muted">We're here to help.</span></h2>
-					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+				<div class="featurette row">
+					<div class="span6">
+						<h2 class="featurette-heading">Fed up with IT problems? <span class="muted">We're here to help.</span></h2>
+						<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+					</div>
+					<div class="span3">
+						<img class="featurette-image img-circle border-dark border-fat" src="img/home/it-support.jpg" alt="IT Support">
+					</div>
 				</div>
 				<!-- /Featurettes -->
 

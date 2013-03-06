@@ -223,7 +223,7 @@ body.page-home { padding-top: 3.5em; }
 }
   .featurette ol.lead li { margin-bottom: 0.5em; }
   .featurette-image {
-    /*margin-top: -1em;  Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    margin-top: 2em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     width:256px;
   }
 
@@ -361,7 +361,8 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 980px) {
   body { padding-top:0; }
-  #nav-block { width: 200px; margin-left: -1.5em; }
+  /* #nav-block { width: 200px; margin-left: -1.5em; } */
+  ul.social-links li { padding: 0; }
 }
 
 /* Most Desktop browsers */
