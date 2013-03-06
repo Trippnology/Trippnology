@@ -21,7 +21,6 @@ include "head.php";
 				<article>
 					<div class="row">
 						<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
-						<h2>You know your business. We know the web. Let's get together and make something great!</h2>
 						<div class="span4">
 							<ol>
 								<li><span class="lead">Useful is forever</span><br>
