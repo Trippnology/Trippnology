@@ -12,11 +12,7 @@ include "head.php";
 ?>
 
 <body class="page-<?=$pageSlug?>">
-    <div class="navbar-wrapper">
-    	<div class="container">
-			<?php include "inc/navbar.php"; ?>   		
-    	</div>
-    </div>
+	<?php include "inc/navbar.php"; ?>   		
 
     <!-- Carousel -->
 	<div id="homeCarousel" class="carousel slide roundsm">

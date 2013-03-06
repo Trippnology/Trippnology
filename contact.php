@@ -13,11 +13,7 @@ include "head.php";
 ?>
 
 <body class="page-<?=$pageSlug?>">
-	<div class="navbar-wrapper">
-		<div class="container">
-			<?php include "inc/navbar.php"; ?>   		
-    	</div>
-    </div>
+	<?php include "inc/navbar.php"; ?>   		
 
 	<div class="container">	
 		<div class="row">
