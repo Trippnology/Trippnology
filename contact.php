@@ -43,7 +43,7 @@ include "head.php";
 	                <p><a href="http://twitter.com/<?=$socialTwitterName?>" rel="external" title="Follow <?=$siteName?> on twitter">Twitter</a> - <a href="<?=$socialFacebookURL?>" rel="external" title="Like <?=$siteName?> on Facebook">Facebook</a></p>
 				</article>
 			</div>
-			<div class="span4">
+			<div class="span3">
 				<article class="well">
 					<form action="formtoemail.php" method="post" id="contactForm" class="form-vertical">
 						<label for="Name">Name</label>
