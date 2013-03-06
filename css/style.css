@@ -223,16 +223,16 @@ body.page-home { padding-top: 3.5em; }
 }
   .featurette ol.lead li { margin-bottom: 0.5em; }
   .featurette-image {
-    margin-top: -1em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    /*margin-top: -1em;  Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
     width:256px;
   }
 
   /* Give some space on the sides of the floated elements so text doesn't run right into it. */
   .featurette-image.pull-left {
-    margin-right: 40px;
+    margin-right: 3em;
   }
   .featurette-image.pull-right {
-    margin-left: 40px;
+    margin-left: 3em;
   }
 
   /* Thin out the marketing headings */
