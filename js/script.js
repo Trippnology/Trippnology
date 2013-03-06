@@ -40,7 +40,7 @@ $(document).ready(function() {
 	function initRollLinks(){
 		if( typeof is_ie_lte9 !== 'undefined' || typeof is_ie_10 !== 'undefined' )
 			return; 
-		$('.featurette p a, footer a').each(function(i,e){
+		$('.featurette p a, article a, footer a').each(function(i,e){
 			var link = $(e);
 			if( !link.html().match(/<img/gi) ){
 				link.addClass('roll-link');
