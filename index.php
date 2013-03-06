@@ -77,38 +77,9 @@ include "head.php";
 					<h2 class="featurette-heading">Fed up with IT problems? <span class="muted">We're here to help.</span></h2>
 					<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 				</div>
+				<!-- /Featurettes -->
 
 				<hr class="divider roundsm">
-
-				<div class="featurette">
-					<!-- Move to About page -->
-					<h1>You know your business. We know the web. Let's get together and make something great!</h1>
-					<div class="span4">
-						<ol class="lead">
-							<li>Useful is forever<br>
-							Bells and whistles wear off, but usefulness never does. We build useful software that does just what you need and nothing you don’t.</li>
-							<li>Great service is everything<br>
-							We’re famous for fast and friendly customer service. We work hard to make sure we live up to that reputation every day. See how our customers rate our service</li>
-							<li>Clarity is king<br>
-							Buzzwords, lingo, and sensationalized sales-and-marketing-speak have no place at 37signals. We communicate clearly and honestly.</li>
-							<li>Our customers are our investors<br>
-							Our customers fund our daily operations by paying for our products. We answer to them — not investors, the stock market, or a board of directors.</li>
-						</ol>
-					</div>
-					<div class="span4">
-						<ol start="5" class="lead">
-							<li>The basics are beautiful<br>
-							We’ll never overlook what really matters: The basics. Great service, ease of use, honest pricing, and respect for our customer’s time, money, and trust.</li>
-							<li>No hidden fees or secret prices<br>
-							We believe everyone is entitled to the best price we can offer. Our prices are public, published right on our site, and the same no matter who you are.</li>
-							<li>Software should be easy<br>
-							Our products are intuitive. You’ll pick them up in seconds or minutes, not hours, days or weeks. We don’t sell you training because you don’t need it.</li>
-							<li>Long-term contracts are obscene<br>
-							No one likes being locked into something they don’t want anymore. Our customers can cancel at any time, no questions asked. No setup/termination fees either.</li>
-						</ol>
-					</div>
-				</div>
-				<!-- /END THE FEATURETTES -->
 
 				<!-- Three columns of text boxes -->
 				<div class="row">
@@ -133,19 +104,7 @@ include "head.php";
 				</div><!-- /.row -->
 			</div><!-- /.span9 -->
 			<div class="span3">
-				<div id="stuck" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="465">
-					<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
-					<?php include "inc/menu-vert.php"; ?>
-					<hr class="divider roundsm">
-					<p class="contact-info">t: 01953 451231<br>
-						e: mail@trippnology.com</p>
-					<ul class="inline social-links">
-						<li><a rel="external" href="http://twitter.com/Trippnology" class="twitter tooltip-top" title="twitter"><span>twitter</span></a></li>
-						<li><a rel="external" href="https://github.com/Trippnology" class="github"><span>github</span></a></li>
-						<li><a rel="external" href="http://bitbucket.org/Trippnology" class="bitbucket"><span>bitbucket</span></a></li>
-						<li><a rel="external" href="http://facebook.com/Trippnology" class="facebook"><span>facebook</span></a></li>
-					</ul>
-				</div>
+				<?php include "inc/nav-block.php"; ?>
 			</div><!-- /.span3 -->
 		</div><!-- /.row -->
 	</div><!-- /.container -->
