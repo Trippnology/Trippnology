@@ -137,7 +137,7 @@ include "head.php";
 				</div><!-- /.row -->
 			</div><!-- /.span9 -->
 			<div class="span3">
-				<div id="stuck" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="590">
+				<div id="stuck" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="465">
 					<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
 					<?php include "inc/menu-vert.php"; ?>
 					<hr class="divider roundsm">

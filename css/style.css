@@ -147,7 +147,7 @@ body.page-home { padding-top: 3.5em; }
   color: #332532;
   /* text-shadow: 0 -1px 0 rgba(248, 121, 82, 0.75); */
 }
-
+.navbar .nav { font-size: 1.3em; }
 /* Navbar links: increase padding for taller navbar */
 .navbar .nav > li > a {
   padding: 15px 20px;
@@ -183,7 +183,7 @@ body.page-home { padding-top: 3.5em; }
 }
 
 .carousel .item {
-  height: 500px;
+  height: 375px;
 }
 .carousel img {
   position: absolute;
@@ -197,8 +197,9 @@ body.page-home { padding-top: 3.5em; }
   background-color: transparent;
   position: static;
   max-width: 550px;
-  padding: 0 20px;
-  margin-top: 200px;
+  padding: 0 5em;
+  /* margin-top: 200px; */
+  margin-top: 7.5em;
 }
 .carousel-caption h1,
 .carousel-caption .lead {
@@ -251,7 +252,7 @@ body.page-home { padding-top: 3.5em; }
 
   /* Thin out the marketing headings */
   .featurette-heading {
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
@@ -344,15 +345,25 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 /* $Media Queries */
 /* ######################################################### */
 
+/* Older phones */
+@media (max-width: 320px) {
+  .carousel-caption { 
+    padding: 0 2em;
+    margin-top: 4em;
+  }
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  body { padding-top:0; } 
+  body { padding-top:0; }
+  .carousel-control { display: none; }
 }
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   body { padding-top:0; }
   .navbar-wrapper { margin-top: 0; }
+  .carousel-caption { margin-top: 5em; }
   #stuck {
     position: static;
     width: auto;
@@ -370,7 +381,7 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 
 /* Most Desktop browsers */
 @media (min-width: 980px) { 
-
+  .featurette-heading { font-size: 5em; }
 }
  
 /* Large desktop */
