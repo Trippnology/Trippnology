@@ -14,27 +14,28 @@ include "head.php";
 
 <body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
-	<div class="container">
-		
+
+	<div class="container">	
 		<div class="row">
-			<div class="span8 offset2" id="main" role="main">
-				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?php $strPageName ?></a></h1>
+			<div class="span8 offset1" id="main" role="main">
 				<article>
+					<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 					<p>Your content here.</p>
 				</article>
-			</div>
-		</div>
-		
+			</div><!-- /#main -->
+			<div class="span3">
+				<?php include "inc/nav-block.php"; ?>
+			</div>	
+		</div><!-- /.row -->
+
 		<div class="row">
 			<div class="span12">
-			<?php include "inc/footer.php"; ?>
+				<?php include "inc/footer.php"; ?>
 			</div>
 		</div>
     </div>
-<?php include "scriptblock.php"; ?>
 
-<!-- Put page specific script stuff here -->
+	<?php include "scriptblock.php"; ?>
 
-<!-- End of page specific script stuff -->
 </body>
 </html>
