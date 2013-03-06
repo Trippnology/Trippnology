@@ -55,7 +55,32 @@ body {
   background-size: auto auto;
   background-attachment: fixed;
 }
+header.page-header { 
+  height: 29em;
+  position: relative;
+  color: #fff;
+  margin: 0;
+}
+  header.page-header img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    max-height: 29em;
+    z-index: -1;
+  }
+  .header-caption {
+    background: rgb(248, 121, 82);
+    background: rgba(248, 121, 82, 0.4); 
+    margin-top: 2.5em;
+    padding: 1em 5em;
+  }
+    .header-caption h1, .header-caption h2 {
+        text-shadow: 1px 1px 5px #444444;
+    }
+
 .columnleft, .columnright { margin-top: 2em; }
+article { padding: 1.5em 0; }
 nav.vert-menu {
   margin-top: 1.5em;
   padding: 0;
@@ -112,6 +137,12 @@ body.page-home { padding-top: 3.5em; }
   right: 0;
   margin-bottom: -90px; /* Negative margin to pull up carousel */
 }
+.portfolio .thumbnail {
+  padding: 1em;
+  background-color: #332532;
+  color: #A59A88;
+}
+  .portfolio .img-polaroid { background-color: #634C52; }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
