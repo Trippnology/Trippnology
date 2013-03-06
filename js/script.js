@@ -49,4 +49,6 @@ $(document).ready(function() {
 		});
 	};
 	initRollLinks();
+	// Dump roll links if they are in a badge
+	$('a.badge').removeClass('roll-link');
 });
