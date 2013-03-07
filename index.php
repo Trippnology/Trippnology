@@ -18,12 +18,12 @@ include "head.php";
 	<div id="homeCarousel" class="carousel slide roundsm">
 		<div class="carousel-inner roundsm">
 			<div class="item active">
-				<img src="img/home/4150657215_a411d19e5e_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/manchester-monkey/4150657215/">
+				<img src="img/headers/1457493536_f344795d7a_b.jpg" alt="" data-sourceurl="http://www.flickr.com/photos/fdecomite/1457493536/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Web Design</h1>
 						<p class="lead">Clear, functional websites that get results and look good on all kinds of devices.</p>
-						<a class="btn btn-large btn-burgundy" href="#">Give your business a web boost!</a>
+						<a class="btn btn-large btn-burgundy" href="web-design-attleborough">Give your business a web boost!</a>
 					</div>
 				</div>
 			</div>
