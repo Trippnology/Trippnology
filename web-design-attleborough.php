@@ -7,8 +7,8 @@ $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | Website Design Attleborough | " . $siteName;
 $pageSlug = "web-design";
-$pageHeaderImageURL = "img/home/4150657215_a411d19e5e_b.jpg";
-$pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
+$pageHeaderImageURL = "img/headers/1457493536_f344795d7a_b.jpg";
+$pageHeaderImageURLSource = "http://www.flickr.com/photos/fdecomite/1457493536/";
 $strTweetText = $strPageName;
 
 include "head.php";
