@@ -7,6 +7,8 @@ $strDescription = "Contact us for high quality Web Design, SEO, IT Support and m
 $strKeywords = "trippnology, attleborough, contact, support, technology, design, computer";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "contact";
+$pageHeaderImageURL = "img/home/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 
 include "head.php";
@@ -16,42 +18,20 @@ include "head.php";
 	<?php include "inc/navbar.php"; ?>   		
 
 	<header class="page-header">
-		<img src="img/home/4150657215_a411d19e5e_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/manchester-monkey/4150657215/">
+		<img src="<?=$pageHeaderImageURL?>" alt="" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<h2>You know your business. We know the web. Let's get together and make something great!</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident laudantium aliquam ullam sequi ipsa aperiam mollitia accusantium consequatur temporibus non ad aspernatur alias incidunt possimus maiores veritatis neque harum atque.</p>
+				<p class="lead">We would love to hear your plans. Send us a message!</p>
 			</div>
 		</div>
 	</header>
-	
+
 	<div class="container">	
 		<div class="row">
-			<div class="span7 offset1" id="main" role="main">
-				<article class="well">
-					<h1 id="pagetitle"><a href="<?=$strCanonical?>" title="<?=$strPageName?>"><?=$strPageName?></a></h1>
-					<img src="img/trippnology-logo-square-180.png" width="180" height="180" class="pull-right roundsm" alt="Contact <?=siteName?>">
-					<section itemscope itemtype="http://schema.org/LocalBusiness">
-						<h2><span itemprop="name"><?=$siteName?></span></h2>
-						<p><span itemprop="description"><?=$siteTagline?></span></p>
-		                <p>Email: <span itemprop="email">mail<a href="#" title="Antispam" data-content="Replace this with the usual @ symbol. This is just to stop us getting lots of spam email." class="antispam">[at]</a>trippnology.com</span></p>
-						<p>Phone: <span itemprop="telephone"><a href="tel:+44-1953-451231">01953 451231</a></span></p>
-						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-							<p><span itemprop="streetAddress">Besthorpe Lodge</span><br>
-							<span itemprop="addressLocality">Attleborough</span><br>
-							<span itemprop="addressRegion">Norfolk</span><br>
-							<span itemprop="postalCode">NR17 2LJ</span><br>
-							<a href="https://maps.google.co.uk/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=trippnology&amp;aq=&amp;sll=52.8382,-2.327815&amp;sspn=10.921321,27.13623&amp;ie=UTF8&amp;hq=trippnology&amp;hnear=&amp;t=m&amp;cid=17370591561013489825&amp;z=13&amp;iwloc=A&amp;output=embed" class="badge popup-map"><i class="icon-map-marker"></i> Map</a>
-							</p>
-						</div>
-						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
-				    </section>
-	                <p><a href="http://twitter.com/<?=$socialTwitterName?>" rel="external" title="Follow <?=$siteName?> on twitter">Twitter</a> - <a href="<?=$socialFacebookURL?>" rel="external" title="Like <?=$siteName?> on Facebook">Facebook</a></p>
-				</article>
-			</div>
 			<div class="span3">
-				<article class="well">
+				<article class="center">
 					<form action="formtoemail.php" method="post" id="contactForm" class="form-vertical">
 						<label for="Name">Name</label>
 						<input name="Name" id="Name" type="text" class="required">
@@ -64,6 +44,33 @@ include "head.php";
 						<br>
 						<input id="submit" type="submit" value="Send" class="btn btn-success">
 					</form>
+				</article>
+			</div>
+			<div class="span4 offset1" id="main" role="main">
+				<article class="well center">
+					<img src="img/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=siteName?>">
+					<section itemscope itemtype="http://schema.org/LocalBusiness">
+						<h2><span itemprop="name"><?=$siteName?></span></h2>
+						<p><span itemprop="description"><?=$siteTagline?></span></p>
+		                <p>Email: <span itemprop="email">mail<a href="#" title="Antispam" data-content="Replace this with the usual @ symbol. This is just to stop us getting lots of spam email." class="antispam">[at]</a>trippnology.com</span></p>
+						<p>Phone: <span itemprop="telephone"><a href="tel:+44-1953-451231">01953 451231</a></span></p>
+						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+							<p><span itemprop="streetAddress">Besthorpe Lodge</span><br>
+							<span itemprop="addressLocality">Attleborough</span><br>
+							<span itemprop="addressRegion">Norfolk</span><br>
+							<span itemprop="postalCode">NR17 2LJ</span><br>
+							<a href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker"></i> Map</a>
+							</p>
+						</div>
+						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
+				    </section>
+	                <p><a href="http://twitter.com/<?=$socialTwitterName?>" rel="external" title="Follow <?=$siteName?> on twitter">Twitter</a> - <a href="<?=$socialFacebookURL?>" rel="external" title="Like <?=$siteName?> on Facebook">Facebook</a></p>
+				</article>
+			</div>
+			<div class="span3 offset1">
+				<article class="well center hidden-phone qrcode">
+					<img class="img-polaroid" data-src="holder.js/200x200/text:QR code" alt="Trippnology contact details QR code">
+					<p><i class="icon-barcode"></i> Scan this code to add contact info to your phone, call us, or get directions.</p>
 				</article>
 			</div>
 
