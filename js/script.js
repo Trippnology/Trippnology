@@ -51,4 +51,16 @@ $(document).ready(function() {
 	initRollLinks();
 	// Dump roll links if they are in a badge
 	$('a.badge').removeClass('roll-link');
+
+	// Smooth scroll to anchors on the page
+	var scroller = function(id){
+		$('html, body').animate({
+			scrollTop: $(id).offset().top
+		}, 1000);
+	};
+	// Turn our intro links into smooth scrollers
+	$('.intro a.btn').click(function(){
+		var anchor = $(this).attr('href');
+		scroller(anchor);
+	})
 });
