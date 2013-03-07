@@ -144,6 +144,9 @@ body.page-home { padding-top: 3.5em; }
   color: #A59A88;
 }
   .portfolio .img-polaroid { background-color: #634C52; }
+.qrcode { }
+  .qrcode img { margin-bottom: 1em; }
+  .qrcode p { margin-bottom: 0; text-align: justify; }
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
@@ -287,6 +290,7 @@ body.page-home { padding-top: 3.5em; }
 .border-light { border: 1px solid #ccc; }
 .border-fat { border-width: 5px; }
 .antispam { cursor: help; }
+.center { text-align: center; }
 
 .burgundy { background-color: #332532; }
 .grape { background-color: #634C52; }
