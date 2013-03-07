@@ -62,5 +62,6 @@ $(document).ready(function() {
 	$('.intro a.btn').click(function(){
 		var anchor = $(this).attr('href');
 		scroller(anchor);
+		preventDefault();
 	})
 });
