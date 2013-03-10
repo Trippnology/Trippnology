@@ -22,7 +22,7 @@ include "head.php";
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
-				<h2>You know your business. We know the web. Let's get together and make something great!</h2>
+				<h2>You know your business. We know the web.<br>Let's get together and make something great!</h2>
 				<p class="lead">A business without a website today is like a business without a telephone 20 years ago.</p>
 			</div>
 		</div>
@@ -78,7 +78,7 @@ include "head.php";
 						<p><a href="contact" class="btn btn-mini btn-success">Let's talk »</a></p>
 
 					</div>
-					<p>The landcape of the web is ever changing. New technologies emerge and with hindsight, we sometimes realise that the way we built the web in the past was less than ideal.</p>
+					<p>The landcape of the web is ever changing. New technologies emerge and with hindsight, we sometimes realise that the way we built the web in the past was less than ideal. For example, the <code>&lt;table&gt;</code> element (intended for displaying tabular data) used to be abused to privide page layout. Yuck.</p>
 					<p>As users of the web, we're no longer chained to our desks. The use of smartphones and tablets is soaring and many older websites have problems displaying on mobile devices and in some cases, are entirely broken.</p>
 					<p>Here's where we come in. We'll fix up those old pages and make sure your customers aren't frustrated when using your site. We'll bring your website up to modern standards and make it more accessible to everyone.</p>
 					<p><a href="contact">Contact us</a> today and let's get rid of those cobwebs!</p>
@@ -97,7 +97,7 @@ include "head.php";
 					</div>
 					<ul class="thumbnails portfolio">
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180/text:Coming Soon" alt="">
 								<h4>Advanced Camera Services</h4>
 								<p>Short description </p>
@@ -105,7 +105,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Avant Tecno</h4>
 								<p>Short description </p>
@@ -113,7 +113,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Headspace Accountancy</h4>
 								<p>Short description </p>
@@ -121,7 +121,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Viper Sounds</h4>
 								<p>Short description </p>
@@ -129,7 +129,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Whiterod Surfacing</h4>
 								<p>Short description </p>
@@ -137,7 +137,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Johnny Watton</h4>
 								<p>Short description </p>
@@ -145,7 +145,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Norwich French Church Charity</h4>
 								<p>Short description </p>
@@ -153,7 +153,7 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Square Deal Storage</h4>
 								<p>Short description </p>
@@ -161,13 +161,41 @@ include "head.php";
 							</div>
 						</li>
 						<li class="span3">
-							<div class="thumbnail roundlrg shadowright">
+							<div class="thumbnail roundlrg">
 								<img class="img-polaroid roundlrg" data-src="holder.js/180x180" alt="">
 								<h4>Glassact</h4>
 								<p>Short description </p>
 								<p><a href="#" class="badge">example.com</a> <span class="badge"><i class="icon-tags"></i></span> <span class="badge"><i class="icon-resize-full"></i></span></p>
 							</div>
 						</li>
+					</ul>
+				</article>
+				<article>
+					<h1>Technology we use to build the web:</h1>
+					<ul class="inline">
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Javascript</li>
+						<li>PHP</li>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+						<li>HTML5 Boilerplate</li>
+						<li>Wordpress</li>
+						<li>RESTful APIs</li>
+						<li>Node</li>
+						<li>MongoDB</li>
+						<li>AJAX</li>
+						<li>JSON</li>
+						<li>XML</li>
+					</ul>
+				</article>
+				<article>
+					<h1>Areas covered</h1>
+					<ul class="inline lead">
+						<li>Attleborough</li>
+						<li>Wymondham</li>
+						<li>Norwich</li>
+						<li>Thetford</li>
 					</ul>
 				</article>
 			</div><!-- /#main -->
