@@ -144,6 +144,7 @@ body.page-home { padding-top: 3.5em; }
   left: 0;
   right: 0;
 }
+/* web-design-attleborough */
 .page-web-design .intro { text-align: center; }
 .portfolio .thumbnail {
   padding: 1em;
@@ -152,9 +153,15 @@ body.page-home { padding-top: 3.5em; }
 }
   .portfolio .img-polaroid { background-color: #634C52; }
   .portfolio h4 { color: #634C52;}
+/* prices */
+.price-table-web th { text-align: center; }
+.price-table-web td { color: #fff; }
+.price-table-web + p { text-align: right; font-size: 0.8em; }
+/* contact */
 .qrcode { }
   .qrcode img { margin-bottom: 1em; }
   .qrcode p { margin-bottom: 0; text-align: justify; }
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
