@@ -32,12 +32,12 @@ include "head.php";
 		<div class="row">
 			<div class="span8 offset1" id="main" role="main">
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#web-design">Web design</a></li>
-					<li><a class="scrollme" href="#seo">SEO</a></li>
-					<li><a class="scrollme" href="#web-hosting">Web hosting</a></li>
-					<li><a class="scrollme" href="#domain-names">Domain names</a></li>
-					<li><a class="scrollme" href="#it-support">IT Support</a></li>
-					<li><a class="scrollme" href="#service-area">Service area</a></li>
+					<li class="active"><a class="scrollme" data-toggle="tab" href="#web-design">Web design</a></li>
+					<li><a class="scrollme" data-toggle="tab" href="#seo">SEO</a></li>
+					<li><a class="scrollme" data-toggle="tab" href="#web-hosting">Web hosting</a></li>
+					<li><a class="scrollme" data-toggle="tab" href="#domain-names">Domain names</a></li>
+					<li><a class="scrollme" data-toggle="tab" href="#it-support">IT Support</a></li>
+					<li><a class="scrollme" data-toggle="tab" href="#service-area">Service area</a></li>
 				</ul>
 
 				<article>
