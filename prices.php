@@ -1,7 +1,7 @@
 <?php 
 include "inc/settings.php";
 
-$strPageName = "IT Support and web design pricing";
+$strPageName = "Web design and IT support pricing";
 $strCanonical = "prices";
 $strDescription = "Extremely competitive pricing for web design and IT support. Contact us today!";
 $strKeywords = "IT support, web design, pricing, attleborough";
@@ -34,8 +34,8 @@ include "head.php";
 				<ul class="nav nav-tabs">
 					<li class="active"><a href="#web-design">Web design</a></li>
 					<li><a class="scrollme" href="#seo">SEO</a></li>
-					<li><a class="scrollme" href="#domain-names">Domain names</a></li>
 					<li><a class="scrollme" href="#web-hosting">Web hosting</a></li>
+					<li><a class="scrollme" href="#domain-names">Domain names</a></li>
 					<li><a class="scrollme" href="#it-support">IT Support</a></li>
 					<li><a class="scrollme" href="#service-area">Service area</a></li>
 				</ul>
@@ -64,15 +64,69 @@ include "head.php";
 						</tr>
 					</table>
 					<p>*We've never built one of these, we just threw it in for a bit of spice.</p>
-					<h2 id="seo">Search Engine Optimisation</h2>
-					<p>All <a href="search-engine-optimisation">SEO</a> work is charged at our standard Web Service rate - <strong>£35</strong> per hour.</p>
-					<h3 id="domain-names">Domain names</h3>
+					<h2 id="seo">SEO</h2>
+					<p>All <a href="search-engine-optimisation">search engine optimisation</a> work is charged at our standard web service rate - <strong>£35</strong> per hour.</p>
+				</article>
+
+				<hr class="divider roundsm">
+
+				<article>
+					<h1 id="web-hosting">Web Hosting</h1>
+					<p>Our all-in-one web hosting solution.</p>
+					<p>All this for just <strong>&pound;6.99 per month</strong> with <strong>FREE setup</strong>.</p>
+					<table class="table table-condensed">
+						<tr>
+							<th>Webspace</th>
+							<td>Unlimited</td>
+						</tr>
+						<tr>
+							<th>Monthly traffic</th>
+							<td>Unlimited</td>
+						</tr>
+						<tr>
+							<th>Programming</th>
+							<td>PHP 5, PHPDev, Zend Framework, Perl, Python, Ruby, SSI</td>
+						</tr>
+						<tr>
+							<th>Geo-redundancy</th>
+							<td>Your data is stored simultaneously in two high-tech data centres in two separate locations. Double security through geo-redundancy!</td>
+						</tr>
+						<tr>
+							<th>MySQL Database</th>
+							<td><i class="icon-ok"></i></td>
+						</tr>
+						<tr>
+							<th>Secure Shell Access (SSH)</th>
+							<td><i class="icon-ok"></i></td>
+						</tr>
+						<tr>
+							<th>Version control</th>
+							<td><i class="icon-ok"></i></td>
+						</tr>
+						<tr>
+							<th>Subdomains</th>
+							<td>Optional</td>
+						</tr>
+						<tr>
+							<th>Dedicated SSL certificate</th>
+							<td>Optional</td>
+						</tr>
+						<tr>
+							<th>IMAP/POP3 Email accounts</th>
+							<td>Unlimited</td>
+						</tr>
+						<tr>
+							<th>Email storage (per account)</th>
+							<td>2GB</td>
+						</tr>
+					</table>
+					<p>Other options available <a href="contact">on request</a>.</p>
+					<h2 id="domain-names">Domain names</h2>
 					<ul class="unstyled">
 						<li>.co.uk - <strong>£20 per 2 years</strong></li>
 						<li>.net/.org/.com - <strong>£20 per 1 year</strong></li>
 						<li>Others - <strong>POA</strong></li>
 					</ul>
-					<h4 id="web-hosting">Web Hosting</h4>
 				</article>
 
 				<hr class="divider roundsm">
@@ -84,11 +138,11 @@ include "head.php";
 						<p><a href="testimonials" class="btn btn-mini">Our customers agree!</a></p>
 					</div>
 					<p><strong>Business Hours</strong> 09:00-18:00<br>
-				    Residential Customers: <strong>£25 Callout</strong><a href="#callout" class="tooltip-top" title="Callout charges may be higher than stated based on your location - please double check with us first.">*</a> (including the first hour) then <strong>£20 per hour</strong> thereafter (billed in 15 minute intevals).<br>
-				    Business Customers: <strong>£40 Callout</strong><a href="#callout" class="tooltip-top" title="Callout charges may be higher than stated based on your location - please double check with us first.">*</a> (including the first hour) then <strong>£35 per hour</strong> thereafter (billed in 15 minute intevals).</p>
+				    Residential Customers: <strong>£25 Callout</strong><a href="#callout" class="tooltip-top" title="Includes first hour. Callout charges may be higher than stated based on your location - please double check with us first.">*</a> thereafter <strong>£20 per hour</strong><a href="#hourly" class="tooltip-top" title="Billed in 15 minute intevals.">**</a>.<br>
+				    Business Customers: <strong>£40 Callout</strong><a href="#callout" class="tooltip-top" title="Includes first hour. Callout charges may be higher than stated based on your location - please double check with us first.">*</a> thereafter <strong>£35 per hour</strong><a href="#hourly" class="tooltip-top" title="Billed in 15 minute intevals.">**</a>.</p>
 					<p><strong>Outside Business Hours</strong> 18:00-09:00 <br>
-				    Residential Customers: <strong>£30 Callout</strong><a href="#callout" class="tooltip-top" title="Callout charges may be higher than stated based on your location - please double check with us first.">*</a> (including the first hour) then <strong>£25 per hour</strong> thereafter (billed in 15 minute intevals).<br>
-				    Business Customers: <strong>£55 Callout</strong><a href="#callout" class="tooltip-top" title="Callout charges may be higher than stated based on your location - please double check with us first.">*</a> (including the first hour) then <strong>£45 per hour</strong> thereafter (billed in 15 minute intevals).</p>
+				    Residential Customers: <strong>£30 Callout</strong><a href="#callout" class="tooltip-top" title="Includes first hour. Callout charges may be higher than stated based on your location - please double check with us first.">*</a> thereafter <strong>£25 per hour</strong><a href="#hourly" class="tooltip-top" title="Billed in 15 minute intevals.">**</a>.<br>
+				    Business Customers: <strong>£55 Callout</strong><a href="#callout" class="tooltip-top" title="Includes first hour. Callout charges may be higher than stated based on your location - please double check with us first.">*</a> thereafter <strong>£45 per hour</strong><a href="#hourly" class="tooltip-top" title="Billed in 15 minute intevals.">**</a>.</p>
 
 					<h2>Support contracts</h2>
 					<p>Packages as detailed on the <a href="it-support">IT Support</a> page. Prices are based on the total number of devices<a href="#devices" class="tooltip-top" title="The following items count as a Device: Desktop PC (including monitor), Laptop, Server, Printer, Scanner, Router, Hub, Wireless Access Point and other similar items.">**</a> to be covered. </p>
@@ -101,18 +155,24 @@ include "head.php";
 						Up to 20 - <strong>£280 per month </strong><br>
 						More than 20 - Please <a href="contact">contact us</a>.</p>
 					<p>24/7 On Site Support<br>
-					  Up to 10 - <strong>£250 per month </strong><br>
-		                Up to 20 - <strong>£475 per month </strong><br>
-		                More than 20 - Please <a href="contact">contact us</a>.</p>
-					<h3 id="service-area">Our Service Area</h3>
+					Up to 10 - <strong>£250 per month </strong><br>
+					Up to 20 - <strong>£475 per month </strong><br>
+					More than 20 - Please <a href="contact">contact us</a>.</p>
+					<h3>Notes</h3>
+					<p id="callout">* Includes first hour. Callout charges may be higher than stated based on your location - please double check with us first.</p>
+					<p id="hourly">** Billed in 15 minute intevals</p>
+					<p id="devices">*** The following items count as a Device: Desktop PC (<strong>including</strong> monitor), Laptop, Server, Printer, Scanner, Router, Hub, Wireless Access Point and other similar items. </p>
+				</article>
+
+				<hr class="divider roundsm">
+
+				<article>
+					<h1 id="service-area">Our Service Area</h1>
 					<p>We mainly serve <span itemscope itemtype="http://schema.org/Place" itemprop="name">Attleborough</span>, <span itemscope itemtype="http://schema.org/Place" itemprop="name">Wymondham</span>, <span itemscope itemtype="http://schema.org/Place" itemprop="name">Norwich</span> and <span itemscope itemtype="http://schema.org/Place" itemprop="name">Thetford</span> but we also cover surrounding towns and villages. The map below serves as a rough guide.</p>
 		            <div id="googlemap">
 						<iframe width="100%" scrolling="no" height="500" frameborder="0" src="http://maps.google.co.uk/maps?cid=17370591561013489825&amp;ssa=1&amp;ie=UTF8&amp;hq=+loc:+&amp;hnear=&amp;source=embed&amp;ll=52.538703,1.005369&amp;spn=0.292462,0.673827&amp;iwloc=A&amp;output=embed" marginwidth="0" marginheight="0"></iframe>
 		                <p><a target="_blank" href="http://maps.google.co.uk/maps?cid=17370591561013489825&amp;ssa=1&amp;ie=UTF8&amp;hq=+loc:+&amp;hnear=&amp;source=embed&amp;ll=52.538703,1.005369&amp;spn=0.292462,0.673827&amp;iwloc=A">View Larger Map</a></p>
 		            </div>
-		            <h4>Notes</h4>
-					<p id="callout">* Callout charges may be higher than stated based on your location - please double check with us first.</p>
-					<p id="devices">** The following items count as a Device: Desktop PC (<strong>including</strong> monitor), Laptop, Server, Printer, Scanner, Router, Hub, Wireless Access Point and other similar items. </p>
 				</article>
 			</div><!-- /#main -->
 			<div class="span3">
