@@ -58,8 +58,8 @@ $(document).ready(function() {
 			scrollTop: $(id).offset().top
 		}, 1000);
 	};
-	// Turn our intro links into smooth scrollers
-	$('.intro a.btn').click(function(){
+	// Turn anchor links into smooth scrollers
+	$('a.scrollme').click(function(){
 		var anchor = $(this).attr('href');
 		scroller(anchor);
 		preventDefault();
