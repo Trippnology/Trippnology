@@ -32,8 +32,7 @@ include "head.php";
 		<div class="row">
 			<div class="span8 offset1" id="main" role="main">
 				<article>
-					<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
-					<p>Your content here.</p>
+					<h1>Your content here.</h1>
 				</article>
 			</div><!-- /#main -->
 			<div class="span3">
