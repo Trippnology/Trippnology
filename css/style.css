@@ -10,7 +10,7 @@
  *    Page Specific Styles
  *    Utilities
  *    Media Queries
- *    Print Styles 
+ *    Print Styles
  *    Colours:
  *      Burgundy: #332532
  *      Grape: #634C52
@@ -32,7 +32,7 @@
 
 /* $Text styling */
 /* ######################################################### */
-h1, h2, h3, h4, h5, h6 { 
+h1, h2, h3, h4, h5, h6 {
   font-family: MetaPro-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: normal;
   color: #332532;
@@ -48,7 +48,7 @@ a:hover { color: #634C52; }
 
 /* $Section styling */
 /* ######################################################### */
-body { 
+body {
   font-family: museo_sans_300regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   background-image: url("../img/bg/lil_fiber.png");
@@ -56,7 +56,7 @@ body {
   background-size: auto auto;
   background-attachment: fixed;
 }
-header.page-header { 
+header.page-header {
   height: 24em;
   position: relative;
   color: #fff;
@@ -75,7 +75,7 @@ header.page-header {
   }
   .header-caption {
 /*     background: rgb(248, 121, 82);
-    background: rgba(248, 121, 82, 0.4); 
+    background: rgba(248, 121, 82, 0.4);
      */    margin-top: 4.5em;
     padding: 1em 5em;
     position: relative;
@@ -101,11 +101,11 @@ nav.vert-menu {
   nav.vert-menu a {
     padding: 0 0.25em;
     color: #634C52;
-    -webkit-transition: all 0.3s ease-out; 
-       -moz-transition: all 0.3s ease-out; 
-        -ms-transition: all 0.3s ease-out; 
-         -o-transition: all 0.3s ease-out; 
-            transition: all 0.3s ease-out; 
+    -webkit-transition: all 0.3s ease-out;
+       -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+         -o-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
   }
   nav.vert-menu a:hover {
     padding: 0 0.125em;
@@ -117,16 +117,16 @@ nav.vert-menu {
 .share { padding: 0 1.5em 0.5em; }
 aside.sidebar { padding: 0.75em; }
 aside.sidebar h1 { margin-top: 0; }
-#nav-block { 
+#nav-block {
   width: 234px;
   padding: 1em;
   background: #fff;
 }
 .affix {
-  position: fixed; 
+  position: fixed;
   top: 0;
 }
-footer[role=contentinfo] { 
+footer[role=contentinfo] {
   text-align: center;
   margin-top: 4em;
   padding-bottom: 3em;
@@ -138,12 +138,6 @@ footer[role=contentinfo] {
 /* $Page Specific Styles */
 /* ######################################################### */
 body.page-home { padding-top: 3.5em; }
-.page-home .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 /* web-design-attleborough */
 .page-web-design .intro { text-align: center; }
 .portfolio .thumbnail {
@@ -166,9 +160,13 @@ body.page-home { padding-top: 3.5em; }
 -------------------------------------------------- */
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  z-index: 20;
-  margin-top: 1.5em;
-  margin-bottom: -3em; /* Negative margin to pull up carousel */
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 20;
+	margin-top: 1.5em;
+	margin-bottom: -3em; /* Negative margin to pull up carousel */
 }
   .navbar .navbar-inner {
     border: 2px solid #F87A52;
@@ -363,19 +361,19 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
           border-radius: 10px;
   -webkit-background-clip: padding-box;
      -moz-background-clip: padding;
-          background-clip: padding-box; 
+          background-clip: padding-box;
 }
 
 /* Box Shadows */
 .shadowleft {
-  -webkit-box-shadow: -5px 5px 5px #ccc; 
-     -moz-box-shadow: -5px 5px 5px #ccc; 
-          box-shadow: -5px 5px 5px #ccc; 
+  -webkit-box-shadow: -5px 5px 5px #ccc;
+     -moz-box-shadow: -5px 5px 5px #ccc;
+          box-shadow: -5px 5px 5px #ccc;
 }
 .shadowright {
-  -webkit-box-shadow: 5px 5px 5px #ccc; 
-     -moz-box-shadow: 5px 5px 5px #ccc; 
-          box-shadow: 5px 5px 5px #ccc; 
+  -webkit-box-shadow: 5px 5px 5px #ccc;
+     -moz-box-shadow: 5px 5px 5px #ccc;
+          box-shadow: 5px 5px 5px #ccc;
 }
 
 /* $Media Queries */
@@ -383,7 +381,7 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 
 /* Older phones */
 @media (max-width: 320px) {
-  .carousel-caption { 
+  .carousel-caption {
     padding: 0 2em;
     margin-top: 4em;
   }
@@ -394,12 +392,12 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
   body { padding-top:0; }
   .carousel-control { display: none; }
 }
- 
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   body { padding-top:0; }
   .navbar-wrapper { margin-top: 0; }
-  .carousel-caption { margin-top: 5em; }
+  .carousel-caption { margin-top: 3em; }
   #nav-block {
     position: static;
     width: auto;
@@ -408,7 +406,7 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
     .button-menu { width:35%; }
   .featurette-image { width: 128px; }
 }
- 
+
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 980px) {
   body { padding-top:0; }
@@ -417,10 +415,10 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 }
 
 /* Most Desktop browsers */
-@media (min-width: 980px) { 
+@media (min-width: 980px) {
   .featurette-heading { font-size: 5em; }
 }
- 
+
 /* Large desktop */
 @media (min-width: 1200px) {
 
