@@ -60,7 +60,7 @@ header.page-header {
   height: 24em;
   position: relative;
   color: #fff;
-  margin: 0 0 2.5em;
+  margin: 3em 0 2.5em;
   z-index: -1;
   -webkit-box-shadow: 0px 10px 10px rgba(50, 50, 50, 0.75);
      -moz-box-shadow: 0px 10px 10px rgba(50, 50, 50, 0.75);
@@ -165,7 +165,7 @@ body.page-home { padding-top: 3.5em; }
 	left: 0;
 	right: 0;
 	z-index: 20;
-	margin-top: 1.5em;
+	margin-top: 0;
 	margin-bottom: -3em; /* Negative margin to pull up carousel */
 }
   .navbar .navbar-inner {
@@ -397,11 +397,17 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
   .header-caption { margin-top: 4em; padding: 0.5em 2em; }
 }
 
+/* General small screen styles */
+@media (min-width: 320px) and (max-width: 600px) {
+	.navbar-wrapper { margin-top: 0; }
+  header.page-header { margin: 0 0 2.5em; }
+}
+
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
   body { padding-top:0; }
-  .navbar-wrapper { margin-top: 0; }
   .carousel-caption { margin-top: 3em; }
+  header.page-header { margin: 3em 0 2.5em; }
   .header-caption h2 { font-size: 1.7em; line-height: 1.25em; }
   #nav-block {
     position: static;
@@ -415,12 +421,14 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 /* Portrait tablet to landscape and desktop */
 @media (min-width: 768px) and (max-width: 980px) {
   body { padding-top:0; }
+  .navbar-wrapper { margin-top: 1.5em; }
   /* #nav-block { width: 200px; margin-left: -1.5em; } */
   ul.social-links li { padding: 0; }
 }
 
 /* Most Desktop browsers */
 @media (min-width: 980px) {
+	.navbar-wrapper { margin-top: 1.5em; }
   .featurette-heading { font-size: 5em; }
 }
 
