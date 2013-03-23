@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "inc/settings.php";
 
 $strPageName = "Web design and IT support pricing";
@@ -17,8 +17,8 @@ include "head.php";
 <body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
 
-	<header class="page-header">
-		<img src="<?=$pageHeaderImageURL?>" alt="" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+	<header class="page-header roundlrg">
+		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
@@ -28,7 +28,7 @@ include "head.php";
 		</div>
 	</header>
 
-	<div class="container">	
+	<div class="container">
 		<div class="row">
 			<div class="span8 offset1" id="main" role="main">
 				<ul class="nav nav-tabs">
@@ -177,7 +177,7 @@ include "head.php";
 			</div><!-- /#main -->
 			<div class="span3">
 				<?php include "inc/nav-block.php"; ?>
-			</div>	
+			</div>
 		</div><!-- /.row -->
 
 		<div class="row">

@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "inc/settings.php";
 
 $strPageName = "Web Design Attleborough";
@@ -17,18 +17,17 @@ include "head.php";
 <body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
 
-	<header class="page-header">
-		<img src="<?=$pageHeaderImageURL?>" alt="" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+	<header class="page-header roundlrg">
+		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<h2>You know your business. We know the web.<br>Let's get together and make something great!</h2>
-				<p class="lead">A business without a website today is like a business without a telephone 20 years ago.</p>
 			</div>
 		</div>
 	</header>
 
-	<div class="container">	
+	<div class="container">
 		<div class="row">
 			<div class="span9" id="main" role="main">
 				<article>
@@ -89,7 +88,7 @@ include "head.php";
 				<article id="portfolio">
 					<div class="row">
 						<div class="span4">
-							<h1>Portfolio</h1>							
+							<h1>Portfolio</h1>
 						</div>
 						<div class="well white span5">
 							<p><span class="lead">Key:</span> <i class="icon-tags"></i> = HTML5 | <i class="icon-resize-full"></i> = Responsive | <i class="icon-shopping-cart"></i> = eCommerce</p>
@@ -208,7 +207,7 @@ include "head.php";
 			<div class="span12">
 			</div>
 		</div>
-		
+
 		<div class="row">
 			<div class="span12">
 				<?php include "inc/footer.php"; ?>

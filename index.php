@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "inc/settings.php";
 
 $strPageName = "Home";
@@ -12,7 +12,7 @@ include "head.php";
 ?>
 
 <body class="page-<?=$pageSlug?>">
-	<?php include "inc/navbar.php"; ?>   		
+	<?php include "inc/navbar.php"; ?>
 
     <!-- Carousel -->
 	<div id="homeCarousel" class="carousel slide roundsm">
@@ -69,7 +69,7 @@ include "head.php";
 				<hr class="divider roundsm">
 
 				<div class="featurette row">
-					<div class="span3">						
+					<div class="span3">
 						<img class="featurette-image pull-left" src="img/home/graph.png" alt="Graph">
 					</div>
 					<div class="span6">
@@ -120,7 +120,7 @@ include "head.php";
 			</div><!-- /.span3 -->
 		</div><!-- /.row -->
 	</div><!-- /.container -->
-	
+
 	<div class="container">
 		<div class="row">
 			<div class="span12">

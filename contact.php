@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "inc/settings.php";
 
 $strPageName = "Contact Us";
@@ -15,10 +15,10 @@ include "head.php";
 ?>
 
 <body class="page-<?=$pageSlug?>">
-	<?php include "inc/navbar.php"; ?>   		
+	<?php include "inc/navbar.php"; ?>
 
-	<header class="page-header">
-		<img src="<?=$pageHeaderImageURL?>" alt="" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+	<header class="page-header roundlrg">
+		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
@@ -28,7 +28,7 @@ include "head.php";
 		</div>
 	</header>
 
-	<div class="container">	
+	<div class="container">
 		<div class="row">
 			<div class="span3">
 				<article class="center">
@@ -75,7 +75,7 @@ include "head.php";
 			</div>
 
 		</div>
-		
+
 		<div class="row">
 			<div class="span12">
 			<?php include "inc/footer.php"; ?>
@@ -98,7 +98,7 @@ include "head.php";
 		'transitionIn' : 'fade',
 		'transitionOut' : 'fade',
 		'type' : 'iframe'
-	}); 
+	});
 </script>
 <!-- End of page specific script stuff -->
 </body>
