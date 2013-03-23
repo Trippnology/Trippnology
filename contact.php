@@ -47,7 +47,7 @@ include "head.php";
 				</article>
 			</div>
 			<div class="span4 offset1" id="main" role="main">
-				<article class="well center">
+				<article class="well center white">
 					<img src="img/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=siteName?>">
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
