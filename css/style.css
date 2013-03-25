@@ -59,6 +59,7 @@ body {
 header.page-header {
   height: 24em;
   position: relative;
+  border: 0;
   color: #fff;
   margin: 3em 0 2.5em;
   z-index: -1;
