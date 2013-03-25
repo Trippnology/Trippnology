@@ -21,15 +21,15 @@
     margin: 0 0 8px;
 }*/
 .social-links li a {
-    background: url("../img/social-sprite-48.png") no-repeat scroll 0 0 transparent;
+    background: url("../img/ui/social-sprite-48.png") no-repeat scroll 0 0 transparent;
     display: block;
     height: 27px;
     width: 27px;
-    -webkit-transition: all 0.01s ease-out; 
-       -moz-transition: all 0.01s ease-out; 
-        -ms-transition: all 0.01s ease-out; 
-         -o-transition: all 0.01s ease-out; 
-            transition: all 0.01s ease-out; 
+    -webkit-transition: all 0.01s ease-out;
+       -moz-transition: all 0.01s ease-out;
+        -ms-transition: all 0.01s ease-out;
+         -o-transition: all 0.01s ease-out;
+            transition: all 0.01s ease-out;
 }
 .social-links li a span {
     display: none;

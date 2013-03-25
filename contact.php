@@ -7,7 +7,7 @@ $strDescription = "Contact us for high quality Web Design, SEO, IT Support and m
 $strKeywords = "trippnology, attleborough, contact, support, technology, design, computer";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "contact";
-$pageHeaderImageURL = "img/home/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/4150657215_a411d19e5e_b.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 
@@ -48,7 +48,7 @@ include "head.php";
 			</div>
 			<div class="span4 offset1" id="main" role="main">
 				<article class="well center white">
-					<img src="img/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=siteName?>">
+					<img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=siteName?>">
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>

@@ -1,4 +1,4 @@
-<?php 
+<?php
 include "inc/settings.php";
 
 $strPageName = "About Trippnology";
@@ -15,7 +15,7 @@ include "head.php";
 <body class="page-<?=$pageSlug?>">
 	<?php include "inc/navbar.php"; ?>
 
-	<div class="container">		
+	<div class="container">
 		<div class="row">
 			<div class="span9" id="main" role="main">
 				<article>
@@ -52,7 +52,7 @@ include "head.php";
 				<?php include "inc/nav-block.php"; ?>
 			</div><!-- /.span3 -->
 		</div>
-		
+
 		<div class="row">
 			<div class="span12">
 			<?php include "inc/footer.php"; ?>

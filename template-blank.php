@@ -7,7 +7,7 @@ $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "blank";
-$pageHeaderImageURL = "img/home/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/4150657215_a411d19e5e_b.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 

@@ -7,7 +7,7 @@ $strDescription = "Professional SEO service for Attleborough, Wymondham, Norwich
 $strKeywords = "Search Engine Optimisation, seo, Attleborough, Wymondham, Norwich, Thetford";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "seo";
-$pageHeaderImageURL = "img/home/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/4204140740_bce2b90dcf_o.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 

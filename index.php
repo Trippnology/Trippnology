@@ -18,7 +18,7 @@ include "head.php";
 	<div id="homeCarousel" class="carousel slide roundsm">
 		<div class="carousel-inner roundsm">
 			<div class="item active">
-				<img src="img/headers/1457493536_f344795d7a_b.jpg" alt="" data-sourceurl="http://www.flickr.com/photos/fdecomite/1457493536/">
+				<img src="img/ui/headers/1457493536_f344795d7a_b.jpg" alt="" data-sourceurl="http://www.flickr.com/photos/fdecomite/1457493536/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Web Design</h1>
@@ -28,7 +28,7 @@ include "head.php";
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/home/4204140740_bce2b90dcf_o.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/waferboard/4204140740/">
+				<img src="img/ui/headers/4204140740_bce2b90dcf_o.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/waferboard/4204140740/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Search Engine Optimisation</h1>
@@ -38,7 +38,7 @@ include "head.php";
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/home/2700278384_79bc7e21f9_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
+				<img src="img/ui/headers/2700278384_79bc7e21f9_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>IT Support</h1>
@@ -62,7 +62,7 @@ include "head.php";
 						<p class="lead">Driven by our passion for the web, we create user focussed sites that meet your needs and build your business. Find out more about our <a href="web-design-attleborough">web design</a> services or <a href="contact">contact us</a> today, we'd love to hear your plans.</p>
 					</div>
 					<div class="span3">
-						<img class="featurette-image img-circle border-dark border-fat" src="img/home/code.png" alt="Web design screenshot">
+						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/code.png" alt="Web design screenshot">
 					</div>
 				</div>
 
@@ -70,7 +70,7 @@ include "head.php";
 
 				<div class="featurette row">
 					<div class="span3">
-						<img class="featurette-image pull-left" src="img/home/graph.png" alt="Graph">
+						<img class="featurette-image pull-left" src="img/ui/graph.png" alt="Graph">
 					</div>
 					<div class="span6">
 						<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
@@ -86,7 +86,7 @@ include "head.php";
 						<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
 					</div>
 					<div class="span3">
-						<img class="featurette-image img-circle border-dark border-fat" src="img/home/it-support.jpg" alt="IT Support">
+						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="IT Support">
 					</div>
 				</div>
 				<!-- /Featurettes -->
@@ -96,19 +96,19 @@ include "head.php";
 				<!-- Three columns of text boxes -->
 				<div class="row">
 					<div class="span3">
-						<img class="img-circle" src="img/home/code.png" width="140" height="140">
+						<img class="img-circle" src="img/ui/code.png" width="140" height="140">
 						<h2>Web Design</h2>
 						<p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
 						<p><a class="btn" href="#">View details »</a></p>
 					</div><!-- /.span4 -->
 					<div class="span3">
-						<img class="img-circle" src="img/home/graph.png" width="140" height="140">
+						<img class="img-circle" src="img/ui/graph.png" width="140" height="140">
 						<h2>SEO</h2>
 						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 						<p><a class="btn" href="#">View details »</a></p>
 					</div><!-- /.span4 -->
 					<div class="span3">
-						<img class="img-circle border-dark border-fat" src="img/home/it-support.jpg" width="140" height="140">
+						<img class="img-circle border-dark border-fat" src="img/ui/it-support.jpg" width="140" height="140">
 						<h2>IT Support</h2>
 						<p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 						<p><a class="btn" href="#">View details »</a></p>

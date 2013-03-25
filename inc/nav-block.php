@@ -1,5 +1,5 @@
 <div id="nav-block" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="465">
-	<img src="img/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
+	<img src="img/ui/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
 	<?php include "inc/menu-vert.php"; ?>
 	<hr class="divider roundsm">
 	<ul class="inline social-links">

@@ -7,7 +7,7 @@ $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | Website Design Attleborough | " . $siteName;
 $pageSlug = "web-design";
-$pageHeaderImageURL = "img/headers/1457493536_f344795d7a_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/1457493536_f344795d7a_b.jpg";
 $pageHeaderImageURLSource = "http://www.flickr.com/photos/fdecomite/1457493536/";
 $strTweetText = $strPageName;
 
@@ -33,19 +33,19 @@ include "head.php";
 				<article>
 					<div class="row intro">
 						<div class="span3">
-							<img class="img-circle" src="img/home/code.png" width="140" height="140">
+							<img class="img-circle" src="img/ui/code.png" width="140" height="140">
 							<h2>Brand new project</h2>
 							<p>Need a website but don't know where to start? Our project assessment will get you on the right track.</p>
 							<p><a class="btn scrollme" href="#project-assessment">Find out more »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle" src="img/home/graph.png" width="140" height="140">
+							<img class="img-circle" src="img/ui/graph.png" width="140" height="140">
 							<h2>Website updates</h2>
 							<p>Do you already have a website that needs some TLC? We can breathe new life into your stale old site.</p>
 							<p><a class="btn scrollme" href="#website-updates">View details »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/home/it-support.jpg" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/it-support.jpg" width="140" height="140">
 							<h2>Portfolio</h2>
 							<p>Have a look at some of the sites we have built for previous customers and see the quaility of our work for yourself.</p>
 							<p><a class="btn scrollme" href="#portfolio">View »</a></p>

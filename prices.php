@@ -7,7 +7,7 @@ $strDescription = "Extremely competitive pricing for web design and IT support. 
 $strKeywords = "IT support, web design, pricing, attleborough";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "prices";
-$pageHeaderImageURL = "img/home/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/4150657215_a411d19e5e_b.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 
