@@ -98,8 +98,10 @@ nav.vert-menu {
 }
   nav.vert-menu ul.nav { padding: 0; }
     nav.vert-menu ul.nav li { padding: 0; }
-  nav.vert-menu a {
-    padding: 0 0.25em;
+  a.vert-menu-item {
+  	padding: 0 0.125em;
+  	font-size: 1.1em;
+    line-height: 1.4em;
     color: #634C52;
     -webkit-transition: all 0.3s ease-out;
        -moz-transition: all 0.3s ease-out;
@@ -107,13 +109,12 @@ nav.vert-menu {
          -o-transition: all 0.3s ease-out;
             transition: all 0.3s ease-out;
   }
-  nav.vert-menu a:hover {
-    padding: 0 0.125em;
+  /* Needed to be more specific to overide default bootstrap style */
+  .vert-menu li > a.vert-menu-item:hover {
     color: #332532;
     background-color: #fff;
-    font-size: 1.1em;
-    line-height: 1.4em;
-  }
+    text-shadow: 0 0 3px rgba(248, 121, 82, 0.5);
+	}
 .share { padding: 0 1.5em 0.5em; }
 aside.sidebar { padding: 0.75em; }
 aside.sidebar h1 { margin-top: 0; }
