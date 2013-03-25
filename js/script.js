@@ -22,7 +22,7 @@ $(document).ready(function() {
 		'transitionOut'		: 'elastic'
 	});
 
-// UI.toTop 
+// UI.toTop
 /* Change settings here or pass through in the call
 	var defaults = {
 		containerID: 'toTop', // fading element id
@@ -33,13 +33,13 @@ $(document).ready(function() {
 */
 	$().UItoTop({ easingType: 'easeOutQuart' });
 
-	// Make external links open in a new window	
+	// Make external links open in a new window
 	$('a[rel="external"]').attr('target', '_blank');
 
 	// 3D text links
 	function initRollLinks(){
 		if( typeof is_ie_lte9 !== 'undefined' || typeof is_ie_10 !== 'undefined' )
-			return; 
+			return;
 		$('.featurette p a, article a, footer a').each(function(i,e){
 			var link = $(e);
 			if( !link.html().match(/<img/gi) ){
