@@ -40,8 +40,8 @@ include "head.php";
 					<li><a class="scrollme" data-toggle="tab" href="#service-area">Service area</a></li>
 				</ul>
 
-				<article>
-					<h1 id="web-design">Web design and other web services</h1>
+				<article id="web-design">
+					<h1>Web design and other web services</h1>
 					<p><a href="web-design-attleborough">Web design</a>, updates, ammendments, technical changes etc. - <strong>£35</strong> per hour.</p>
 					<p>Due to it's bespoke nature, <a href="web-design-attleborough">website design</a> quotes are based on your individual requirements. Please <a href="contact">contact us</a> for a chat, we would love to hear your plans.</p>
 					<p>We recommend starting with a <a href="web-design-attleborough#project-assessment">project assessment</a> which includes an hour meeting with you and then a full breakdown of the work to be carried out. This service is billed at £100 but is included free of charge if you go ahead with the project.</p>
@@ -68,10 +68,10 @@ include "head.php";
 					<p>All <a href="search-engine-optimisation">search engine optimisation</a> work is charged at our standard web service rate - <strong>£35</strong> per hour.</p>
 				</article>
 
-				<hr class="divider roundsm">
+				<hr id="web-hosting" class="divider roundsm">
 
 				<article>
-					<h1 id="web-hosting">Web Hosting</h1>
+					<h1>Web Hosting</h1>
 					<p>Our all-in-one web hosting solution.</p>
 					<p>All this for just <strong>&pound;6.99 per month</strong> with <strong>FREE setup</strong>.</p>
 					<table class="table table-condensed">
@@ -129,10 +129,10 @@ include "head.php";
 					</ul>
 				</article>
 
-				<hr class="divider roundsm">
+				<hr id="it-support" class="divider roundsm">
 
 				<article>
-					<h1 id="it-support">Ad-hoc IT support and computer repair</h1>
+					<h1>Ad-hoc IT support and computer repair</h1>
 					<div class="well white pull-right span2">
 						<p>While our pricing is good, our customer service is outstanding.</p>
 						<p><a href="testimonials" class="btn btn-mini">Our customers agree!</a></p>
@@ -164,10 +164,10 @@ include "head.php";
 					<p id="devices">*** The following items count as a Device: Desktop PC (<strong>including</strong> monitor), Laptop, Server, Printer, Scanner, Router, Hub, Wireless Access Point and other similar items. </p>
 				</article>
 
-				<hr class="divider roundsm">
+				<hr id="service-area" class="divider roundsm">
 
 				<article>
-					<h1 id="service-area">Our Service Area</h1>
+					<h1>Our Service Area</h1>
 					<p>We mainly serve <span itemscope itemtype="http://schema.org/Place" itemprop="name">Attleborough</span>, <span itemscope itemtype="http://schema.org/Place" itemprop="name">Wymondham</span>, <span itemscope itemtype="http://schema.org/Place" itemprop="name">Norwich</span> and <span itemscope itemtype="http://schema.org/Place" itemprop="name">Thetford</span> but we also cover surrounding towns and villages. The map below serves as a rough guide.</p>
 		            <div id="googlemap">
 						<iframe width="100%" scrolling="no" height="500" frameborder="0" src="http://maps.google.co.uk/maps?cid=17370591561013489825&amp;ssa=1&amp;ie=UTF8&amp;hq=+loc:+&amp;hnear=&amp;source=embed&amp;ll=52.538703,1.005369&amp;spn=0.292462,0.673827&amp;iwloc=A&amp;output=embed" marginwidth="0" marginheight="0"></iframe>
