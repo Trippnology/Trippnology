@@ -53,9 +53,9 @@ include "head.php";
 					</div><!-- /.row -->
 				</article>
 
-				<hr class="divider roundsm">
+				<hr id="project-assessment" class="divider roundsm">
 
-				<article id="project-assessment">
+				<article>
 					<h1>Project Assessment</h1>
 					<div class="well white span2 pull-right">
 						<p><span class="lead">Bottom line:</span> We assess your idea and give you a plan to make it a reality. If you go ahead with the project, this service is free of charge.</p>
@@ -68,9 +68,9 @@ include "head.php";
 					<p><a href="contact">Contact us</a> today and let's get the ball rolling!</p>
 				</article>
 
-				<hr class="divider roundsm">
+				<hr id="website-updates" class="divider roundsm">
 
-				<article id="website-updates">
+				<article>
 					<h1>Website Updates</h1>
 					<div class="well white span2 pull-right">
 						<p><span class="lead">Bottom line:</span> We can bring your current website up to scratch and make it mobile friendly.</p>
@@ -83,9 +83,9 @@ include "head.php";
 					<p><a href="contact">Contact us</a> today and let's get rid of those cobwebs!</p>
 				</article>
 
-				<hr class="divider roundsm">
+				<hr id="portfolio" class="divider roundsm">
 
-				<article id="portfolio">
+				<article>
 					<div class="row">
 						<div class="span4">
 							<h1>Portfolio</h1>
