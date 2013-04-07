@@ -31,21 +31,12 @@ include "head.php";
 	<div class="container">
 		<div class="row">
 			<div class="span3">
-				<article class="center">
-					<form action="formtoemail.php" method="post" id="contactForm" class="form-vertical">
-						<label for="Name">Name</label>
-						<input name="Name" id="Name" type="text" class="required">
-						<label for="Email">Email</label>
-						<input name="Email" id="Email" type="email" class="required email">
-						<label for="Telephone">Telephone</label>
-						<input name="Telephone" id="Telephone" type="text">
-						<label for="Message">Your Message</label>
-						<textarea name="Message" id="Message" cols="45" rows="5" class="required"></textarea>
-						<br>
-						<input id="submit" type="submit" value="Send" class="btn btn-success">
-					</form>
+				<article class="well center hidden-phone qrcode">
+					<img class="img-polaroid" data-src="holder.js/200x200/text:QR code" alt="Trippnology contact details QR code">
+					<p><i class="icon-barcode"></i> Scan this code to add contact info to your phone, call us, or get directions.</p>
 				</article>
 			</div>
+
 			<div class="span4 offset1" id="main" role="main">
 				<article class="well center white">
 					<img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=siteName?>">
@@ -67,13 +58,23 @@ include "head.php";
 	                <p><a href="http://twitter.com/<?=$socialTwitterName?>" rel="external" title="Follow <?=$siteName?> on twitter">Twitter</a> - <a href="<?=$socialFacebookURL?>" rel="external" title="Like <?=$siteName?> on Facebook">Facebook</a></p>
 				</article>
 			</div>
+
 			<div class="span3 offset1">
-				<article class="well center hidden-phone qrcode">
-					<img class="img-polaroid" data-src="holder.js/200x200/text:QR code" alt="Trippnology contact details QR code">
-					<p><i class="icon-barcode"></i> Scan this code to add contact info to your phone, call us, or get directions.</p>
+				<article class="center">
+					<form action="formtoemail.php" method="post" id="contactForm" class="form-vertical">
+						<label for="Name">Name</label>
+						<input name="Name" id="Name" type="text" class="required">
+						<label for="Email">Email</label>
+						<input name="Email" id="Email" type="email" class="required email">
+						<label for="Telephone">Telephone</label>
+						<input name="Telephone" id="Telephone" type="text">
+						<label for="Message">Your Message</label>
+						<textarea name="Message" id="Message" cols="45" rows="5" class="required"></textarea>
+						<br>
+						<input id="submit" type="submit" value="Send" class="btn btn-success">
+					</form>
 				</article>
 			</div>
-
 		</div>
 
 		<div class="row">
@@ -100,6 +101,7 @@ include "head.php";
 		'type' : 'iframe'
 	});
 </script>
+
 <!-- End of page specific script stuff -->
 </body>
 </html>
