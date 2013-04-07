@@ -2,9 +2,9 @@
     <ul class="nav inline">
 		<li class="nav-header">Services:</li>
 		<li><a class="vert-menu-item" href="web-design-attleborough">Web Design</a></li>
-		<li><a class="vert-menu-item" href="search-engine-optimisation">SEO</a></li>
-		<li><a class="vert-menu-item" href="it-support">IT Support</a></li>
-		<li><a class="vert-menu-item" href="social-media">Social Media</a></li>
+		<li><a class="vert-menu-item" href="search-engine-optimisation-attleborough">SEO</a></li>
+		<li><a class="vert-menu-item" href="it-support-attleborough">IT Support</a></li>
+		<li><a class="vert-menu-item" href="social-media-attleborough">Social Media</a></li>
 <!-- 		<li><a href="computer-repair">Computer Repair</a></li>
 	 -->	</ul>
 	<ul class="nav inline">
