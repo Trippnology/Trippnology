@@ -32,7 +32,7 @@ include "head.php";
 		<div class="row">
 			<div class="span3">
 				<article class="well center hidden-phone qrcode">
-					<img class="img-polaroid" data-src="holder.js/200x200/text:QR code" alt="Trippnology contact details QR code">
+					<img class="img-polaroid" src="img/ui/contact-details-qrcode.png" alt="Trippnology contact details QR code">
 					<p><i class="icon-barcode"></i> Scan this code to add contact info to your phone, call us, or get directions.</p>
 				</article>
 			</div>
@@ -44,13 +44,14 @@ include "head.php";
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
 		                <p>Email: <span itemprop="email">mail<a href="#" title="Antispam" data-content="Replace this with the usual @ symbol. This is just to stop us getting lots of spam email." class="antispam">[at]</a>trippnology.com</span></p>
-						<p>Phone: <span itemprop="telephone"><a href="tel:+44-1953-451231">01953 451231</a></span></p>
+						<p>Phone: <span itemprop="telephone"><a href="tel:+44-1953-451231">01953 451231</a></span><br>
+							Mobile: <a href="tel:+44-7564-730357">07564 730357</a></p>
 						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 							<p><span itemprop="streetAddress">Besthorpe Lodge</span><br>
 							<span itemprop="addressLocality">Attleborough</span><br>
 							<span itemprop="addressRegion">Norfolk</span><br>
 							<span itemprop="postalCode">NR17 2LJ</span><br>
-							<a href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker"></i> Map</a>
+							<a itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a>
 							</p>
 						</div>
 						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
