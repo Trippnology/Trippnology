@@ -2,7 +2,7 @@
 include "inc/settings.php";
 
 $strPageName = "Search Engine Optimisation";
-$strCanonical = "search-engine-optimisation";
+$strCanonical = "search-engine-optimisation-attleborough";
 $strDescription = "Professional SEO service for Attleborough, Wymondham, Norwich, Thetford and beyond.";
 $strKeywords = "Search Engine Optimisation, seo, Attleborough, Wymondham, Norwich, Thetford";
 $SEOtitle = $strPageName . " | " . $siteName;
