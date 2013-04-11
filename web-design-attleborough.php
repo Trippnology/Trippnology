@@ -31,6 +31,22 @@ include "head.php";
 		<div class="row">
 			<div class="span9" id="main" role="main">
 				<article>
+					<div class="row">
+						<div class="span3">
+							<p>A website gives you one shot at making an impression. If people find it difficult to read or spend ages waiting for information to download, they’ll close their browser and you’ll probably never hear from them again.</p>
+							<p>We plan, design and build websites that collect customers rather than losing them. Created with</p>
+						</div>
+						<div class="span3">
+							<p>Search Engine Optimisation (<a href="search-engine-optimisation-attleborough">SEO</a>) in mind to help drive traffic, our sites retain interest using eye-catching writing and website design that is easy to read and navigate.</p>
+							<p>As part of our website development service, all sites are tested across different browsers and platforms and structured so that visits are converted into sales or meeting requests.</p>
+						</div>
+						<div class="span3">
+							<p>We can also provide full content management systems so your site is easy to update, a social media strategy to start you off on Twitter or Facebook and help with hosting and buying a domain name.</p>
+							<p>There are 51 million internet users in the UK right now.</p>
+							<p><a href="contact">Make sure more of them start visiting your site.</a></p>
+						</div>
+					</div>
+
 					<div class="row intro">
 						<div class="span3">
 							<img class="img-circle" src="img/ui/code.png" width="140" height="140">
