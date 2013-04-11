@@ -45,23 +45,25 @@ include "head.php";
 							<p>There are 51 million internet users in the UK right now.</p>
 							<p><a href="contact">Make sure more of them start visiting your site.</a></p>
 						</div>
-					</div>
+					</div><!-- /.row -->
+				</article>
 
+				<article>
 					<div class="row intro">
 						<div class="span3">
-							<img class="img-circle" src="img/ui/code.png" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/code.png" alt="project assessment" width="140" height="140">
 							<h2>Brand new project</h2>
 							<p>Need a website but don't know where to start? Our project assessment will get you on the right track.</p>
 							<p><a class="btn scrollme" href="#project-assessment">Find out more »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle" src="img/ui/graph.png" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/graph.png" alt="website updates" width="140" height="140">
 							<h2>Website updates</h2>
 							<p>Do you already have a website that needs some TLC? We can breathe new life into your stale old site.</p>
 							<p><a class="btn scrollme" href="#website-updates">View details »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/it-support.jpg" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="it support" width="140" height="140">
 							<h2>Portfolio</h2>
 							<p>Have a look at some of the sites we have built for previous customers and see the quaility of our work for yourself.</p>
 							<p><a class="btn scrollme" href="#portfolio">View »</a></p>
@@ -185,27 +187,9 @@ include "head.php";
 						</li>
 					</ul>
 				</article>
+
 				<article>
-					<h1>Technology we use to build the web:</h1>
-					<ul class="inline">
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>Javascript</li>
-						<li>PHP</li>
-						<li>jQuery</li>
-						<li>Bootstrap</li>
-						<li>HTML5 Boilerplate</li>
-						<li>Wordpress</li>
-						<li>RESTful APIs</li>
-						<li>Node</li>
-						<li>MongoDB</li>
-						<li>AJAX</li>
-						<li>JSON</li>
-						<li>XML</li>
-					</ul>
-				</article>
-				<article>
-					<h1>Areas covered</h1>
+					<h1>Areas we work in most often:</h1>
 					<ul class="inline lead">
 						<li>Attleborough</li>
 						<li>Wymondham</li>
@@ -213,7 +197,28 @@ include "head.php";
 						<li>Thetford</li>
 					</ul>
 				</article>
+
+				<article>
+					<h1>Technology we use to build the web:</h1>
+					<ul class="inline">
+						<li>HTML5</li>
+						<li>CSS3</li>
+						<li>Javascript</li>
+						<li>PHP</li>
+						<li>MySQL</li>
+						<li>jQuery</li>
+						<li>Bootstrap</li>
+						<li>HTML5 Boilerplate</li>
+						<li>Wordpress</li>
+						<li>Node.js</li>
+						<li>MongoDB</li>
+						<li>AJAX</li>
+						<li>JSON</li>
+						<li>XML</li>
+					</ul>
+				</article>
 			</div><!-- /#main -->
+
 			<div class="span3">
 				<?php include "inc/nav-block.php"; ?>
 			</div><!-- /.span3 -->
@@ -232,6 +237,7 @@ include "head.php";
     </div>
 
 	<?php include "scriptblock.php"; ?>
+	<script src="js/portfolio.js"></script>
 
 </body>
 </html>
