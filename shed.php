@@ -22,8 +22,8 @@ include "head.php";
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
-				<h2>Where we tinker around at the weekends. Grab yourself a cuppa and come on in!</h2>
-				<p>Be warned, here be dragons. Things on this page may stop working, disappear, explode or crash. Don't use this stuff in production.</p>
+				<h2>Where we tinker around at the weekends.<br>Grab yourself a cuppa and come on in!</h2>
+				<p>Be warned, here be dragons. Things on this page may stop working, disappear, explode or crash.<br>Don't use this stuff in production.</p>
 			</div>
 		</div>
 	</header>
@@ -41,7 +41,7 @@ include "head.php";
 				<hr class="divider">
 
 				<article>
-
+					<ul id="projects" class="unstyled"></ul>
 				</article>
 			</div><!-- /#main -->
 			<div class="span3">

@@ -1,4 +1,4 @@
-var projects = {
+var projectData = {
 	"0": {
 		"name": "BootstrASP",
 		"description": "A simple framework built with Bootstrap and ASP.",
@@ -77,4 +77,37 @@ var projects = {
 	}
 }
 
-console.log(projects);
+var docfrag = document.createDocumentFragment();
+
+$.each(projectData, function(i,project) {
+	var li = document.createElement('li');
+	if (project.links.project) {
+		var link = document.createElement('a');
+		link.href = project.links.project;
+		link.textContent = project.name+' ';
+		li.appendChild(link);
+	} else {
+		li.textContent = project.name+' - '+project.description;
+	};
+
+	if (project.links.github) {
+		var github = document.createElement('a');
+		github.href = project.links.github;
+		github.textContent = 'github';
+		github.className = 'label';
+		li.appendChild(github);
+	};
+
+	if (project.links.bitbucket) {
+		var bitbucket = document.createElement('a');
+		bitbucket.href = project.links.bitbucket;
+		bitbucket.textContent = 'Bitbucket';
+		bitbucket.className = 'label';
+		li.appendChild(bitbucket);
+	};
+
+	docfrag.appendChild(li);
+});
+
+var target = document.getElementById('projects');
+target.appendChild(docfrag);
