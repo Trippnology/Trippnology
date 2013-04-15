@@ -55,7 +55,7 @@ img.aligncenter{clear:both;display:block;margin:0 auto}img.alignleft,img.alignri
 }@media(min-width:320px) and (max-width:600px){.navbar-wrapper{margin-top:0}header.page-header{margin:0 0 2.5em}}@media(max-width:768px){body{padding-top:0}
 .carousel-caption{margin-top:3em}header.page-header{margin:3em 0 2.5em}.header-caption h2{font-size:1.7em;line-height:1.25em}#nav-block{position:static;width:auto;top:0}
 .button-menu{width:35%}.featurette-image{width:128px}}@media(min-width:768px) and (max-width:980px){body{padding-top:0}.navbar-wrapper{margin-top:1.5em}
-ul.social-links li{padding:0}}@media(min-width:980px){.navbar-wrapper{margin-top:1.5em}.featurette-heading{font-size:5em}}@media print{*{background:transparent!important;box-shadow:none!important;color:black!important;text-shadow:none!important;-ms-filter:none!important;filter:none!important}
+ul.social-links li{padding:0}}@media(min-width:980px){.navbar-wrapper{margin-top:1.5em}.featurette-heading{font-size:4.5em}}@media print{*{background:transparent!important;box-shadow:none!important;color:black!important;text-shadow:none!important;-ms-filter:none!important;filter:none!important}
 a,a:visited{text-decoration:underline}a[href]:after{content:" (" attr(href) ")"}abbr[title]:after{content:" (" attr(title) ")"}
 .ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}
 pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100%!important}

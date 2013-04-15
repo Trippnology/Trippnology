@@ -432,7 +432,7 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 /* Most Desktop browsers */
 @media (min-width: 980px) {
 	.navbar-wrapper { margin-top: 1.5em; }
-  .featurette-heading { font-size: 5em; }
+  .featurette-heading { font-size: 4.5em; }
 }
 
 /* Large desktop */
