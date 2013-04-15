@@ -1,4 +1,4 @@
-<div id="nav-block" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="465">
+<div id="nav-block" class="columnleft shadowright roundlrg border-light clearfix" data-spy="affix" data-offset-top="470">
 	<img src="img/ui/trippnology-logo-square-180.png" alt="Trippnology logo" class="roundlrg aligncenter">
 	<?php include "inc/menu-vert.php"; ?>
 	<hr class="divider roundsm">
