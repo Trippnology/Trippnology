@@ -140,6 +140,7 @@ footer[role=contentinfo] {
 /* $Page Specific Styles */
 /* ######################################################### */
 body.page-home { padding-top: 3.5em; }
+.page-home .carousel { margin-top: -0.5em; }
 /* web-design-attleborough */
 .page-web-design .intro { text-align: center; }
 .portfolio .thumbnail {
