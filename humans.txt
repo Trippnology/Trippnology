@@ -2,18 +2,18 @@
 /* humanstxt.org */
 
 /* TEAM */
-	Name: 
-	Role: 
-	Site: 
-	Contact: 
-	Twitter: 
-	Location: 
+	Name:
+	Role:
+	Site:
+	Contact:
+	Twitter:
+	Location:
 
 /* SITE */
-	Last Update: 
-	Standards: 
-	Components: 
-	Software: 
+	Last Update:
+	Standards:
+	Components:
+	Software:
 
 /* THANKS */
 
@@ -25,7 +25,7 @@ img/headers/2941549171_684d1f55ed_b.jpg http://www.flickr.com/photos/photophilde
 2124673642_115fb71c69_b.jpg http://www.flickr.com/photos/foxypar4/2124673642/
 3839707719_b16a45dbee_b.jpg http://www.flickr.com/photos/31878512@N06/3839707719/
 1457493536_f344795d7a_b.jpg http://www.flickr.com/photos/fdecomite/1457493536/
-	   
+2206465257_b0b5878a58_b.jpg http://www.flickr.com/photos/carbonnyc/2206465257/
 +++++++++++++++trippnology.com
 ++++++++++++++++++++++++++++++
 +++++++'''''''''''''''''''++++
