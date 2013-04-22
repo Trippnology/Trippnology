@@ -36,8 +36,8 @@ $strMsgHeader = "Someone has sent you a message:";
 
 // Set fields to use here
 //DIM strName, strEmail, strTelephone, strMessage
-$strName = $_REQUEST["Name"];
-$strEmail = $_REQUEST["Email"];
-$strTelephone = $_REQUEST["Telephone"];
-$strMessage = $_REQUEST["Message"];
+@$strName = $_REQUEST["Name"];
+@$strEmail = $_REQUEST["Email"];
+@$strTelephone = $_REQUEST["Telephone"];
+@$strMessage = $_REQUEST["Message"];
 ?>
