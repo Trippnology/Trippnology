@@ -77,15 +77,16 @@ var projectData = {
 	}
 }
 
-var docfrag = document.createDocumentFragment();
+var frag = document.createDocumentFragment();
 
 $.each(projectData, function(i,project) {
 	var li = document.createElement('li');
 	if (project.links.project) {
 		var link = document.createElement('a');
 		link.href = project.links.project;
-		link.textContent = project.name+' ';
-		li.appendChild(link);
+		link.textContent = project.name;
+		li.appendChild(link, li.firstChild);
+		li.innerHTML = li.innerHTML+' - '+project.description;
 	} else {
 		li.textContent = project.name+' - '+project.description;
 	};
@@ -106,11 +107,10 @@ $.each(projectData, function(i,project) {
 		li.appendChild(bitbucket);
 	};
 
-	docfrag.appendChild(li);
+	frag.appendChild(li);
 });
 
-var target = document.getElementById('projects');
-target.appendChild(docfrag);
+document.getElementById('projects').appendChild(frag);
 
 /* Scroll the page title */
 var rev = "fwd";

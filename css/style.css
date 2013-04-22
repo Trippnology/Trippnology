@@ -158,6 +158,8 @@ body.page-home { padding-top: 3.5em; }
 .qrcode { }
   .qrcode img { margin-bottom: 1em; }
   .qrcode p { margin-bottom: 0; text-align: justify; }
+/* shed */
+.page-shed a.label { margin-left: 0.5em; }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
