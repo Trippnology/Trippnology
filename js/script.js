@@ -49,8 +49,8 @@ $(document).ready(function() {
 		});
 	};
 	initRollLinks();
-	// Dump roll links if they are in a badge or button
-	$('a.badge, a.btn, button.btn').removeClass('roll-link');
+	// Dump roll links if they are in a badge, button or label
+	$('a.badge, a.btn, button.btn, a.label').removeClass('roll-link');
 
 	// Smooth scroll to anchors on the page
 	var scroller = function(id){
