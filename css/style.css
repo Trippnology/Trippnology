@@ -329,6 +329,7 @@ body.page-home { padding-top: 3.5em; }
   background: linear-gradient(to right, rgba(51,37,50,1) 0%,rgba(51,37,50,1) 20%,rgba(99,76,82,1) 20%,rgba(99,76,82,1) 40%,rgba(248,122,82,1) 40%,rgba(248,122,82,1) 60%,rgba(255,151,78,1) 60%,rgba(255,151,78,1) 80%,rgba(165,154,136,1) 80%,rgba(165,154,136,1) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#332532', endColorstr='#a59a88',GradientType=1 ); /* IE6-9 */
 }
+	.divider.large { margin: 4em 0; }
 
 /* Buttons */
 /* Generated at: http://charliepark.org/bootstrap_buttons/ */
