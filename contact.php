@@ -56,7 +56,12 @@ include "head.php";
 						</div>
 						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
 				    </section>
-	                <p><a href="http://twitter.com/<?=$socialTwitterName?>" rel="external" title="Follow <?=$siteName?> on twitter">Twitter</a> - <a href="<?=$socialFacebookURL?>" rel="external" title="Like <?=$siteName?> on Facebook">Facebook</a></p>
+					<ul class="inline social-links">
+						<li><a rel="external" href="http://twitter.com/Trippnology" class="twitter tooltip-top" title="twitter"><span>twitter</span></a></li>
+						<li><a rel="external" href="https://github.com/Trippnology" class="github"><span>github</span></a></li>
+						<li><a rel="external" href="http://bitbucket.org/Trippnology" class="bitbucket"><span>bitbucket</span></a></li>
+						<li><a rel="external" href="http://facebook.com/Trippnology" class="facebook"><span>facebook</span></a></li>
+					</ul>
 				</article>
 			</div>
 
