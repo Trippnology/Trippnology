@@ -1,7 +1,7 @@
 <?php
 // Global Site Settings
 $siteName = "Trippnology";
-$siteDomain = "http://www.trippnology.com/"; // Be sure to include trailing slash
+$siteDomain = "http://trippnology.com/"; // Be sure to include trailing slash
 $siteTagline = "We're good with technology";
 
 // Back end stuff
