@@ -22,8 +22,7 @@ include "head.php";
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
-				<h2>You know your business. We know the web. Let's get together and make something great!</h2>
-				<p class="lead">We would love to hear your plans. Send us a message!</p>
+				<h2>We would love to hear your plans. Send us a message!</h2>
 			</div>
 		</div>
 	</header>
@@ -43,7 +42,7 @@ include "head.php";
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
-		                <p>Email: <span itemprop="email">mail<a href="#" title="Antispam" data-content="Replace this with the usual @ symbol. This is just to stop us getting lots of spam email." class="antispam">[at]</a>trippnology.com</span></p>
+		                <p>Email: <span itemprop="email" class="antispam">mail [at] trippnology.com</span></p>
 						<p>Phone: <span itemprop="telephone"><a href="tel:+44-1953-451231">01953 451231</a></span><br>
 							Mobile: <a href="tel:+44-7564-730357">07564 730357</a></p>
 						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -93,11 +92,8 @@ include "head.php";
 
 <!-- Put page specific script stuff here -->
 <script>
-	$('.antispam').popover({
-		'placement' : 'top',
-		'trigger' : 'hover',
-		'delay' : { show: 100, hide: 1000 }
-	});
+	$("#main").antiSpam("antispam");
+
 	$(".popup-map").fancybox({
 		'width' : '75%',
 		'height' : '75%',
