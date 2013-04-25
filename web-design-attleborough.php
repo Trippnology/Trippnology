@@ -113,16 +113,17 @@ include "head.php";
 						</div>
 					</div>
 					<ul class="portfolio thumbnails">
+						<li>You need to <a href="http://www.enable-javascript.com/" rel="external">enable javascript</a> to view this bit of the site. <a href="contact">give us a shout</a> if you have any trouble.</li>
 					</ul>
 				</article>
 
 				<article>
 					<h1>Areas we work in most often:</h1>
 					<ul class="inline lead">
-						<li>Attleborough</li>
-						<li>Wymondham</li>
-						<li>Norwich</li>
-						<li>Thetford</li>
+						<li itemscope itemtype="http://schema.org/Place"><span itemprop="name">Attleborough</span></li>
+						<li itemscope itemtype="http://schema.org/Place"><span itemprop="name">Wymondham</span></li>
+						<li itemscope itemtype="http://schema.org/Place"><span itemprop="name">Norwich</span></li>
+						<li itemscope itemtype="http://schema.org/Place"><span itemprop="name">Thetford</span></li>
 					</ul>
 				</article>
 
@@ -133,12 +134,10 @@ include "head.php";
 						<li>CSS3</li>
 						<li>Javascript</li>
 						<li>PHP</li>
-						<li>MySQL</li>
 						<li>jQuery</li>
-						<li>Bootstrap</li>
-						<li>HTML5 Boilerplate</li>
 						<li>Wordpress</li>
 						<li>Node.js</li>
+						<li>MySQL</li>
 						<li>MongoDB</li>
 						<li>AJAX</li>
 						<li>JSON</li>

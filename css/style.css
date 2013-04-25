@@ -143,13 +143,7 @@ body.page-home { padding-top: 3.5em; }
 .page-home .carousel { margin-top: -0.5em; }
 /* web-design-attleborough */
 .page-web-design .intro { text-align: center; }
-.portfolio .thumbnail {
-	padding: 1em;
-	background-color: #fff;
-	color: #A59A88;
-}
-.portfolio .img-polaroid { background-color: #634C52; }
-.portfolio h4 { color: #634C52;}
+.portfolio .badge { margin-left: 0.25em; }
 .portfolio-link {}
 /* prices */
 .price-table-web th { text-align: center; }
