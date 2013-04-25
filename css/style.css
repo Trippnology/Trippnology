@@ -150,6 +150,7 @@ body.page-home { padding-top: 3.5em; }
 }
 .portfolio .img-polaroid { background-color: #634C52; }
 .portfolio h4 { color: #634C52;}
+.portfolio-link {}
 /* prices */
 .price-table-web th { text-align: center; }
 .price-table-web td { color: #fff; }

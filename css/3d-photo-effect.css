@@ -9,14 +9,14 @@ http://wait-till-i.com/license.txt
 	position: relative;
 	overflow: hidden;
 	margin: 0 0 1em 0;
-	width: 300px;
-	height: 200px;
+	width: 270px;
+	height: 202px;
 	background: #fff;
-	background: -webkit-linear-gradient( #000, #222 );
-	background: -moz-linear-gradient( #000, #222 );
-	background: -ms-linear-gradient( #000, #222 );
-	background: -o-linear-gradient( #000, #222 );
-	box-shadow: 4px 4px 10px rgba( 0, 0, 0, 0.6 );
+/* 	background: -webkit-linear-gradient( #000, #222 );
+background: -moz-linear-gradient( #000, #222 );
+background: -ms-linear-gradient( #000, #222 );
+background: -o-linear-gradient( #000, #222 );
+box-shadow: 4px 4px 10px rgba( 0, 0, 0, 0.6 ); */
 
 	/* define a perspective of 800 pixels */
 	list-style: none;
@@ -49,7 +49,7 @@ http://wait-till-i.com/license.txt
 .image3d figcaption {
 	position: absolute;
 	bottom: 10px;
-	left: 300px;
+	left: 2700px;
 	width: 230px;
 	border-radius: 5px;
 	background: rgba( 0, 0, 0, 0.7 );
@@ -62,7 +62,7 @@ http://wait-till-i.com/license.txt
 
 }
 .image3d:hover figcaption, .image3d:focus figcaption {
-	left: 80px;
+	left: 50px;
 	-webkit-transition: all 1s;
 		 -moz-transition: all 1s;
 			-ms-transition: all 1s;
