@@ -105,11 +105,11 @@ include "head.php";
 
 				<article>
 					<div class="row">
-						<div class="span4">
+						<div class="span3">
 							<h1>Portfolio</h1>
 						</div>
-						<div class="well white span5">
-							<p><span class="lead">Key:</span> <i class="icon-tags"></i> = HTML5 | <i class="icon-resize-full"></i> = Responsive | <i class="icon-shopping-cart"></i> = eCommerce</p>
+						<div class="well white span6">
+							<p><span class="lead">Key:</span> <i class="icon-tags"></i> = HTML5 | <i class="icon-resize-full"></i> = Responsive | <i class="icon-shopping-cart"></i> = eCommerce | <i class="icon-pencil"></i> = Wordpress</p>
 						</div>
 					</div>
 					<ul class="portfolio thumbnails">

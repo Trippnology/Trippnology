@@ -1,79 +1,86 @@
 var portfolioData = [
-	{
-	    "name": "GD Consult",
-	    "notes": "Coming soon.",
-	    "url": "http://gdconsult.co.uk/",
-	    "tags": ["html5", "responsive", "ecommerce"],
-		"image": "holder.js/270x200/text:Coming Soon"
-	},
-    {
-        "name": "Advanced Camera Services",
-        "notes": "Coming soon.",
-        "url": "http://advancedcameraservices.co.uk/",
-        "tags": ["html5", "responsive", "ecommerce"],
-    	"image": "holder.js/270x200/text:Coming Soon"
-    },
     {
         "name": "Avant Tecno",
         "notes": "High quality compact articulated loaders.",
         "url": "http://avanttecno.co.uk/",
-        "tags": ["responsive", "html5"],
-	    "image": "holder.js/270x200/text:Screenshot"
+        "tags": ["responsive", "html5", "wordpress"],
+	    "image": "img/screens/avant-tecno.jpg"
+    },
+    {
+        "name": "Whiterod Surfacing",
+        "notes": "Asphalt and tarmac laying specialists.",
+        "url": "http://www.whiterodsurfacing.com/",
+        "tags": ["html5", "responsive"],
+	    "image": "img/screens/whiterod-surfacing.jpg"
+    },
+    {
+        "name": "Viper Sounds",
+        "notes": "Independent online music store.",
+        "url": "http://vipersounds.com/",
+        "tags": ["html5", "responsive", "ecommerce", "wordpress"],
+	    "image": "img/screens/viper-sounds.jpg"
     },
     {
         "name": "The Limecrete Company",
         "notes": "Limecrete, hempcrete, and sustainable construction experts.",
         "url": "http://www.limecrete.co.uk/",
         "tags": ["responsive"],
-	    "image": "holder.js/270x200/text:Screenshot"
+	    "image": "img/screens/limecrete.jpg"
     },
     {
         "name": "Johnny Watton",
-        "notes": "Short description",
+        "notes": "Professional photographer.",
         "url": "http://johnnywatton.com/",
-        "tags": ["html5", "responsive"],
-	    "image": "holder.js/270x200/text:Screenshot"
-    },
-    {
-        "name": "Whiterod Surfacing",
-        "notes": "Short description",
-        "url": "http://www.whiterodsurfacing.com/",
-        "tags": ["html5", "responsive"],
-	    "image": "holder.js/270x200/text:Screenshot"
-    },
-    {
-        "name": "Viper Sounds",
-        "notes": "Short description",
-        "url": "http://vipersounds.com/",
-        "tags": ["html5", "responsive", "ecommerce"],
-	    "image": "holder.js/270x200/text:Screenshot"
+        "tags": ["html5", "responsive", "wordpress"],
+	    "image": "img/screens/johnny-watton.jpg"
     },
     {
         "name": "Headspace Accountancy",
-        "notes": "Short description",
+        "notes": "Small business accounting.",
         "url": "http://www.headspaceaccountancy.co.uk/",
         "tags": ["html5", "responsive"],
-	    "image": "holder.js/270x200/text:Screenshot"
+	    "image": "img/screens/headspace-accountancy.jpg"
     },
     {
-        "name": "Glassact",
+        "name": "Glass Splashback Colour",
         "notes": "Glass splashbacks and worktops.",
-        "url": "http://www.glassactuk.com/",
+        "url": "http://www.glasssplashbackcolour.com/",
         "tags": ["html5"],
-        "image": "holder.js/270x200/text:Screenshot"
-    },
-    {
-        "name": "Square Deal Storage",
-        "notes": "Short description",
-        "url": "http://www.squaredealstorage.co.uk/",
-    	"image": "holder.js/270x200/text:Screenshot"
+        "image": "img/screens/glass-splashback-colour.jpg"
     },
     {
         "name": "Norwich French Church Charity",
-        "notes": "Short description",
+        "notes": "Financial help for young people's education.",
         "url": "http://norwichfrenchchurchcharity.org.uk/",
-        "tags": ["html5", "responsive"],
-	    "image": "holder.js/270x200/text:Screenshot"
+        "tags": ["html5", "responsive", "wordpress"],
+	    "image": "img/screens/nfcc.jpg"
+    },
+    {
+    	"name": "Abi Bailey",
+    	"notes": "Portrait photographer.",
+    	"url": "http://abportraitphotography.co.uk/",
+    	"tags": ["html5", "responsive", "wordpress"],
+    	"image": "img/screens/abpp.jpg"
+    },
+    {
+        "name": "Square Deal Storage",
+        "notes": "Container hire and self storage.",
+        "url": "http://www.squaredealstorage.co.uk/",
+    	"image": "img/screens/square-deal-storage.jpg"
+    },
+	{
+	    "name": "GD Consult",
+	    "notes": "Coming soon.",
+	    "url": "http://gdconsult.co.uk/",
+	    "tags": ["html5", "responsive", "ecommerce", "wordpress"],
+		"image": "holder.js/270x200/text:Coming Soon"
+	},
+    {
+        "name": "Advanced Camera Services",
+        "notes": "Coming soon.",
+        "url": "http://advancedcameraservices.co.uk/",
+        "tags": ["html5", "responsive", "ecommerce", "wordpress"],
+    	"image": "holder.js/270x200/text:Coming Soon"
     }
 ];
 
@@ -117,6 +124,11 @@ $.each(portfolioData, function(i,project) {
 				$(sitetags).append(tagspan);			};
 			if(tag == 'ecommerce'){
 				tagicon.attr({'class': 'icon-shopping-cart'});
+				tagspan.append(tagicon);
+				$(sitetags).append(tagspan);
+			};
+			if(tag == 'wordpress'){
+				tagicon.attr({'class': 'icon-pencil'});
 				tagspan.append(tagicon);
 				$(sitetags).append(tagspan);
 			};
