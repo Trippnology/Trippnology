@@ -61,7 +61,7 @@ include "head.php";
 							</ol>
 						</div>
 					</div>
-				<p class="center"><a href="contact" class="btn btn-large">We would love to hear from you</a></p>
+				<h2 class="center"><a href="contact">We would love to hear from you</a></h2>
 				</article>
 
 
