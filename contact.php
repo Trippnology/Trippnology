@@ -38,7 +38,7 @@ include "head.php";
 
 			<div class="span4 offset1" id="main" role="main">
 				<article class="well center white">
-					<img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=$siteName?>">
+					<span itemscope itemtype="http://schema.org/Brand"><img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=$siteName?>" itemprop="logo"></span>
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
@@ -50,9 +50,9 @@ include "head.php";
 							<span itemprop="addressLocality">Attleborough</span><br>
 							<span itemprop="addressRegion">Norfolk</span><br>
 							<span itemprop="postalCode">NR17 2LJ</span><br>
-							<a itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a>
 							</p>
 						</div>
+						<p class="center"><a itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a></p>
 						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
 				    </section>
 					<ul class="inline social-links">
