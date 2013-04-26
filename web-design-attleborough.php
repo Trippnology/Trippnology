@@ -51,19 +51,19 @@ include "head.php";
 				<article>
 					<div class="row intro">
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/code.png" alt="project assessment" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/code-small.png" alt="project assessment" width="140" height="140">
 							<h2>Brand new project</h2>
 							<p>Need a website but don't know where to start? Our project assessment will get you on the right track.</p>
 							<p><a class="btn scrollme" href="#project-assessment">Find out more »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/graph.png" alt="website updates" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/graph-small.png" alt="website updates" width="140" height="140">
 							<h2>Website updates</h2>
 							<p>Do you already have a website that needs some TLC? We can breathe new life into your stale old site.</p>
 							<p><a class="btn scrollme" href="#website-updates">View details »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="it support" width="140" height="140">
+							<img class="img-circle border-dark border-fat" src="img/ui/portfolio-small.png" alt="it support" width="140" height="140">
 							<h2>Portfolio</h2>
 							<p>Have a look at some of the sites we have built for previous customers and see the quaility of our work for yourself.</p>
 							<p><a class="btn scrollme" href="#portfolio">View »</a></p>
@@ -95,8 +95,8 @@ include "head.php";
 						<p><a href="contact" class="btn btn-mini btn-success">Let's talk »</a></p>
 
 					</div>
-					<p>The landcape of the web is ever changing. New technologies emerge and with hindsight, we sometimes realise that the way we built the web in the past was less than ideal. For example, the <code>&lt;table&gt;</code> element (intended for displaying tabular data) used to be abused to privide page layout. Yuck.</p>
 					<p>As users of the web, we're no longer chained to our desks. The use of smartphones and tablets is soaring and many older websites have problems displaying on mobile devices and in some cases, are entirely broken.</p>
+					<p>The landcape of the web is ever changing. New technologies emerge and with hindsight, we sometimes realise that the way we built the web in the past was less than ideal. For example, the <code>&lt;table&gt;</code> element (intended for displaying tabular data) used to be abused to privide page layout. Yuck.</p>
 					<p>Here's where we come in. We'll fix up those old pages and make sure your customers aren't frustrated when using your site. We'll bring your website up to modern standards and make it more accessible to everyone.</p>
 					<p><a href="contact">Contact us</a> today and let's get rid of those cobwebs!</p>
 				</article>
