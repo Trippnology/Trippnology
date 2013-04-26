@@ -7,7 +7,7 @@ $strDescription = "Professional SEO service for Attleborough, Wymondham, Norwich
 $strKeywords = "Search Engine Optimisation, seo, Attleborough, Wymondham, Norwich, Thetford";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "seo";
-$pageHeaderImageURL = "img/ui/headers/4204140740_bce2b90dcf_o.jpg";
+$pageHeaderImageURL = "img/ui/headers/seo-attleborough.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 
@@ -18,7 +18,7 @@ include "head.php";
 	<?php include "inc/navbar.php"; ?>
 
 	<header class="page-header roundlrg">
-		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+		<img src="<?=$pageHeaderImageURL?>" alt="SEO Attleborough header" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
@@ -44,8 +44,8 @@ include "head.php";
 				<hr class="divider">
 
 				<article>
+					<img src="img/screens/limecrete.jpg" alt="Screenshot of the Limecrete Company website" class="pull-right roundsm img-polaroid featurette-image">
 					<h1>Case Study</h1>
-					<img src="img/screens/limecrete.jpg" alt="Screenshot of the Limecrete Company website" class="pull-right roundsm img-polaroid">
 					<p>Trippnology were approached by ecological construction firm <a href="http://www.limecrete.co.uk/" rel="external">The Limecrete Company</a> who provide <a href="http://www.limecrete.co.uk/limecrete.asp" rel="external">limecrete</a>, <a href="http://www.limecrete.co.uk/hempcrete.asp" rel="external">hempcrete</a> and <a href="http://www.limecrete.co.uk/polished-screed.asp" rel="external">polished screed</a> throughout Europe.</p>
 					<p>Louisa and Myles already had a website they had built themselves	using a popular DIY site builder. As with most of these systems, it got	them online but the pages produced were far from search engine friendly	which was hurting their quest for new customers.</p>
 					<p>We completely overhauled the site, simplifying the code and optimising all of the content to improve loading speed, boost their search ranking and pull in new business.</p>

@@ -18,7 +18,7 @@ include "head.php";
 	<div id="homeCarousel" class="carousel slide roundsm">
 		<div class="carousel-inner roundsm">
 			<div class="item active">
-				<img src="img/ui/headers/1457493536_f344795d7a_b.jpg" alt="" data-sourceurl="http://www.flickr.com/photos/fdecomite/1457493536/">
+				<img src="img/ui/headers/web-design-attleborough.jpg" alt="Web design Attleborough header" data-sourceurl="http://www.flickr.com/photos/fdecomite/1457493536/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Web Design</h1>
@@ -28,7 +28,7 @@ include "head.php";
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/ui/headers/4204140740_bce2b90dcf_o.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/waferboard/4204140740/">
+				<img src="img/ui/headers/seo-attleborough.jpg" alt="SEO Attleborough header" data-sourceurl="https://secure.flickr.com/photos/waferboard/4204140740/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>Search Engine Optimisation</h1>
@@ -38,7 +38,7 @@ include "head.php";
 				</div>
 			</div>
 			<div class="item">
-				<img src="img/ui/headers/2700278384_79bc7e21f9_b.jpg" alt="" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
+				<img src="img/ui/headers/it-support-attleborough.jpg" alt="IT support Attleborough header" data-sourceurl="https://secure.flickr.com/photos/mikebaird/2700278384/">
 				<div class="container">
 					<div class="carousel-caption">
 						<h1>IT Support</h1>
@@ -62,7 +62,7 @@ include "head.php";
 						<p class="lead">Driven by our passion for the web, we create user focussed sites that meet your needs and build your business. Find out more about our <a href="web-design-attleborough">web design</a> services or <a href="contact">contact us</a> today, we'd love to hear your plans.</p>
 					</div>
 					<div class="span3">
-						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/code.png" alt="Web design screenshot">
+						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/code.png" alt="Web design Attleborough icon">
 					</div>
 				</div>
 
@@ -70,7 +70,7 @@ include "head.php";
 
 				<div class="featurette row">
 					<div class="span3">
-						<img class="featurette-image pull-left img-circle border-dark border-fat" src="img/ui/graph.png" alt="Graph">
+						<img class="featurette-image pull-left img-circle border-dark border-fat" src="img/ui/graph.png" alt="SEO Attleborough icon">
 					</div>
 					<div class="span6">
 						<h2 class="featurette-heading">Already got a website? <span class="muted">Lets make it better.</span></h2>
@@ -86,7 +86,7 @@ include "head.php";
 						<p class="lead">IT downtime costs your business. Our years of experience mean we get your issues resolved quickly, so you can get back to work. Find out more about how our <a href="it-support-attleborough">IT support</a> services will make you more productive.</p>
 					</div>
 					<div class="span3">
-						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="IT Support">
+						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="IT support Attleborough icon">
 					</div>
 				</div>
 			</div><!-- /.span9 -->

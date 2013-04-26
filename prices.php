@@ -7,7 +7,7 @@ $strDescription = "Extremely competitive pricing for web design and IT support. 
 $strKeywords = "IT support, web design, pricing, attleborough";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "prices";
-$pageHeaderImageURL = "img/ui/headers/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/trippnology-default.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 
@@ -18,12 +18,12 @@ include "head.php";
 	<?php include "inc/navbar.php"; ?>
 
 	<header class="page-header roundlrg">
-		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+		<img src="<?=$pageHeaderImageURL?>" alt="Web design and IT support pricing header" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<h2>No hidden fees or secret prices</h2>
-				<p>We believe everyone is entitled to the best price we can offer. Our prices are public, published right on our site, and the same no matter who you are.</p>
+				<p>We believe everyone is entitled to the best price we can offer.<br>Our prices are public, published right on our site, and the same no matter who you are.</p>
 			</div>
 		</div>
 	</header>

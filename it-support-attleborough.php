@@ -7,7 +7,7 @@ $strDescription = "Need IT support in Attleborough? We're here to help you make 
 $strKeywords = "it support, computer repair, attleborough, wymondham, norwich, thetford";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "it-support";
-$pageHeaderImageURL = "img/ui/headers/2700278384_79bc7e21f9_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/it-support-attleborough.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/mikebaird/2700278384/";
 $strTweetText = $strPageName;
 
@@ -18,7 +18,7 @@ include "head.php";
 	<?php include "inc/navbar.php"; ?>
 
 	<header class="page-header roundlrg">
-		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+		<img src="<?=$pageHeaderImageURL?>" alt="IT support Attleborough header" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
@@ -39,7 +39,7 @@ include "head.php";
 					<p>If something goes wrong with your IT, it can leave your staff unable to continue with their work. This where we come in, with our passion for problem solving. Our customers soon realise we are the people to call whenever issues crop up.</p>
 					<p>We've built up a wealth of real world experience over many years of diagnosing problems with hardware, software (both off the shelf and bespoke), operating systems, networks, broadband and user behaviour. This experience allows us to quickly pinpoint the issue, minimising costly downtime.</p>
 					<p>Hiring Trippnology to provide your IT support gives you access to our expertise at a <a href="prices">fraction of the cost</a> of employing full time staff. Both monthly contracts and ad-hoc support are available.</p>
-					<h2 class="center">That's exactly what I need! <a href="contact" class="btn btn-large btn-success">SEND HELP!</a></h2>
+					<h2 class="center">&ldquo;That's exactly what I need!&rdquo; <a href="contact" class="btn btn-large btn-success">SEND HELP!</a></h2>
 				</article>
 
 				<hr class="divider roundlrg">
@@ -53,7 +53,7 @@ include "head.php";
 					<p>We have our finger on the pulse of the IT world, keeping up to date with the latest hardware and software so you don't have to.</p>
 					<p>If your business relies on the internet for it's daily operations, you need your connection to be reliable and for any faults that do occur, to be quickly rectified. Trippnology can order, install and setup business grade broadband, ensuring your business stays connected.</p>
 					<p>Perhaps you're looking to expand and would like some purchasing advice? Or have some equipment that you're not using to it's full potential? We can help with that too, showing you the right tools for the job and making the most of your existing IT investment.</p>
-					<h2 class="center">I need expert IT advice... <a class="btn btn-large btn-success" href="contact">Let's talk »</a></h2>
+					<h2 class="center">&ldquo;I need expert IT advice.&rdquo; <a  href="contact">Get in touch</a></h2>
 				</article>
 			</div><!-- /#main -->
 			<div class="span3">

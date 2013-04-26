@@ -7,7 +7,7 @@ $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | Website Design Attleborough | " . $siteName;
 $pageSlug = "web-design";
-$pageHeaderImageURL = "img/ui/headers/1457493536_f344795d7a_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/web-design-attleborough.jpg";
 $pageHeaderImageURLSource = "http://www.flickr.com/photos/fdecomite/1457493536/";
 $strTweetText = $strPageName;
 
@@ -18,7 +18,7 @@ include "head.php";
 	<?php include "inc/navbar.php"; ?>
 
 	<header class="page-header roundlrg">
-		<img src="<?=$pageHeaderImageURL?>" alt="" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
+		<img src="<?=$pageHeaderImageURL?>" alt="Web design Attleborough header" class="roundlrg" data-sourceurl="<?=$pageHeaderImageURLSource?>">
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
