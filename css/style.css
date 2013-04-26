@@ -335,6 +335,14 @@ body.page-home { padding-top: 3.5em; }
 	background-clip: padding-box;
 }
 
+/* Images */
+img.aligncenter {
+	clear: both;
+	display: block;
+	margin: 0 auto;
+}
+
+
 /* Box Shadows */
 .shadowleft {
 	-webkit-box-shadow: -5px 5px 5px #ccc;
