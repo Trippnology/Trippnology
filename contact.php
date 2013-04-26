@@ -38,7 +38,7 @@ include "head.php";
 
 			<div class="span4 offset1" id="main" role="main">
 				<article class="well center white">
-					<span itemscope itemtype="http://schema.org/Brand"><img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundsm" alt="Contact <?=$siteName?>" itemprop="logo"></span>
+					<span itemscope itemtype="http://schema.org/Brand"><img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundlrg" alt="Contact <?=$siteName?>" itemprop="logo"></span>
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
