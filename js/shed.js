@@ -1,46 +1,5 @@
 var projectData = [
 	{
-		"name": "BootstrASP",
-		"description": "A simple framework built with Bootstrap and ASP.",
-		"links": {
-			"bitbucket": "https://bitbucket.org/Trippnology/bootstrasp",
-			"github": "https://github.com/Trippnology/BootstrASP",
-			"demo": "http://bootstrasp.trippnology.com"
-		}
-	},
-	{
-		"name": "BootstraPHP",
-		"description": "Bootstrap based modular framework.",
-		"links": {
-			"bitbucket": "https://bitbucket.org/Trippnology/bootstraphp",
-			"github": "https://github.com/Trippnology/BootstraPHP",
-			"demo": "http://bootstraphp.trippnology.net"
-		}
-	},
-	{
-		"name": "Matchbox",
-		"description": "Minimal page template useful for demos.",
-		"links": {
-			"bitbucket": "https://bitbucket.org/Trippnology/matchbox",
-			"github": "https://github.io/Trippnology/matchbox"
-		}
-	},
-	{
-		"name": "Pastebin",
-		"description": "Text/code sharing, image hosting and URL redirection (shortening coming soon).",
-		"links": {
-			"project": "http://paste.trippnology.net/"
-		}
-	},
-	{
-		"name": "Trippy's Bittorrent Tracker",
-		"description": "GPL licensed torrent tracker.",
-		"links": {
-			"github": "https://github.com/Trippnology/TrippyBT",
-			"demo": "http://tracker.trippnology.net/"
-		}
-	},
-	{
 		"name": "IP and Network Tools",
 		"description": "Find out your current real world IP address and more network info.",
 		"links": {
@@ -52,6 +11,13 @@ var projectData = [
 		"description": "Sometimes you have a URL but need to make a link to help you save it. This a is a quick and dirty way to do that.",
 		"links": {
 			"project": "http://trippnology.com/shed/makelink"
+		}
+	},
+	{
+		"name": "Pastebin",
+		"description": "Text/code sharing, image hosting and URL redirection (shortening coming soon).",
+		"links": {
+			"project": "http://paste.trippnology.net/"
 		}
 	},
 	{
@@ -74,6 +40,48 @@ var projectData = [
 		"links": {
 			"project": "http://trippnology.com/shed/youtube"
 		}
+	},
+	{
+		"name": "BootstraPHP",
+		"description": "Bootstrap based modular framework.",
+		"links": {
+			"bitbucket": "https://bitbucket.org/Trippnology/bootstraphp",
+			"github": "https://github.com/Trippnology/BootstraPHP",
+			"demo": "http://bootstraphp.trippnology.net"
+		}
+	},
+	{
+		"name": "BootstrASP",
+		"description": "A simple framework built with Bootstrap and ASP.",
+		"links": {
+			"bitbucket": "https://bitbucket.org/Trippnology/bootstrasp",
+			"github": "https://github.com/Trippnology/BootstrASP",
+			"demo": "http://bootstrasp.trippnology.com"
+		}
+	},
+	{
+		"name": "Matchbox",
+		"description": "Minimal page template useful for demos.",
+		"links": {
+			"bitbucket": "https://bitbucket.org/Trippnology/matchbox",
+			"github": "https://github.com/Trippnology/matchbox"
+		}
+	},
+	{
+		"name": "Pinhead",
+		"description": "Micro bootstrap package for \"fag packet\" ideas.",
+		"links": {
+			"bitbucket": "https://bitbucket.org/Trippnology/pinhead",
+			"github": "https://github.com/Trippnology/pinhead"
+		}
+	},
+	{
+		"name": "Trippy's Bittorrent Tracker",
+		"description": "GPL licensed torrent tracker.",
+		"links": {
+			"github": "https://github.com/Trippnology/TrippyBT",
+			"demo": "http://tracker.trippnology.net/"
+		}
 	}
 ]
 
@@ -85,6 +93,7 @@ $.each(projectData, function(i,project) {
 		var link = document.createElement('a');
 		link.href = project.links.project;
 		link.textContent = project.name;
+		link.rel = 'external';
 		li.appendChild(link, li.firstChild);
 		li.innerHTML = li.innerHTML+' - '+project.description;
 	} else {
@@ -96,6 +105,7 @@ $.each(projectData, function(i,project) {
 		github.href = project.links.github;
 		github.textContent = 'github';
 		github.className = 'label';
+		github.rel = 'external';
 		li.appendChild(github);
 	};
 
@@ -104,6 +114,7 @@ $.each(projectData, function(i,project) {
 		bitbucket.href = project.links.bitbucket;
 		bitbucket.textContent = 'Bitbucket';
 		bitbucket.className = 'label';
+		bitbucket.rel = 'external';
 		li.appendChild(bitbucket);
 	};
 

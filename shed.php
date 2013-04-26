@@ -23,7 +23,7 @@ include "head.php";
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<h2>Where we tinker around at the weekends.<br>Grab yourself a cuppa and come on in!</h2>
-				<p>Be warned, here be dragons. Things on this page may stop working, disappear, explode or crash.<br>Don't use this stuff in production.</p>
+				<p>Here be dragons. Things on this page are generally experimental and may stop working, disappear, explode or crash at any moment!</p>
 			</div>
 		</div>
 	</header>
@@ -32,16 +32,15 @@ include "head.php";
 		<div class="row">
 			<div class="span8 offset1" id="main" role="main">
 				<article>
+					<h1>Projects</h1>
+					<ul id="projects" class="unstyled"></ul>
+				</article>
+
+				<article>
 					<blockquote>
 						<p>"The true secret of happiness was to be busy with unimportant things."</p>
 						<small>J B Priestley</small>
 					</blockquote>
-				</article>
-
-				<hr class="divider">
-
-				<article>
-					<ul id="projects" class="unstyled"></ul>
 				</article>
 			</div><!-- /#main -->
 			<div class="span3">
