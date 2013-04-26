@@ -10,7 +10,7 @@
 
 <!-- Submodules -->
 <!-- Bootstrap -->
-<script src="<?=$dirBSJS?>bootstrap.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
 
 <!-- DO NOT modify the following (including the comments) -->
 <!-- scripts concatenated and minified via ant build script-->
@@ -36,7 +36,3 @@
 	ga('send', 'pageview');
 </script>
 
-<!-- Additional items used during development and testing -->
-<?php if ($adminDevMode) :
-	include "inc/dev.php";
-endif ?>
