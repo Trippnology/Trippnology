@@ -110,7 +110,9 @@ include "head.php";
 <script>
   !function ($) {
     $(function(){
-      $('#homeCarousel').carousel();
+      $('#homeCarousel').carousel({
+      	interval: 5000
+      });
     })
   }(window.jQuery)
 </script>
