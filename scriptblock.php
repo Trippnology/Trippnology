@@ -10,7 +10,6 @@
 <!-- Bootstrap -->
 <script src="js/libs/bootstrap.min.js"></script>
 
-<!-- DO NOT modify the following (including the comments) -->
 <!-- scripts concatenated and minified via ant build script-->
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
