@@ -6,14 +6,11 @@
 <script src="//cachedcommons.org/cache/jquery-easing/1.3.0/javascripts/jquery-easing-min.js"></script>
 <script>window.jQuery || document.write("<script src='js/libs/jquery.easing-1.3.pack.js'>\x3C/script>")</script>
 
-<!-- Submodules -->
-<!-- Bootstrap -->
 <script src="js/libs/bootstrap.min.js"></script>
-
-<!-- scripts concatenated and minified via ant build script-->
+<!-- //-beg- concat_js -->
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
-<!-- end scripts-->
+<!-- //-end- concat_js -->
 
 <!-- Google Analytics -->
 <script>
