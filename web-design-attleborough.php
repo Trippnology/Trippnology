@@ -81,8 +81,8 @@ include "head.php";
 					</div>
 					<p>A project assessment, as we’ve defined it, is a detailed plan for the work that is to be done on a project, and explains how we do it. We eliminate the guess work, and detail the project out to such a level that this document becomes a living part of the development process, being referred back to and acting as the guide towards the project’s successful completion.</p>
 					<p>These details are valuable to both you (in making sure you know exactly what you’re getting) and to us (in making sure that we know exactly what we need to deliver).</p>
-					<p>Before we can build you a website, we need to know what it is that you have in mind. The only way to give you an accurate quote is to understand what your needs are and what you are trying to achieve. You may not know this yourself initially but we'll talk you through it and help you set appropiate goals.</p>
-					<p>Putting this together takes time and includes a 1 hour meeting with you (in person or via the web) so we do charge for this. Once you have your completed project assessment, you are under no obligation to go ahead with the build but if you do, the cost of the assessment will be refunded.</p>
+					<p>Before we can build you a website, we need to know what it is that you have in mind. The only way to give you an accurate quote is to understand what your needs are and what you are trying to achieve. You may not know this yourself initially, but we'll talk you through it and help you set appropiate goals.</p>
+					<p>Putting this together takes time and includes a 1 hour meeting with you (in person or via the web) so we do charge for this. Once you have your completed project assessment, you are under no obligation to go ahead with the build, but if you do, the cost of the assessment will be refunded.</p>
 					<p><a href="contact">Contact us</a> today and let's get the ball rolling!</p>
 				</article>
 
@@ -95,8 +95,8 @@ include "head.php";
 						<p><a href="contact" class="btn btn-mini btn-success">Let's talk »</a></p>
 
 					</div>
-					<p>As users of the web, we're no longer chained to our desks. The use of smartphones and tablets is soaring and many older websites have problems displaying on mobile devices and in some cases, are entirely broken.</p>
-					<p>The landcape of the web is ever changing. New technologies emerge and with hindsight, we sometimes realise that the way we built the web in the past was less than ideal. For example, the <code>&lt;table&gt;</code> element (intended for displaying tabular data) used to be abused to privide page layout. Yuck.</p>
+					<p>As users of the web, we're no longer chained to our desks. The use of smartphones and tablets is soaring and many older websites have problems displaying on mobile devices, and in some cases, are entirely broken.</p>
+					<p>The landcape of the web is ever changing. New technologies emerge, and with hindsight, we sometimes realise that the way we built the web in the past was less than ideal. For example, the <code>&lt;table&gt;</code> element (intended for displaying tabular data) used to be abused to provide page layout. Yuck.</p>
 					<p>Here's where we come in. We'll fix up those old pages and make sure your customers aren't frustrated when using your site. We'll bring your website up to modern standards and make it more accessible to everyone.</p>
 					<p><a href="contact">Contact us</a> today and let's get rid of those cobwebs!</p>
 				</article>

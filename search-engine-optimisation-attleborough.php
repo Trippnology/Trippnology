@@ -35,7 +35,7 @@ include "head.php";
 					<img src="img/ui/search.png" alt="Search engine optimisation Attleborough icon" class="img-circle border-dark border-fat pull-right featurette-image">
 					<h1>Is your website hard to find?</h1>
 					<p>Search engine optimisation, or simply SEO, is the art of getting your pages ranked high in the search engine results. 85% of internet users use Google for their searching so it's vital that your website is on the first page. In fact, you probably found this very article via a Google search. Trippnology can optimise your existing website and suggest new content to bring in those extra customers.</p>
-					<p>While Google certainly has the "lion's share" of the search market, old favorites like Yahoo and Microsoft's Bing are also very important so we make sure your content will be well indexed by all.</p>
+					<p>While Google certainly has the lion's share of the search market, old favorites like Yahoo and Microsoft's Bing are also very important, so we make sure your content will be well indexed by all.</p>
 					<p>We provide you with our custom Google Analytics dashboards which show you the metrics that matter, helping you to further tune your pages and proving that hiring us is good for your business.</p>
 					<p>All SEO work is charged at our flat web services rate available on our <a href="prices">web services pricing</a> page.</p>
 					<p><a href="contact">Contact us</a> about search engine optimisation today and boost your online presence.</p>

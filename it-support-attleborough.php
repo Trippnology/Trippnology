@@ -51,8 +51,8 @@ include "head.php";
 						<p><a class="btn btn-mini btn-success" href="contact">Let's talk »</a></p>
 					</div>
 					<p>We have our finger on the pulse of the IT world, keeping up to date with the latest hardware and software so you don't have to.</p>
-					<p>If your business relies on the internet for it's daily operations, you need your connection to be reliable and for any faults that do occur, to be quickly rectified. Trippnology can order, install and setup business grade broadband, ensuring your business stays connected.</p>
-					<p>Perhaps you're looking to expand and would like some purchasing advice? Or have some equipment that you're not using to it's full potential? We can help with that too, showing you the right tools for the job and making the most of your existing IT investment.</p>
+					<p>If your business relies on the internet for its daily operations, you need your connection to be reliable and for any faults that do occur to be quickly rectified. Trippnology can order, install and setup business grade broadband, ensuring your business stays connected.</p>
+					<p>Perhaps you're looking to expand and would like some purchasing advice. Or have some equipment that you're not using to its full potential. We can help with that too, showing you the right tools for the job and making the most of your existing IT investment.</p>
 					<h2 class="center">&ldquo;I need expert IT advice.&rdquo; <a  href="contact">Get in touch</a></h2>
 				</article>
 			</div><!-- /#main -->
