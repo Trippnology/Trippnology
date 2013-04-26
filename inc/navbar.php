@@ -11,7 +11,7 @@
 							<li><a href="web-design-attleborough">Web Design</a></li>
 							<li><a href="search-engine-optimisation-attleborough">SEO</a></li>
 							<li><a href="it-support-attleborough">IT Support</a></li>
-							<li><a href="http://blog.trippnology.com/">Blog</a></li>
+							<li><a href="http://blog.trippnology.com/" rel="external">Blog</a></li>
 							<li><a href="contact">Contact</a></li>
 						</ul>
 					</div>
