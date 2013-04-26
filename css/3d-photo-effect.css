@@ -45,6 +45,7 @@ http://wait-till-i.com/license.txt
 	bottom: 10px;
 	left: 270px;
 	width: 230px;
+	padding: 0.25em;
 	border-radius: 5px;
 	background: rgba( 51, 37, 50, 0.7 );
 	color: #fff;
@@ -55,7 +56,7 @@ http://wait-till-i.com/license.txt
 			transition: all 1s;
 }
 .image3d:hover figcaption, .image3d:focus figcaption {
-	left: 50px;
+	left: 40px;
 	-webkit-transition: all 1s;
 	   -moz-transition: all 1s;
 		-ms-transition: all 1s;
@@ -65,7 +66,7 @@ http://wait-till-i.com/license.txt
 
 .image3d figcaption p {
 	display: block;
-	padding: 0.25em;
+	padding: 0.1em;
 	color: #fff;
 }
 /* End 3D Photo Effect */

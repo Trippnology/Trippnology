@@ -24,7 +24,6 @@ var portfolioData = [
         "name": "The Limecrete Company",
         "notes": "Limecrete, hempcrete, and sustainable construction experts.",
         "url": "http://www.limecrete.co.uk/",
-        "tags": ["responsive"],
 	    "image": "img/screens/limecrete.jpg"
     },
     {
@@ -101,6 +100,7 @@ $.each(portfolioData, function(i,project) {
 	img.src = project.image;
 	img.className = 'roundlrg border-dark';
 	link.href = project.url;
+	link.rel = 'external';
 	link.textContent = project.name;
 	sitedesc.textContent = project.notes;
 	sitetags.className = 'tags';
