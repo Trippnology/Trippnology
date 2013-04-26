@@ -1,7 +1,6 @@
 /* Your JS goes here */
 $(document).ready(function() {
 	// Bootstrap
-	$('.dropdown-toggle').dropdown();
 	$('a.tooltip-top').tooltip({
 		'placement' : 'top'
 	});
@@ -14,7 +13,6 @@ $(document).ready(function() {
 	$('a.tooltip-left').tooltip({
 		'placement' : 'left'
 	});
-	$('#modal-global').modal('hide');
 	// Fancybox
 	$("#fancybox-trigger").fancybox({
 		'titlePosition'		: 'inside',
