@@ -14,7 +14,7 @@
 	<link rel="canonical" href="<?=$siteDomain?><?=$strCanonical?>">
 	<link rel="author" href="<?=$siteDomain?>humans.txt">
 
-	<?php if ($socialTwitterName): // Establish a link to your twitter profile ?>
+	<?php if ($socialTwitterName): ?>
 		<link rel="me" href="http://twitter.com/<?=$socialTwitterName?>">
 	<?php endif; ?>
 
