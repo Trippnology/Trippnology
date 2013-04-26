@@ -35,6 +35,13 @@ include "head.php";
 					<p>You can leave your own review on our <a href="http://maps.google.co.uk/maps/place?cid=17370591561013489825" rel="external">Google Places</a> or <a href="http://www.touchnorwich.com/business/list/bid/7169442" rel="external">Touch Local</a> pages.</p>
 
 					<hr class="divider roundlrg large">
+					<blockquote>
+						<p>As a Financial Services business we rely quite heavily on our IT and have found Rikki an invaluable support.  He has an excellent knowledge but can explain problems and systems in an easy to understand manner and can create a fix for everything!</p>
+						<p>We couldn’t do without him!</p>
+						<small>Maggie Nobbs of Personal Face2Face Advice Ltd.</small>
+					</blockquote>
+
+					<hr class="divider roundlrg large">
 
 					<blockquote>
 						<p>I designed our own website using an off the shelf package and managed to wipe out my business email trying to publish it. I turned to Rikki in my panic and he fixed and reorganised everything calmly and quickly.</p>
@@ -45,18 +52,18 @@ include "head.php";
 					<hr class="divider roundlrg large">
 
 					<blockquote>
-						<p>"I have used this company for at least 8 years. Rikki is reliable, inventive, discrete and very good company. You can rely on Rikki for customer service and attention to detail. He can fix anything!<br>
-						Look at my website (designed by Trippnology) for the gardens where I live."</p>
-						<small> John Alston C.B.E. of <a href="http://www.besthorpe.com/" rel="external">Besthorpe Hall</a></small>
+						<p>"I have used Trippnology for technical support for several years. The standard of service and knowledge is exceptional. All tasks handed to Trippnology have been handled quickly and expertly turned into working solutions with outstanding results.</p>
+						<p>These tasks included technical support via telephone, skype and email on all aspects of computing technology with exceptional levels of understanding. All hardware left for repair and upgrade is providing faultless trouble free daily use.</p>
+						<p>Trippnology is considered excellent value for money, very competitive and more importantly to myself, a trusted professional."</p>
+						<small> John Purgal-Woods of <a href="http://www.multipointservices.com/" rel="external">Multipoint Services</a></small>
 					</blockquote>
 
 					<hr class="divider roundlrg large">
 
 					<blockquote>
-						<p>"I have used Trippnology for technical support for several years. The standard of service and knowledge is exceptional. All tasks handed to Trippnology have been handled quickly and expertly turned into working solutions with outstanding results.</p>
-						<p>These tasks included technical support via telephone, skype and email on all aspects of computing technology with exceptional levels of understanding. All hardware left for repair and upgrade is providing faultless trouble free daily use.</p>
-						<p>Trippnology is considered excellent value for money, very competitive and more importantly to myself, a trusted professional."</p>
-						<small> John Purgal-Woods of <a href="http://www.multipointservices.com/" rel="external">Multipoint Services</a></small>
+						<p>"I have used this company for at least 8 years. Rikki is reliable, inventive, discrete and very good company. You can rely on Rikki for customer service and attention to detail. He can fix anything!<br>
+						Look at my website (designed by Trippnology) for the gardens where I live."</p>
+						<small> John Alston C.B.E. of <a href="http://www.besthorpe.com/" rel="external">Besthorpe Hall</a></small>
 					</blockquote>
 
 					<hr class="divider roundlrg large">
