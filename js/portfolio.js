@@ -72,14 +72,14 @@ var portfolioData = [
 	    "notes": "Coming soon.",
 	    "url": "http://gdconsult.co.uk/",
 	    "tags": ["html5", "responsive", "ecommerce", "wordpress"],
-		"image": "holder.js/270x200/text:Coming Soon"
+		"image": "img/screens/coming-soon.png"
 	},
     {
         "name": "Advanced Camera Services",
         "notes": "Coming soon.",
         "url": "http://advancedcameraservices.co.uk/",
         "tags": ["html5", "responsive", "ecommerce", "wordpress"],
-    	"image": "holder.js/270x200/text:Coming Soon"
+    	"image": "img/screens/coming-soon.png"
     }
 ];
 
