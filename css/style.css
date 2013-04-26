@@ -417,6 +417,7 @@ img.alignleft, img.alignright, img.aligncenter, img.alignnone {
 	}
 	.button-menu { width:35%; }
 	.featurette-image { width: 128px; }
+	ul.portfolio li { margin-left: 0.25em; }
 }
 
 /* Portrait tablet to landscape and desktop */
