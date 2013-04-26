@@ -111,6 +111,7 @@ a.vert-menu-item {
 }
 #nav-block {
 	width: 234px;
+	margin-top: 1em;
 	padding: 1em;
 	background: #fff;
 }

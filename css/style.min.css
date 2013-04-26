@@ -24,7 +24,7 @@ header.page-header{height:24em;max-width:1920px;position:relative;border:0;color
 header.page-header img{position:absolute;top:0;left:0;min-width:100%;height:100%}.header-caption{margin-top:4.5em;padding:1em 5em;position:relative}.header-caption h1,.header-caption h2{text-shadow:1px 1px 5px #444}
 .header-caption h2{color:#fff}article{padding:1.5em 0}nav.vert-menu{margin-top:1.5em;padding:0;text-align:center;font-size:.95em;line-height:1.7em}nav.vert-menu ul.nav{padding:0}
 nav.vert-menu ul.nav li{padding:0}a.vert-menu-item{padding:0 .125em;font-size:1.1em;line-height:1.4em;color:#634c52;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out}
-.vert-menu li>a.vert-menu-item:hover{color:#332532;background-color:#fff;text-shadow:0 0 3px rgba(248,121,82,0.5)}#nav-block{width:234px;padding:1em;background:#fff}
+.vert-menu li>a.vert-menu-item:hover{color:#332532;background-color:#fff;text-shadow:0 0 3px rgba(248,121,82,0.5)}#nav-block{width:234px;margin-top:1em;padding:1em;background:#fff}
 .affix{position:fixed;top:0}footer[role=contentinfo]{text-align:center;margin-top:1em;padding-bottom:.25em}footer[role=contentinfo] .divider{margin-bottom:1em}
 footer[role=contentinfo] p.lead{margin-bottom:.25em}footer[role=contentinfo] p.license{margin-top:-0.5em}body.page-home{padding-top:3.5em}.page-home .carousel{margin-top:-0.5em}
 .page-web-design .intro{text-align:center}.portfolio .badge{margin-left:.25em}.price-table-web th{text-align:center}.price-table-web td{color:#fff}.price-table-web+p{text-align:right;font-size:.8em}
