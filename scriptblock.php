@@ -5,8 +5,6 @@
 <!-- Grab extra jQuery files from CDN or fall back to local -->
 <script src="//cachedcommons.org/cache/jquery-easing/1.3.0/javascripts/jquery-easing-min.js"></script>
 <script>window.jQuery || document.write("<script src='js/libs/jquery.easing-1.3.pack.js'>\x3C/script>")</script>
-<script src="//cachedcommons.org/cache/jquery-mousewheel/3.0.3/javascripts/jquery-mousewheel-min.js"></script>
-<script>window.jQuery || document.write("<script src='js/libs/jquery.mousewheel-3.0.4.pack.js'>\x3C/script>")</script>
 
 <!-- Submodules -->
 <!-- Bootstrap -->
