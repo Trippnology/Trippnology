@@ -83,7 +83,7 @@ include "head.php";
 				<div class="featurette row">
 					<div class="span6">
 						<h2 class="featurette-heading">Fed up with IT problems? <span class="muted">We're here to help.</span></h2>
-						<p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+						<p class="lead">IT downtime costs your business. Our years of experience mean we get your issues resolved quickly, so you can get back to work. Find out more about how our <a href="it-support-attleborough">IT support</a> services will make you more productive.</p>
 					</div>
 					<div class="span3">
 						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="IT Support">
