@@ -2,7 +2,7 @@
 include "inc/settings.php";
 
 $strPageName = "Home";
-$strCanonical = "index.php";
+$strCanonical = "";
 $strDescription = "Quality Web design, SEO and IT support for small business' in Norfolk.";
 $strKeywords = "web design, seo, it support, attleborough, norfolk";
 $SEOtitle = "Website design, SEO & IT support | " . $siteName;
