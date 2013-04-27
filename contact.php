@@ -52,7 +52,7 @@ include "head.php";
 							<span itemprop="postalCode">NR17 2LJ</span><br>
 							</p>
 						</div>
-						<p class="center"><a itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a></p>
+						<p class="center"><a rel="external" itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a></p>
 						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
 				    </section>
 					<ul class="inline social-links">
@@ -66,18 +66,19 @@ include "head.php";
 
 			<div class="span3 offset1">
 				<article class="center">
-					<form action="formtoemail.php" method="post" id="contactForm" class="form-vertical">
-						<label for="Name">Name</label>
-						<input name="Name" id="Name" type="text" class="required">
-						<label for="Email">Email</label>
-						<input name="Email" id="Email" type="email" class="required email">
-						<label for="Telephone">Telephone</label>
-						<input name="Telephone" id="Telephone" type="text">
-						<label for="Message">Your Message</label>
-						<textarea name="Message" id="Message" cols="45" rows="5" class="required"></textarea>
+					<form id="contactForm" class="form-vertical">
+						<label for="name">Name</label>
+						<input name="name" id="name" type="text" required="required" placeholder="Your name">
+						<label for="email">Email</label>
+						<input name="email" id="email" type="email" class="email" required="required" placeholder="you@example.com">
+						<label for="telephone">Telephone</label>
+						<input name="telephone" id="telephone" type="text" placeholder="(optional)">
+						<label for="message">Your Message</label>
+						<textarea name="message" id="message" cols="45" rows="5" class="required" placeholder="How can we help?"></textarea>
 						<br>
-						<input id="submit" type="submit" value="Send" class="btn btn-success">
+						<input id="submitform" type="submit" value="send" class="btn btn-success">
 					</form>
+					<div id="result" class="alert"></div>
 				</article>
 			</div>
 		</div>
@@ -94,16 +95,30 @@ include "head.php";
 <script>
 	$("#main").antiSpam("antispam");
 
-	$(".popup-map").fancybox({
-		'width' : '75%',
-		'height' : '75%',
-		'autoScale' : false,
-		'transitionIn' : 'fade',
-		'transitionOut' : 'fade',
-		'type' : 'iframe'
+	//$(".popup-map").fancybox({
+	//	'width' : '75%',
+	//	'height' : '75%',
+	//	'autoScale' : false,
+	//	'transitionIn' : 'fade',
+	//	'transitionOut' : 'fade',
+	//	'type' : 'iframe'
+	//});
+	$(document).ready(function() {
+		$("#result").css({display: "none"});
+		$("#submitform").click(function() {
+			var name = $("#name").val();
+			var email = $("#email").val();
+			var telephone = $("#telephone").val();
+			var message = $("#message").val();
+			$.getJSON("sendform.php?name=" + name + "&email=" + email + "&telephone=" + telephone + "&message=" + message,function(result){
+				$("#result").html(result.content).css({display: "block"});
+			});
+			return false;
+		});
 	});
 </script>
-
+<script type="text/javascript" charset="utf-8">
+</script>
 <!-- End of page specific script stuff -->
 </body>
 </html>
