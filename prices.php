@@ -65,7 +65,7 @@ include "head.php";
 					</table>
 					<p>*We've never built one of these, we just threw it in for a bit of spice.</p>
 					<h2 id="seo">SEO</h2>
-					<p>All <a href="search-engine-optimisation">search engine optimisation</a> work is charged at our standard web service rate - <strong>£35</strong> per hour.</p>
+					<p>All <a href="search-engine-optimisation-attleborough">search engine optimisation</a> work is charged at our standard web service rate - <strong>£35</strong> per hour.</p>
 				</article>
 
 				<hr id="web-hosting" class="divider roundsm">
@@ -145,7 +145,7 @@ include "head.php";
 				    Commercial customers: <strong>£55 Callout</strong><a href="#callout" class="tooltip-top" title="Includes first hour. Callout charges may be higher than stated based on your location - please double check with us first.">*</a> thereafter <strong>£45 per hour</strong><a href="#hourly" class="tooltip-top" title="Billed in 15 minute intevals.">**</a>.</p>
 
 					<h2>Support contracts</h2>
-					<p>Packages as detailed on the <a href="it-support">IT Support</a> page. Prices are based on the total number of devices<a href="#devices" class="tooltip-top" title="The following items count as a Device: Desktop PC (including monitor), Laptop, Server, Printer, Scanner, Router, Hub, Wireless Access Point and other similar items.">**</a> to be covered. </p>
+					<p>Packages as detailed on the <a href="it-support-attleborough">IT Support</a> page. Prices are based on the total number of devices<a href="#devices" class="tooltip-top" title="The following items count as a Device: Desktop PC (including monitor), Laptop, Server, Printer, Scanner, Router, Hub, Wireless Access Point and other similar items.">**</a> to be covered. </p>
 					<p>Remote Only Support<br>
 					Up to 10 - <strong>£80 per month </strong><br>
 					Up to 20 - <strong>£150 per month </strong><br>

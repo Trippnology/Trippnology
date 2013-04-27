@@ -74,7 +74,7 @@ include "head.php";
 					</div>
 					<div class="span6">
 						<h2 class="featurette-heading">Already got a website? <span class="muted">Let's make it better.</span></h2>
-						<p class="lead">All websites need a little maintenance over time as content gets updated and new technologies emerge. With our <a href="search-engine-optimisation">search engine optimisation</a> service, your site will bring in more visitors, which means more customers!</p>
+						<p class="lead">All websites need a little maintenance over time as content gets updated and new technologies emerge. With our <a href="search-engine-optimisation-attleborough">search engine optimisation</a> service, your site will bring in more visitors, which means more customers!</p>
 					</div>
 				</div>
 
