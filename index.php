@@ -33,7 +33,7 @@ include "head.php";
 					<div class="carousel-caption">
 						<h1>Search Engine Optimisation</h1>
 						<p class="lead">Turn searchers into visitors and visitors into customers.</p>
-						<a class="btn btn-large btn-grape" href="#">Lets get your website out there!</a>
+						<a class="btn btn-large btn-grape" href="search-engine-optimisation-attleborough">Lets get your website out there!</a>
 					</div>
 				</div>
 			</div>
@@ -43,7 +43,7 @@ include "head.php";
 					<div class="carousel-caption">
 						<h1>IT Support</h1>
 						<p class="lead">Network down? Can't send emails? Printer gone kaboom? No worries, you're in safe hands.</p>
-						<a class="btn btn-large btn-grape" href="#">Stop pulling your hair out!</a>
+						<a class="btn btn-large btn-grape" href="it-support-attleborough">Stop pulling your hair out!</a>
 					</div>
 				</div>
 			</div>
