@@ -22,6 +22,7 @@ Redirect 301 /privacy-policy.asp /contact
 Redirect 301 /consultation.asp /contact
 Redirect 301 /outsource-it-support-attleborough.asp /it-support-attleborough
 Redirect 301 /web-design-Wymondham.asp /web-design-attleborough
+Redirect 301 /suspended.asp /suspended
 
 # Note .htaccess files are an overhead, this logic should be in your Apache
 # config if possible: httpd.apache.org/docs/2.2/howto/htaccess.html
