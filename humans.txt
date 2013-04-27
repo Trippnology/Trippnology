@@ -1,47 +1,70 @@
-/* the humans responsible & colophon */
-/* humanstxt.org */
+# The humans responsible & colophon
+[humanstxt.org](http://humanstxt.org/)
 
-/* TEAM */
-	Name:
-	Role:
-	Site:
-	Contact:
-	Twitter:
-	Location:
+## Human
+* Name: Rikki Tripp
+* Role: Designer / Developer
+* Site: [trippnology.com](http://trippnology.com)
+* Twitter: [@Trippnology](http://twitter.com/Trippnology)
+* Location: Attleborough, Norfolk, UK
 
-/* SITE */
-	Last Update:
-	Standards:
-	Components:
-	Software:
+## Site
 
-/* THANKS */
+### Last Update:
+*27/04/2013*
 
-/* IMAGE CREDITS */
-4150657215_a411d19e5e_b.jpg https://secure.flickr.com/photos/manchester-monkey/4150657215/
-img/headers/2120528888_a45812a512_b.jpg http://www.flickr.com/photos/pagedooley/2120528888/
-img/headers/8174784_36d2f8d526_b.jpg http://www.flickr.com/photos/josefstuefer/8174784/
-img/headers/2941549171_684d1f55ed_b.jpg http://www.flickr.com/photos/photophilde/2941549171/
-2124673642_115fb71c69_b.jpg http://www.flickr.com/photos/foxypar4/2124673642/
-3839707719_b16a45dbee_b.jpg http://www.flickr.com/photos/31878512@N06/3839707719/
-1457493536_f344795d7a_b.jpg http://www.flickr.com/photos/fdecomite/1457493536/
-2206465257_b0b5878a58_b.jpg http://www.flickr.com/photos/carbonnyc/2206465257/
-+++++++++++++++trippnology.com
-++++++++++++++++++++++++++++++
-+++++++'''''''''''''''''''++++
-+++++++ +++++++++++++++++ ++++
-''''''' ++++++++++++++++  ''''
-''''''' +++++++++++++++   ''''
-'''''''.     +++++       '''''
-'''''''''''' +++++ '''''''''''
-:::::::::::: +++++ :::::::::::
-:::::::::::: +++++ :::::::::::
-:::::::::::: +++++ :::::::::::
-:::::::::::: +++++ :::::::::::
-,,,,,,,,,,,, +++++ ,,,,,,,,,,,
-,,,,,,,,,,,, +++++ ,,,,,,,,,,,
-,,,,,,,,,,,, +++++ ,,,,,,,,,,,
-:::::::::::: +++++ :::::::::::
-:::::::::::: +++++ :::::::::::
-::::::::::::.     .:::::::::::
-::::::::::::::::::::::::::::::
+### Standards:
+* HTML5
+* CSS3
+* WCAG 2.0 (Level AA)
+
+Officially only supporting IE8+ but should be functional in obsolete browsers too.
+
+If you spot something broken, please report it, you might get a biscuit.
+
+### Components:
+* [3d-photo-rollover](http://github.com/codepo8/3D-photo-rollover)
+* [Bootstrap](http://twitter.github.io/bootstrap/)
+* [Bootstrap buttons](http://charliepark.org/bootstrap_buttons/)
+* [EmailSpamProtection](http://unckel.de/labs/jquery-plugin-email-spam-protection)
+* [Google Analytics](http://www.google.co.uk/analytics/)
+* [UItoTop](http://www.mattvarone.com/web-design/uitotop-jquery-plugin)
+
+### Image credits
+* [Manchester Monkey](https://secure.flickr.com/photos/manchester-monkey/4150657215/)
+* [fdecomite](http://www.flickr.com/photos/fdecomite/1457493536/)
+* [waferboard](https://secure.flickr.com/photos/waferboard/4204140740/)
+* [mikebaird](https://secure.flickr.com/photos/mikebaird/2700278384/)
+* [CarbonNYC](http://www.flickr.com/photos/carbonnyc/2206465257/)
+
+Big ups for licensing your work under creative commons!
+
+### Software:
+* [Sublime Text 2](http://www.sublimetext.com/2)
+* [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
+
+## Thanks
+* Lucy for her proof reading.
+* Johnny for his critique.
+* Devs putting out demos and cool stuff for the open source community.
+* Customers who pay on time.
+* Coffee.
+
+
+    +++++++++++++++trippnology.com
+    ++++++++++++++++++++++++++++++
+    +++++++'''''''''''''''''''++++
+    +++++++ +++++++++++++++++ ++++
+    ''''''' ++++++++++++++++  ''''
+    ''''''' +++++++++++++++   ''''
+    '''''''.     +++++       '''''
+    '''''''''''' +++++ '''''''''''
+    :::::::::::: +++++ :::::::::::
+    :::::::::::: +++++ :::::::::::
+    :::::::::::: +++++ :::::::::::
+    ,,,,,,,,,,,, +++++ ,,,,,,,,,,,
+    ,,,,,,,,,,,, +++++ ,,,,,,,,,,,
+    ,,,,,,,,,,,, +++++ ,,,,,,,,,,,
+    :::::::::::: +++++ :::::::::::
+    ::::::::::::.     .:::::::::::
+    ::::::::::::::::::::::::::::::
