@@ -30,7 +30,7 @@ include "head.php";
 
 	<div class="container">
 		<div class="row">
-			<div class="span8 offset1" id="main" role="main">
+			<div class="span9" id="main" role="main">
 				<ul class="nav nav-tabs">
 					<li class="active"><a class="scrollme" data-toggle="tab" href="#web-design">Web design</a></li>
 					<li><a class="scrollme" data-toggle="tab" href="#seo">SEO</a></li>
