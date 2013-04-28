@@ -66,7 +66,7 @@ include "head.php";
 				text: url,
 				href: url
 			});
-			$('#linkholder').html(linkbutton);
+		$('#linkholder').html(linkbutton);
 		return false;
 	});
 </script>
