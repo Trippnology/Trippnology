@@ -56,18 +56,20 @@ include "head.php";
 	<?php include "scriptblock.php"; ?>
 
 <script>
-	$('#linkform').submit(function(){
-		var url = $('#urlinput').val(),
-			linkbutton = $('<a>',{
-				id: 'yourlink',
-				class: 'btn btn-success',
-				rel: 'external',
-				download: '',
-				text: url,
-				href: url
-			});
-		$('#linkholder').html(linkbutton);
-		return false;
+	$(document).ready(function() {
+		$('#linkform').submit(function(){
+			var url = $('#urlinput').val(),
+				linkbutton = $('<a>',{
+					'id': 'yourlink',
+					'class': 'btn btn-success',
+					'rel': 'external',
+					'download': '',
+					'text': url,
+					'href': url
+				});
+			$('#linkholder').html(linkbutton);
+			return false;
+		});
 	});
 </script>
 
