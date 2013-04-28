@@ -7,7 +7,7 @@ $strDescription = "Bare minimum of components.";
 $strKeywords = "keyword1, keyword2, keyword3";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "blank";
-$pageHeaderImageURL = "img/ui/headers/4150657215_a411d19e5e_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/trippnology-default.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 
@@ -30,7 +30,7 @@ include "head.php";
 
 	<div class="container">
 		<div class="row">
-			<div class="span8 offset1" id="main" role="main">
+			<div class="span9" id="main" role="main">
 				<article>
 					<h1>Your content here.</h1>
 				</article>
