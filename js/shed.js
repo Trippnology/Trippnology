@@ -3,7 +3,7 @@ var projectData = [
 		"name": "IP and Network Tools",
 		"description": "Find out your current real world IP address and more network info.",
 		"links": {
-			"project": "http://trippnology.com/shed/ip"
+			"project": "http://trippnology.com/ip"
 		}
 	},
 	{
