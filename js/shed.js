@@ -10,7 +10,7 @@ var projectData = [
 		"name": "Make link",
 		"description": "Sometimes you have a URL but need to make a link to help you save it. This a is a quick and dirty way to do that.",
 		"links": {
-			"project": "http://trippnology.com/shed/makelink"
+			"project": "http://trippnology.com/makelink"
 		}
 	},
 	{
