@@ -7,7 +7,7 @@ $strDescription = "Where we tinker around at the weekends. Grab yourself a cuppa
 $strKeywords = "shed, experimental, html, css, javascript, projects";
 $SEOtitle = $strPageName . " | " . $siteName;
 $pageSlug = "shed";
-$pageHeaderImageURL = "img/ui/headers/2206465257_b0b5878a58_b.jpg";
+$pageHeaderImageURL = "img/ui/headers/shed.jpg";
 $pageHeaderImageURLSource = "http://www.flickr.com/photos/carbonnyc/2206465257/";
 $strTweetText = $strPageName;
 
