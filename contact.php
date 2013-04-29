@@ -55,12 +55,7 @@ include "head.php";
 						<p class="center"><a rel="external" itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a></p>
 						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
 				    </section>
-					<ul class="inline social-links">
-						<li><a rel="external" href="http://twitter.com/Trippnology" class="twitter tooltip-top" title="twitter"><span>twitter</span></a></li>
-						<li><a rel="external" href="https://github.com/Trippnology" class="github"><span>github</span></a></li>
-						<li><a rel="external" href="http://bitbucket.org/Trippnology" class="bitbucket"><span>bitbucket</span></a></li>
-						<li><a rel="external" href="http://facebook.com/Trippnology" class="facebook"><span>facebook</span></a></li>
-					</ul>
+					<?php include "inc/social-links.php"; ?>
 				</article>
 			</div>
 
