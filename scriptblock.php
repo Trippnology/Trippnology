@@ -12,21 +12,4 @@
 <script src="js/script.js"></script>
 <!-- //-end- concat_js -->
 
-<!-- Google Analytics -->
-<script>
-	(function(window, document, variableName, scriptElement, firstScript) {
-	window['GoogleAnalyticsObject'] = variableName;
-	window[variableName] || (window[variableName] = function() {
-		(window[variableName].q = window[variableName].q || []).push(arguments)
-	});
-	window[variableName].l = +new Date;
-	scriptElement = document.createElement('script'),
-	firstScript = document.scripts[0];
-	scriptElement.src = '//www.google-analytics.com/analytics.js';
-	firstScript.parentNode.insertBefore(scriptElement, firstScript)
-	}(window, document, 'ga'));
-
-	ga('create', '<?=$adminGoogleAnalID?>');
-	ga('send', 'pageview');
-</script>
-
+<script src="js/analytics.js"></script>
