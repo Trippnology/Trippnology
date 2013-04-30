@@ -35,6 +35,15 @@ include "head.php";
 					<p>You can leave your own review on our <a href="http://maps.google.co.uk/maps/place?cid=17370591561013489825" rel="external">Google Places</a> or <a href="http://www.touchnorwich.com/business/list/bid/7169442" rel="external">Touch Local</a> pages.</p>
 
 					<hr class="divider roundlrg large">
+
+					<blockquote>
+						<p>Having discussed what we needed and wanted as a company, Rikki provided us with a detailed spec sheet of what would be completed. We have not looked back since. He delivered on time, to budget and provides support on a level that every staff member can understand. His personable nature and excellent understanding in his area of expertise makes problem solving and one-off jobs a pleasure to undertake, with his constructive and positive direction.</p>
+						<p>A big thank you for all you have done so far, from Avant UK.</p>
+						<small>Frances Dunton of <a href="http://avanttecno.co.uk">Avant Tecno</a></small>
+					</blockquote>
+
+					<hr class="divider roundlrg large">
+
 					<blockquote>
 						<p>As a Financial Services business we rely quite heavily on our IT and have found Rikki an invaluable support.  He has an excellent knowledge but can explain problems and systems in an easy to understand manner and can create a fix for everything!</p>
 						<p>We couldn’t do without him!</p>
