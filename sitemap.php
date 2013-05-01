@@ -54,6 +54,7 @@ include "head.php";
 						</li>
 						<li><a href="http://trippnology.com/testimonials">Testimonials</a></li>
 						<li><a href="http://trippnology.com/shed">The Shed</a></li>
+						<li><a href="http://trippnology.com/privacy-policy">Privacy Policy</a></li>
 					</ul>
 				</article>
 			</div><!-- /#main -->
