@@ -2,7 +2,7 @@
 .proudify a:active,
 .proudify a:visited
 {
-	color: white;
+	color: #F87A52;
 	text-decoration: none;
 }
 .proudify a:hover
@@ -40,32 +40,21 @@
 /****** GitHub - begin ******/
 .proudify.github
 {
-	background-color: #222;
-	color: white;
+	background-color: #fff;
 	margin: 0 auto;
-	margin-bottom: 10px;
-	margin-top: 10px;
-	padding: 5px;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
-	text-shadow: #111 0px 2px 1px;
-	border-bottom: 1px solid #333436;
-	border-right: 1px solid #333436;
+	margin-bottom: 1em;
+	padding: 0.5em;
+	-moz-border-radius: 0.5em;
+		 border-radius: 0.5em;
 }
 .proudify.github ul
 {
-	margin: 5px;
+	margin: 0.5em;
 }
 .proudify.github li
 {
-	box-shadow: black 0px 3px 5px inset;
-	-moz-box-shadow: black 0px 3px 5px inset;
-	-webkit-box-shadow: black 0px 3px 5px inset;
-	-webkit-box-shadow: 5px;
-	background: #181819;
-	border-bottom: 1px solid #333436;
-	border-radius: 5px;
-	-moz-border-radius: 5px;
+	-moz-border-radius: 0.5em;
+		 border-radius: 0.5em;
 	padding: 10px;
 	margin: 5px;
 }
@@ -75,7 +64,7 @@
 .proudify.coderwall li
 {
 	float: left;
-	margin: 5px;
+	margin: 0.5em;
 }
 .proudify.coderwall li a img
 {
@@ -92,26 +81,3 @@
 	opacity: 0.6;
 }
 /****** Coderwall - end ******/
-
-/****** CodeSchool - begin ******/
-.proudify.codeschool li
-{
-	float: left;
-	margin: 5px;
-}
-.proudify.codeschool li a img
-{
-	width: 90px;
-	height: 90px;
-	border: 0;
-}
-.proudify.codeschool li a img
-{
-	opacity: 1.0;
-}
-.proudify.codeschool li a:hover img
-{
-	opacity: 0.6;
-}
-/****** CodeSchool - end ******/
-
