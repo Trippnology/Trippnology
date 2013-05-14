@@ -11,7 +11,7 @@
 ## Site
 
 ### Last Update:
-*14/05/2013*
+*15/05/2013*
 
 ### Standards:
 * HTML5
@@ -28,6 +28,7 @@ If you spot something broken, please report it, you might get a biscuit.
 * [Bootstrap buttons](http://charliepark.org/bootstrap_buttons/)
 * [EmailSpamProtection](http://unckel.de/labs/jquery-plugin-email-spam-protection)
 * [Google Analytics](http://www.google.co.uk/analytics/)
+* [Proudify](https://github.com/icebreaker/proudify)
 * [UItoTop](http://www.mattvarone.com/web-design/uitotop-jquery-plugin)
 
 ### Image credits
