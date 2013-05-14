@@ -3,8 +3,8 @@ include "inc/settings.php";
 
 $strPageName = "Web Design Attleborough";
 $strCanonical = "web-design-attleborough";
-$strDescription = "Bare minimum of components.";
-$strKeywords = "keyword1, keyword2, keyword3";
+$strDescription = "You know your business, we know the web. Let's get together and make something great!";
+$strKeywords = "web design, website design, attleborough, norfolk";
 $SEOtitle = $strPageName . " | Website Design Attleborough | " . $siteName;
 $pageSlug = "web-design";
 $pageHeaderImageURL = "img/ui/headers/web-design-attleborough.jpg";
