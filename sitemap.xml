@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+	xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+	http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+	<url>
+		<loc>http://trippnology.com/</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/about</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/web-design-attleborough</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/search-engine-optimisation-attleborough</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/it-support-attleborough</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/contact</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/prices</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/testimonials</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/shed</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/privacy-policy</loc>
+	</url>
+	<url>
+		<loc>http://trippnology.com/terms-and-conditions</loc>
+	</url>
+</urlset>
