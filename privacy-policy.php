@@ -22,7 +22,7 @@ include "head.php";
 		<div class="container">
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
-				<p class="lead">Trippnology are committed to vigorously protecting your privacy.</p class="lead">
+				<p class="lead">Trippnology are committed to vigorously protecting your privacy.</p>
 			</div>
 		</div>
 	</header>
