@@ -30,7 +30,7 @@ include "head.php";
 
 	<div class="container">
 		<div class="row">
-			<div class="span8 offset1" id="main" role="main">
+			<div class="span9" id="main" role="main">
 				<article>
 					<h1>Projects</h1>
 					<ul id="projects" class="unstyled">
