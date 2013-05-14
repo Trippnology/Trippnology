@@ -33,7 +33,23 @@ include "head.php";
 			<div class="span8 offset1" id="main" role="main">
 				<article>
 					<h1>Projects</h1>
-					<ul id="projects" class="unstyled"></ul>
+					<ul id="projects" class="unstyled">
+						<li>If you had <a href="http://www.enable-javascript.com" rel="external">javascript enabled</a> you would see a list of projects here.</li>
+					</ul>
+				</article>
+
+				<hr class="divider roundlrg large">
+
+				<article>
+					<h1>Open Source Projects</h1>
+					<div id="proj-github">If you had <a href="http://www.enable-javascript.com" rel="external">javascript enabled</a> you would see our <a href="http://github.com/Trippnology">list of projects on github</a>.</div>
+				</article>
+
+				<hr class="divider roundlrg large">
+
+				<article>
+					<h1>Coderwall Achievements</h1>
+					<div id="proj-coderwall" class="clearfix">If you had <a href="http://www.enable-javascript.com" rel="external">javascript enabled</a> you would see our <a href="http://coderwall.com/Trippnology" rel="external">list of achievements on Coderwall</a></div>
 				</article>
 
 				<article>
@@ -57,6 +73,7 @@ include "head.php";
 
 	<?php include "scriptblock.php"; ?>
 
+<script src="js/jquery-proudify.min.js"></script>
 <script src="js/shed.js"></script>
 </body>
 </html>
