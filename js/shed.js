@@ -31,14 +31,14 @@ var projectData = [
 		"name": "Weather",
 		"description": "Minimal page showing info from a local weather station. Originally built for mobile use.",
 		"links": {
-			"project": "http://trippnology.com/shed/weather"
+			"project": "http://weather.trippnology.com/"
 		}
 	},
 	{
 		"name": "YouTube Mature Content Viewer",
 		"description": "This tool makes it easy to watch restricted YouTube content without logging in to YouTube.",
 		"links": {
-			"project": "http://trippnology.com/shed/youtube"
+			"project": "http://ytmature.trippnology.com/"
 		}
 	},
 ]
