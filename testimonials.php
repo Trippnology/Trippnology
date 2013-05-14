@@ -61,6 +61,21 @@ include "head.php";
 					<hr class="divider roundlrg large">
 
 					<blockquote>
+						<p>Just wanted to say a massive thank you to Rikki for coming out to set up our home/business network, PCs and security systems and for your continued telephone and online support. We really couldn't manage without you!</p>
+						<small>Craig Obey of <a href="https://www.facebook.com/CompleteSolarSolutions">Complete Solar Solutions</a></small>
+					</blockquote>
+
+					<hr class="divider roundlrg large">
+
+					<blockquote>
+						<p>My wife and I were illiterate as far as computers are concerned. Rikki has helped us choose equipment, has installed it and shows us how to use it. He quickly answers all of our silly queries with great patience.</p>
+						<p>Without his help we would be quite lost. He is invaluable.</p>
+						<small>Barry Capon</small>
+					</blockquote>
+
+					<hr class="divider roundlrg large">
+
+					<blockquote>
 						<p>"I have used Trippnology for technical support for several years. The standard of service and knowledge is exceptional. All tasks handed to Trippnology have been handled quickly and expertly turned into working solutions with outstanding results.</p>
 						<p>These tasks included technical support via telephone, skype and email on all aspects of computing technology with exceptional levels of understanding. All hardware left for repair and upgrade is providing faultless trouble free daily use.</p>
 						<p>Trippnology is considered excellent value for money, very competitive and more importantly to myself, a trusted professional."</p>
