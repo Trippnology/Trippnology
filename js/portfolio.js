@@ -102,8 +102,8 @@ $.each(portfolioData, function(i,project) {
 	link.href = project.url;
 	link.rel = 'external';
 	link.className = 'portfolio-link';
-	link.textContent = project.name;
-	sitedesc.textContent = project.notes;
+	$(link).text(project.name);
+	$(sitedesc).text(project.notes);
 	sitetags.className = 'tags';
 
 	sitename.appendChild(link);
