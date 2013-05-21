@@ -147,4 +147,3 @@ $.each(portfolioData, function(i,project) {
 });
 
 $('ul.portfolio').html(frag);
-$('.portfolio-link').removeClass('roll-link');
