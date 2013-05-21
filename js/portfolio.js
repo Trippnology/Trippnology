@@ -101,6 +101,7 @@ $.each(portfolioData, function(i,project) {
 	img.className = 'roundlrg border-dark';
 	link.href = project.url;
 	link.rel = 'external';
+	link.className = 'portfolio-link';
 	link.textContent = project.name;
 	sitedesc.textContent = project.notes;
 	sitetags.className = 'tags';
@@ -146,3 +147,4 @@ $.each(portfolioData, function(i,project) {
 });
 
 $('ul.portfolio').html(frag);
+$('.portfolio-link').removeClass('roll-link');

@@ -145,6 +145,7 @@ body.page-home { padding-top: 3.5em; }
 /* web-design-attleborough */
 .page-web-design .intro { text-align: center; }
 .portfolio .badge { margin-left: 0.25em; }
+.portfolio-link:hover { background: #F87A52; text-decoration: none; }
 /* prices */
 .price-table-web th { text-align: center; }
 .price-table-web td { color: #fff; }
