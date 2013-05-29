@@ -266,6 +266,7 @@ body.page-home { padding-top: 3.5em; }
 	padding-top: 1em; /* Vertically center images part 1: add padding above and below text. */
 	overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
+.featurette:last-child { margin-bottom: 3em; }
 .featurette ol.lead li { margin-bottom: 0.5em; }
 .featurette-image {
 	margin-top: 2em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
