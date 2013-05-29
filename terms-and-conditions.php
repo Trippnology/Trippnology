@@ -2,7 +2,7 @@
 include "inc/settings.php";
 
 $strPageName = "Terms and Conditions";
-$strCanonical = "template-blank.php";
+$strCanonical = "terms-and-conditions";
 $strDescription = "Our standard terms and conditions.";
 $strKeywords = "terms, conditions";
 $SEOtitle = $strPageName . " | " . $siteName;
