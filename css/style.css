@@ -276,6 +276,11 @@ body.page-home { padding-top: 3.5em; }
 .featurette-image {
 	margin-top: 2em; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
 	width:256px;
+	height: 256px;
+}
+.featurette-image-mini {
+	width: 128px;
+	height: 128px;
 }
 
 /* Give some space on the sides of the floated elements so text doesn't run right into it. */

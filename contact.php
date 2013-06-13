@@ -30,7 +30,7 @@ include "head.php";
 	<div class="container">
 		<div class="row">
 			<div class="span3">
-				<article class="well center hidden-phone qrcode">
+				<article class="center hidden-phone qrcode">
 					<img class="img-polaroid" src="img/ui/contact-details-qrcode.png" alt="Trippnology contact details QR code">
 					<p><i class="icon-barcode"></i> Scan this code to add contact info to your phone, call us, or get directions.</p>
 				</article>
@@ -38,7 +38,7 @@ include "head.php";
 
 			<div class="span4 offset1" id="main" role="main">
 				<article class="well center white">
-					<span itemscope itemtype="http://schema.org/Brand"><img src="img/ui/trippnology-logo-square-180.png" width="180" height="180" class="img-polaroid roundlrg" alt="Contact <?=$siteName?>" itemprop="logo"></span>
+					<span itemscope itemtype="http://schema.org/Brand"><img src="img/ui/trippnology-logo-square-360.png" class="img-polaroid roundlrg" alt="Contact <?=$siteName?>" itemprop="logo"></span>
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
@@ -60,6 +60,9 @@ include "head.php";
 			</div>
 
 			<div class="span3 offset1">
+				<div class="center">
+					<img class="featurette-image-mini" src="img/ui/hi-icon-256.png" alt="Hi icon">
+				</div>
 				<article class="center">
 					<form id="contactForm" class="form-vertical">
 						<label for="name">Name</label>

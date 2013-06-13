@@ -51,19 +51,19 @@ include "head.php";
 				<article>
 					<div class="row intro">
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/code-small.png" alt="project assessment" width="140" height="140">
+							<img class="featurette-image-mini" src="img/ui/code-icon-256.png" alt="project assessment" width="140" height="140">
 							<h2>Brand new project</h2>
 							<p>Need a website but don't know where to start? Our project assessment will get you on the right track.</p>
 							<p><a class="btn scrollme" href="#project-assessment">Find out more »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/graph-small.png" alt="website updates" width="140" height="140">
+							<img class="featurette-image-mini" src="img/ui/stats-icon-256.png" alt="website updates" width="140" height="140">
 							<h2>Website updates</h2>
 							<p>Do you already have a website that needs some TLC? We can breathe new life into your stale old site.</p>
 							<p><a class="btn scrollme" href="#website-updates">View details »</a></p>
 						</div>
 						<div class="span3">
-							<img class="img-circle border-dark border-fat" src="img/ui/portfolio-small.png" alt="it support" width="140" height="140">
+							<img class="featurette-image-mini" src="img/ui/portfolio-icon-256.png" alt="it support" width="140" height="140">
 							<h2>Portfolio</h2>
 							<p>Have a look at some of the sites we have built for previous customers and see the quaility of our work for yourself.</p>
 							<p><a class="btn scrollme" href="#portfolio">View »</a></p>

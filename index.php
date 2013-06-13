@@ -62,7 +62,7 @@ include "head.php";
 						<p class="lead">Driven by our passion for the web, we create user focussed sites that meet your needs and build your business. Find out more about our <a href="web-design-attleborough">web design</a> services or <a href="contact">contact us</a> today, we'd love to hear your plans.</p>
 					</div>
 					<div class="span3">
-						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/code.png" alt="Web design Attleborough icon">
+						<img class="featurette-image" src="img/ui/code-icon-512.png" alt="Web design Attleborough icon">
 					</div>
 				</div>
 
@@ -70,7 +70,7 @@ include "head.php";
 
 				<div class="featurette row">
 					<div class="span3">
-						<img class="featurette-image pull-left img-circle border-dark border-fat" src="img/ui/graph.png" alt="SEO Attleborough icon">
+						<img class="featurette-image" src="img/ui/stats-icon-512.png" alt="SEO Attleborough icon">
 					</div>
 					<div class="span6">
 						<h2 class="featurette-heading">Already got a website? <span class="muted">Let's make it better.</span></h2>
@@ -86,7 +86,7 @@ include "head.php";
 						<p class="lead">IT downtime costs your business. Our years of experience mean we get your issues resolved quickly, so you can get back to work. Find out more about how our <a href="it-support-attleborough">IT support</a> services will make you more productive.</p>
 					</div>
 					<div class="span3">
-						<img class="featurette-image img-circle border-dark border-fat" src="img/ui/it-support.jpg" alt="IT support Attleborough icon">
+						<img class="featurette-image img-circle" src="img/ui/it-support-icon-512.jpg" alt="IT support Attleborough icon">
 					</div>
 				</div>
 			</div><!-- /.span9 -->
