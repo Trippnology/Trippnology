@@ -11,5 +11,3 @@
 <script src="js/plugins.js"></script>
 <script src="js/script.js"></script>
 <!-- //-end- concat_js -->
-
-<script src="js/analytics.js"></script>
