@@ -42,7 +42,7 @@ include "head.php";
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
 						<p><span itemprop="description"><?=$siteTagline?></span></p>
-		                <p>Email: <span itemprop="email" class="antispam">mail [at] trippnology.com</span></p>
+						<p>Email: <span itemprop="email" class="antispam">mail [at] trippnology.com</span></p>
 						<p>Phone: <span itemprop="telephone"><a href="tel:+44-1953-451231">01953 451231</a></span><br>
 							Mobile: <a href="tel:+44-7564-730357">07564 730357</a></p>
 						<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
@@ -54,7 +54,7 @@ include "head.php";
 						</div>
 						<p class="center"><a rel="external" itemprop="map" href="https://maps.google.co.uk/maps?ie=UTF8&amp;cid=17370591561013489825&amp;q=Trippnology&amp;gl=GB&amp;hl=en&amp;t=m&amp;iwloc=A&amp;ll=52.519416,1.047000&amp;spn=0.007000,0.007000&amp;output=embed" class="badge popup-map"><i class="icon-map-marker icon-white"></i> Map</a></p>
 						<p><a itemprop="url" href="<?=$siteDomain?>"><?=$siteDomain?></a></p>
-				    </section>
+					</section>
 					<?php include "inc/social-links.php"; ?>
 				</article>
 			</div>
@@ -74,9 +74,9 @@ include "head.php";
 						<label for="message">Your Message</label>
 						<textarea name="message" id="message" cols="45" rows="5" class="required" placeholder="How can we help?"></textarea>
 						<br>
+						<div class="contact-result roundlrg"></div>
 						<input id="submitform" type="submit" value="send" class="btn btn-success">
 					</form>
-					<div id="result" class="alert"></div>
 				</article>
 			</div>
 		</div>
@@ -93,23 +93,14 @@ include "head.php";
 <script>
 	$("#main").antiSpam("antispam");
 
-	//$(".popup-map").fancybox({
-	//	'width' : '75%',
-	//	'height' : '75%',
-	//	'autoScale' : false,
-	//	'transitionIn' : 'fade',
-	//	'transitionOut' : 'fade',
-	//	'type' : 'iframe'
-	//});
 	$(document).ready(function() {
-		$("#result").css({display: "none"});
 		$("#submitform").click(function() {
 			var name = $("#name").val();
 			var email = $("#email").val();
 			var telephone = $("#telephone").val();
 			var message = $("#message").val();
 			$.getJSON("sendform.php?name=" + name + "&email=" + email + "&telephone=" + telephone + "&message=" + message,function(result){
-				$("#result").html(result.content).css({display: "block"});
+				$(".contact-result").html(result.content).css({ display: "block" });
 			});
 			return false;
 		});
