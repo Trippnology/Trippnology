@@ -93,20 +93,16 @@ include "head.php";
 <script>
 	$("#main").antiSpam("antispam");
 
-	$(document).ready(function() {
-		$("#submitform").click(function() {
-			var name = $("#name").val();
-			var email = $("#email").val();
-			var telephone = $("#telephone").val();
-			var message = $("#message").val();
-			$.getJSON("sendform.php?name=" + name + "&email=" + email + "&telephone=" + telephone + "&message=" + message,function(result){
-				$(".contact-result").html(result.content).css({ display: "block" });
-			});
-			return false;
+	$("#submitform").click(function() {
+		var name = $("#name").val();
+		var email = $("#email").val();
+		var telephone = $("#telephone").val();
+		var message = $("#message").val();
+		$.getJSON("sendform.php?name=" + name + "&email=" + email + "&telephone=" + telephone + "&message=" + message,function(result){
+			$(".contact-result").html(result.content).css({ display: "block" });
 		});
+		return false;
 	});
-</script>
-<script type="text/javascript" charset="utf-8">
 </script>
 <!-- End of page specific script stuff -->
 </body>
