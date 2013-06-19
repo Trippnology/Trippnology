@@ -437,7 +437,7 @@ img.aligncenter {
 /* Most Desktop browsers */
 @media (min-width: 980px) {
 	.navbar-wrapper { margin-top: 1.5em; }
-	.featurette-heading { font-size: 4.5em; }
+	.featurette-heading { font-size: 4.25em; }
 	.page-it-support .header-caption { max-width: 770px; }
 	.page-web-design .header-caption { max-width: 790px; }
 }
