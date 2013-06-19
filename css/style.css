@@ -128,7 +128,6 @@ a.vert-menu-item {
 /* Using a 2x image so it looks nice on retina screens so we need to manually specify dimensions */
 img[itemprop=logo] {
 	width: 180px;
-	height: 180px;
 }
 .affix {
 	position: fixed;
