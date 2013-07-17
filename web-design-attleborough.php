@@ -58,9 +58,9 @@ include "head.php";
 						</div>
 						<div class="span3">
 							<img class="featurette-image-mini" src="img/ui/stats-icon-256.png" alt="website updates" width="140" height="140">
-							<h2>Website updates</h2>
+							<h2>Website maintenance</h2>
 							<p>Do you already have a website that needs some TLC? We can breathe new life into your stale old site.</p>
-							<p><a class="btn scrollme" href="#website-updates">View details »</a></p>
+							<p><a class="btn scrollme" href="#website-maintenance">View details »</a></p>
 						</div>
 						<div class="span3">
 							<img class="featurette-image-mini" src="img/ui/portfolio-icon-256.png" alt="it support" width="140" height="140">
@@ -86,10 +86,10 @@ include "head.php";
 					<p><a href="contact">Contact us</a> today and let's get the ball rolling!</p>
 				</article>
 
-				<hr id="website-updates" class="divider roundsm">
+				<hr id="website-maintenance" class="divider roundsm">
 
 				<article>
-					<h1>Website Updates</h1>
+					<h1>Website Maintenance</h1>
 					<div class="well white span2 pull-right">
 						<p><span class="lead">Bottom line:</span> We can bring your current website up to scratch and make it mobile friendly.</p>
 						<p><a href="contact" class="btn btn-mini btn-success">Let's talk »</a></p>

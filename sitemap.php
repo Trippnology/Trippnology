@@ -37,7 +37,7 @@ include "head.php";
 						<li><a href="http://trippnology.com/web-design-attleborough">Web Design Attleborough</a>
 							<ul>
 								<li><a href="http://trippnology.com/web-design-attleborough#project-assessment">Project Assessment</a></li>
-								<li><a href="http://trippnology.com/web-design-attleborough#website-updates">Website Updates</a></li>
+								<li><a href="http://trippnology.com/web-design-attleborough#website-maintenance">Website Maintenance</a></li>
 								<li><a href="http://trippnology.com/web-design-attleborough#portfolio">Portfolio</a></li>
 							</ul>
 						</li>
