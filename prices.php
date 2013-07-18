@@ -121,6 +121,7 @@ include "head.php";
 						</tr>
 					</table>
 					<p>Other options available <a href="contact">on request</a>.</p>
+					<p>Confused? Read our blog post: <a href="http://blog.trippnology.com/what-is-web-hosting-and-why-do-i-need-it/">What is web hosting and why do I need it?</a></p>
 					<h2 id="domain-names">Domain names</h2>
 					<ul class="unstyled">
 						<li>.co.uk - <strong>£20 per 2 years</strong></li>
