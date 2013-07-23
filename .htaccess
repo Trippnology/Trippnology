@@ -372,11 +372,16 @@ FileETag None
 	Redirect 301 /testimonials.asp /testimonials
 	Redirect 301 /web-design-wymondham.asp /web-design-attleborough
 	Redirect 301 /web-design-norwich.asp /web-design-attleborough
+	Redirect 301 /web-design-norwich /web-design-attleborough
 	Redirect 301 /privacy-policy.asp /contact
 	Redirect 301 /consultation.asp /contact
 	Redirect 301 /outsource-it-support-attleborough.asp /it-support-attleborough
 	Redirect 301 /web-design-Wymondham.asp /web-design-attleborough
 	Redirect 301 /suspended.asp /suspended
+
+	# 301 redirect custom shortlinks
+	Redirect 301 /giffgaff http://giffgaff.com/orders/affiliate/trippnology
+	Redirect 301 /firefox http://affiliates.mozilla.org/link/banner/9678
 </IfModule>
 
 
