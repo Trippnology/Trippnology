@@ -1,4 +1,4 @@
-<div class="navbar-wrapper">
+<div class="navbar-wrapper animated bounceInDown">
 	<div class="container">
 		<div class="navbar">
 			<div class="navbar-inner roundlrg">
