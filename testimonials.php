@@ -53,6 +53,14 @@ include "head.php";
 					<hr class="divider roundlrg large">
 
 					<blockquote>
+						<p>I have used Trippnology to design several websites and have been very satisfied with their delivery. They work with me to ensure design and site structure is what I, or my clients, want; and deliver the service swiftly and flexibly when things or minds get changed in the middle of a web-build.</p>
+						<p>Their ongoing support is also timely and good value. Highly recommended.</p>
+						<small>Lucy McCarraher of <a href="http://rethinkpress.com/">Rethink Press</a></small>
+					</blockquote>
+
+					<hr class="divider roundlrg large">
+
+					<blockquote>
 						<p>I designed our own website using an off the shelf package and managed to wipe out my business email trying to publish it. I turned to Rikki in my panic and he fixed and reorganised everything calmly and quickly.</p>
 						<p>Rikki pointed out our website was difficult for customers to find. He re-wrote it for SEO and improved the design. The amount of new enquiries tripled immediately. Our new website has increased sales and portrays a professional image of The Limecrete Company Ltd.</p>
 						<small>Louisa Yallop of <a href="http://www.limecrete.co.uk/" rel="external">The Limecrete Company Ltd.</a></small>
