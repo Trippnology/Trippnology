@@ -37,7 +37,7 @@ include "head.php";
 			</div>
 
 			<div class="span4 offset1" id="main" role="main">
-				<article class="well center white">
+				<article class="well center white animated bounceInUp">
 					<span itemscope itemtype="http://schema.org/Brand"><img src="img/ui/trippnology-logo-square-360.png" class="img-polaroid roundlrg" alt="Contact <?=$siteName?>" itemprop="logo"></span>
 					<section itemscope itemtype="http://schema.org/LocalBusiness">
 						<h2><span itemprop="name"><?=$siteName?></span></h2>
