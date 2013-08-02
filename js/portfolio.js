@@ -2,7 +2,7 @@ var portfolioData = [
     {
         "name": "Avant Tecno",
         "notes": "High quality compact articulated loaders.",
-        "url": "http://avanttecno.co.uk/",
+        "url": "http://avant.co.uk/",
         "tags": ["responsive", "html5", "wordpress"],
 	    "image": "img/screens/avant-tecno.jpg"
     },

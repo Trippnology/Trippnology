@@ -39,7 +39,7 @@ include "head.php";
 					<blockquote>
 						<p>Having discussed what we needed and wanted as a company, Rikki provided us with a detailed spec sheet of what would be completed. We have not looked back since. He delivered on time, to budget and provides support on a level that every staff member can understand. His personable nature and excellent understanding in his area of expertise makes problem solving and one-off jobs a pleasure to undertake, with his constructive and positive direction.</p>
 						<p>A big thank you for all you have done so far, from Avant UK.</p>
-						<small>Frances Dunton of <a href="http://avanttecno.co.uk">Avant Tecno</a></small>
+						<small>Frances Dunton of <a href="http://avant.co.uk">Avant Tecno</a></small>
 					</blockquote>
 
 					<hr class="divider roundlrg large">
