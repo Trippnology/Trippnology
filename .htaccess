@@ -382,6 +382,8 @@ FileETag None
 	# 301 redirect custom shortlinks
 	Redirect 301 /giffgaff http://giffgaff.com/orders/affiliate/trippnology
 	Redirect 301 /firefox https://affiliates.mozilla.org/link/banner/9678
+	Redirect 301 /copy https://copy.com?r=ElEXGA
+	Redirect 301 /dropbox http://db.tt/IXA8foS
 </IfModule>
 
 
