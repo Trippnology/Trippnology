@@ -379,11 +379,12 @@ FileETag None
 	Redirect 301 /web-design-Wymondham.asp /web-design-attleborough
 	Redirect 301 /suspended.asp /suspended
 
-	# 301 redirect custom shortlinks
-	Redirect 301 /giffgaff http://giffgaff.com/orders/affiliate/trippnology
-	Redirect 301 /firefox https://affiliates.mozilla.org/link/banner/9678
-	Redirect 301 /copy https://copy.com?r=ElEXGA
-	Redirect 301 /dropbox http://db.tt/IXA8foS
+	# 307 redirect custom shortlinks
+	Redirect 307 /analytics-dashboard https://www.google.com/analytics/web/template?uid=BCzHoFPLQcCZ7LKmUQwnfQ
+	Redirect 307 /copy https://copy.com?r=ElEXGA
+	Redirect 307 /dropbox http://db.tt/IXA8foS
+	Redirect 307 /firefox https://affiliates.mozilla.org/link/banner/9678
+	Redirect 307 /giffgaff http://giffgaff.com/orders/affiliate/trippnology
 </IfModule>
 
 
