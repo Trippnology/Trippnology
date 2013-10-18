@@ -98,6 +98,7 @@ $.each(portfolioData, function(i,project) {
 	li.className = 'image3d roundlrg';
 	figure.className = 'roundlrg border-light';
 	img.src = project.image;
+	img.alt = project.name + ' website screenshot';
 	img.className = 'roundlrg border-dark';
 	link.href = project.url;
 	link.rel = 'external';
