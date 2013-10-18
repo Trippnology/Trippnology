@@ -164,7 +164,7 @@ include "head.php";
     </div>
 
 	<?php include "scriptblock.php"; ?>
-	<script src="js/portfolio.js"></script>
+	<script src="js/portfolio.min.js"></script>
 
 </body>
 </html>
