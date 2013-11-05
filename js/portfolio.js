@@ -6,88 +6,88 @@ var portfolioData = [
 		"tags": ["responsive", "html5", "wordpress"],
 		"image": "img/screens/james-north-thrillers.jpg"
 	},
-    {
-        "name": "Avant Tecno",
-        "notes": "High quality compact articulated loaders.",
-        "url": "http://avant.co.uk/",
-        "tags": ["responsive", "html5", "wordpress"],
-	    "image": "img/screens/avant-tecno.jpg"
-    },
-    {
-        "name": "Whiterod Surfacing",
-        "notes": "Asphalt and tarmac laying specialists.",
-        "url": "http://www.whiterodsurfacing.com/",
-        "tags": ["html5", "responsive"],
-	    "image": "img/screens/whiterod-surfacing.jpg"
-    },
-    {
-        "name": "Viper Sounds",
-        "notes": "Independent online music store.",
-        "url": "http://vipersounds.com/",
-        "tags": ["html5", "responsive", "ecommerce", "wordpress"],
-	    "image": "img/screens/viper-sounds.jpg"
-    },
-    {
-        "name": "The Limecrete Company",
-        "notes": "Limecrete, hempcrete, and sustainable construction experts.",
-        "url": "http://www.limecrete.co.uk/",
-	    "image": "img/screens/limecrete.jpg"
-    },
-    {
-        "name": "Johnny Watton",
-        "notes": "Professional photographer.",
-        "url": "http://johnnywatton.com/",
-        "tags": ["html5", "responsive", "wordpress"],
-	    "image": "img/screens/johnny-watton.jpg"
-    },
-    {
-        "name": "Headspace Accountancy",
-        "notes": "Small business accounting.",
-        "url": "http://www.headspaceaccountancy.co.uk/",
-        "tags": ["html5", "responsive"],
-	    "image": "img/screens/headspace-accountancy.jpg"
-    },
-    {
-        "name": "Glass Splashback Colour",
-        "notes": "Glass splashbacks and worktops.",
-        "url": "http://www.glasssplashbackcolour.com/",
-        "tags": ["html5"],
-        "image": "img/screens/glass-splashback-colour.jpg"
-    },
-    {
-        "name": "Norwich French Church Charity",
-        "notes": "Financial help for young people's education.",
-        "url": "http://norwichfrenchchurchcharity.org.uk/",
-        "tags": ["html5", "responsive", "wordpress"],
-	    "image": "img/screens/nfcc.jpg"
-    },
-    {
-    	"name": "Abi Bailey",
-    	"notes": "Portrait photographer.",
-    	"url": "http://abportraitphotography.co.uk/",
-    	"tags": ["html5", "responsive", "wordpress"],
-    	"image": "img/screens/abpp.jpg"
-    },
-    {
-        "name": "Square Deal Storage",
-        "notes": "Container hire and self storage.",
-        "url": "http://www.squaredealstorage.co.uk/",
-    	"image": "img/screens/square-deal-storage.jpg"
-    },
 	{
-	    "name": "GD Consult",
-	    "notes": "Coming soon.",
-	    "url": "http://gdconsult.co.uk/",
-	    "tags": ["html5", "responsive", "ecommerce", "wordpress"],
+		"name": "Avant Tecno",
+		"notes": "High quality compact articulated loaders.",
+		"url": "http://avant.co.uk/",
+		"tags": ["responsive", "html5", "wordpress"],
+		"image": "img/screens/avant-tecno.jpg"
+	},
+	{
+		"name": "Whiterod Surfacing",
+		"notes": "Asphalt and tarmac laying specialists.",
+		"url": "http://www.whiterodsurfacing.com/",
+		"tags": ["html5", "responsive"],
+		"image": "img/screens/whiterod-surfacing.jpg"
+	},
+	{
+		"name": "Viper Sounds",
+		"notes": "Independent online music store.",
+		"url": "http://vipersounds.com/",
+		"tags": ["html5", "responsive", "ecommerce", "wordpress"],
+		"image": "img/screens/viper-sounds.jpg"
+	},
+	{
+		"name": "The Limecrete Company",
+		"notes": "Limecrete, hempcrete, and sustainable construction experts.",
+		"url": "http://www.limecrete.co.uk/",
+		"image": "img/screens/limecrete.jpg"
+	},
+	{
+		"name": "Johnny Watton",
+		"notes": "Professional photographer.",
+		"url": "http://johnnywatton.com/",
+		"tags": ["html5", "responsive", "wordpress"],
+		"image": "img/screens/johnny-watton.jpg"
+	},
+	{
+		"name": "Headspace Accountancy",
+		"notes": "Small business accounting.",
+		"url": "http://www.headspaceaccountancy.co.uk/",
+		"tags": ["html5", "responsive"],
+		"image": "img/screens/headspace-accountancy.jpg"
+	},
+	{
+		"name": "Glass Splashback Colour",
+		"notes": "Glass splashbacks and worktops.",
+		"url": "http://www.glasssplashbackcolour.com/",
+		"tags": ["html5"],
+		"image": "img/screens/glass-splashback-colour.jpg"
+	},
+	{
+		"name": "Norwich French Church Charity",
+		"notes": "Financial help for young people's education.",
+		"url": "http://norwichfrenchchurchcharity.org.uk/",
+		"tags": ["html5", "responsive", "wordpress"],
+		"image": "img/screens/nfcc.jpg"
+	},
+	{
+		"name": "Abi Bailey",
+		"notes": "Portrait photographer.",
+		"url": "http://abportraitphotography.co.uk/",
+		"tags": ["html5", "responsive", "wordpress"],
+		"image": "img/screens/abpp.jpg"
+	},
+	{
+		"name": "Square Deal Storage",
+		"notes": "Container hire and self storage.",
+		"url": "http://www.squaredealstorage.co.uk/",
+		"image": "img/screens/square-deal-storage.jpg"
+	},
+	{
+		"name": "GD Consult",
+		"notes": "Coming soon.",
+		"url": "http://gdconsult.co.uk/",
+		"tags": ["html5", "responsive", "ecommerce", "wordpress"],
 		"image": "img/screens/coming-soon.png"
 	},
-    {
-        "name": "Advanced Camera Services",
-        "notes": "Coming soon.",
-        "url": "http://advancedcameraservices.co.uk/",
-        "tags": ["html5", "responsive", "ecommerce", "wordpress"],
-    	"image": "img/screens/coming-soon.png"
-    }
+	{
+		"name": "Advanced Camera Services",
+		"notes": "Coming soon.",
+		"url": "http://advancedcameraservices.co.uk/",
+		"tags": ["html5", "responsive", "ecommerce", "wordpress"],
+		"image": "img/screens/coming-soon.png"
+	}
 ];
 
 var frag = document.createDocumentFragment();
@@ -126,23 +126,24 @@ $.each(portfolioData, function(i,project) {
 				tagicon.attr({'class': 'icon-tags'});
 				tagspan.append(tagicon);
 				$(sitetags).append(tagspan);
-			};
+			}
 			if(tag == 'responsive'){
 				tagicon.attr({'class': 'icon-resize-full'});
 				tagspan.append(tagicon);
-				$(sitetags).append(tagspan);			};
+				$(sitetags).append(tagspan);
+			}
 			if(tag == 'ecommerce'){
 				tagicon.attr({'class': 'icon-shopping-cart'});
 				tagspan.append(tagicon);
 				$(sitetags).append(tagspan);
-			};
+			}
 			if(tag == 'wordpress'){
 				tagicon.attr({'class': 'icon-pencil'});
 				tagspan.append(tagicon);
 				$(sitetags).append(tagspan);
-			};
+			}
 		});
-	};
+	}
 
 	figcaption.appendChild(sitedesc);
 	figcaption.appendChild(sitetags);
