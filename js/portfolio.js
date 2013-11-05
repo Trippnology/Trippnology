@@ -1,4 +1,11 @@
 var portfolioData = [
+	{
+		"name": "James North Thrillers",
+		"notes": "Political thrillers you just can't put down.",
+		"url": "http://jamesnorththrillers.com/",
+		"tags": ["responsive", "html5", "wordpress"],
+		"image": "img/screens/james-north-thrillers.jpg"
+	},
     {
         "name": "Avant Tecno",
         "notes": "High quality compact articulated loaders.",
