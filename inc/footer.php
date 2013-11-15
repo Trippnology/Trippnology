@@ -25,6 +25,7 @@
 				<li><a href="terms-and-conditions">Terms and Conditions</a></li>
 				<li><a href="sitemap">Sitemap</a></li>
 				<li class="license"><a href="http://creativecommons.org/licenses/by-sa/2.0/uk/" rel="license"><img src="img/ui/cc-by-sa-80x15.png" alt="Creative Commons Attribution-ShareAlike 2.0 UK: England &amp; Wales license"></a> <a href="<?=$siteDomain?>" title="<?=$siteName?>"><?=$siteName?></a></li>
+				<li class="ipv6"><a href="http://ipv6-test.com/validate.php?url=referer" rel="external"><img src="img/ui/ipv6-80x15.png" alt="ipv6 ready"></a></li>
 			</ul>
 		</div>
 	</div>
