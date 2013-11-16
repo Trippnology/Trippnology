@@ -7,6 +7,13 @@ var projectData = [
 		}
 	},
 	{
+		"name": "IPv6 Test",
+		"description": "Test your access to IPv6 only websites and show your real world IPv6 address.",
+		"links": {
+			"project": "http://ipv6.trippnology.com/"
+		}
+	},
+	{
 		"name": "Make link",
 		"description": "Sometimes you have a URL but need to make a link to help you save it. This a is a quick and dirty way to do that.",
 		"links": {
