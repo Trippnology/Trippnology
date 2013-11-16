@@ -32,7 +32,8 @@ include "head.php";
 			<div class="span9" id="main" role="main">
 				<article>
 					<h1>Your IP address is currently:</h1>
-					<p class="lead"><?=$userIP?></p>
+					<p class="lead"><?=$userIP?><br>
+						<span class="ipv6-status">IPv6 status: <a href="http://ipv6.trippnology.com/"><img src="http://ipv6.trippnology.com/img/ipv6-80x15.png" alt="IPv6 ready"></a></span></p>
 
 					<ul>
 					  <li><a rel="external" href="http://network-tools.com/default.asp?prog=express&amp;host=<?=$userIP?>">Network Tools Report</a>
@@ -78,6 +79,12 @@ include "head.php";
     </div>
 
 	<?php include "scriptblock.php"; ?>
-
+	<script>
+		$(function() {
+			$('.ipv6-status img').error(function() {
+				$('.ipv6-status').text('It looks like you are unable to access the IPv6 internet.');
+			});
+		});
+	</script>
 </body>
 </html>
