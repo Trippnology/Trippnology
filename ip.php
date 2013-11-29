@@ -11,6 +11,28 @@ $pageHeaderImageURL = "img/ui/headers/trippnology-default.jpg";
 $pageHeaderImageURLSource = "https://secure.flickr.com/photos/manchester-monkey/4150657215/";
 $strTweetText = $strPageName;
 $host = $_SERVER['REMOTE_HOST'];
+$format = $_GET['format'];
+
+/* If the "format" query parameter is used, simply return the IP
+   and forget about rendering the rest of the page */
+if ($format == "text") {
+	echo $userIP;
+	die;
+}
+if ($format == "json") {
+	header('Content-Type: application/json; charset=utf8');
+	echo json_encode(array('ip' => $userIP));
+	die;
+}
+if ($format == "jsonp") {
+	header('Content-Type: text/javascript; charset=utf8');
+	header('Access-Control-Allow-Origin: *');
+	header('Access-Control-Max-Age: 3628800');
+	header('Access-Control-Allow-Methods: GET');
+	$callback = $_GET['callback'];
+	echo $callback . '(' . json_encode(array('ip' => $userIP)) . ');';
+	die;
+}
 
 include "head.php";
 ?>
@@ -43,17 +65,28 @@ include "head.php";
 					</ul>
 				</article>
 
+				<?php if(!empty($host)){ ?>
 				<article>
 					<h1>Host</h1>
-					<?php if(!empty($host)){ ?>
 						<h2>Your hostname is currently:</h2>
 						<p class="lead"><?=$host?> (often just your IP)</p>
-					<?php }; ?>
 					<ul>
 						<li><a rel="external" href="http://whois.domaintools.com/<?=$host?>">Whois</a>
 						<li><a rel="external" href="http://www.whatsmydns.net/#A/<?=$host?>">Name Servers</a>
 						<li><a rel="external" href="http://www.whatsmydns.net/#MX/<?=$host?>">Mail Servers</a>
 					</ul>
+				</article>
+				<?php }; ?>
+
+				<article>
+					<h1>Help</h1>
+					<p>There are currently 4 ways to use this page. You can simply visit this page in your browser and read the result (this is what you're doing right now).</p>
+					<p>Alternatively, you can add a <code>format</code> query parameter to get your IP in various formats, like so:</p>
+					<ol>
+						<li>Text: <code>http://trippnology.com/ip?format=text</code></li>
+						<li>JSON: <code>http://trippnology.com/ip?format=json</code></li>
+						<li>JSONP: <code>http://trippnology.com/ip?format=jsonp&callback=yourcallback</code></li>
+					</ol>
 				</article>
 
 				<article>
