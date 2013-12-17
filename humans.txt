@@ -11,7 +11,7 @@
 ## Site
 
 ### Last Update:
-*15/10/2013*
+*17/12/2013*
 
 ### Standards:
 * HTML5
@@ -42,7 +42,6 @@ Big ups for licensing your work under creative commons!
 
 ### Software:
 * [Sublime Text 2](http://www.sublimetext.com/2)
-* [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/)
 
 ## Thanks
 * Lucy for her proof reading.
