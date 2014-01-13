@@ -74,6 +74,7 @@ include "head.php";
 	<?php include "scriptblock.php"; ?>
 
 <script src="js/jquery-proudify.min.js"></script>
+<script src="js/libs/sketch.min.js"></script>
 <script src="js/shed.js"></script>
 </body>
 </html>
