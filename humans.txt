@@ -1,6 +1,8 @@
 # The humans responsible & colophon
 [humanstxt.org](http://humanstxt.org/)
 
+A prettier version of this document can be found here: http://trippnology.com/colophon
+
 ## Human
 * Name: Rikki Tripp
 * Role: Designer / Developer
@@ -11,7 +13,7 @@
 ## Site
 
 ### Last Update:
-*17/12/2013*
+*28/01/2014*
 
 ### Standards:
 * HTML5
