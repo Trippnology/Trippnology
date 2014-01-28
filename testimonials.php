@@ -32,7 +32,7 @@ include "head.php";
 			<div class="span9" id="main" role="main">
 				<article>
 					<h1>What our customers have to say...</h1>
-					<p>You can leave your own review on our <a href="http://maps.google.co.uk/maps/place?cid=17370591561013489825" rel="external">Google Places</a> or <a href="http://www.touchnorwich.com/business/list/bid/7169442" rel="external">Touch Local</a> pages.</p>
+					<p>You can leave your own review on our <a href="https://plus.google.com/108008988541980903471/about" rel="external">Google+</a> or <a href="http://www.touchnorwich.com/business/list/bid/7169442" rel="external">Touch Local</a> pages.</p>
 
 					<hr class="divider roundlrg large">
 
