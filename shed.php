@@ -23,7 +23,6 @@ include "head.php";
 			<div class="header-caption roundlrg">
 				<h1 id="pagetitle"><a href="<?= $strCanonical ?>" title="<?= $strPageName ?>"><?= $strPageName ?></a></h1>
 				<h2>Where we tinker around at the weekends.<br>Grab yourself a cuppa and come on in!</h2>
-				<p>Here be dragons. Things on this page are generally experimental and may stop working, disappear, explode or crash at any moment!</p>
 			</div>
 		</div>
 	</header>
@@ -31,6 +30,8 @@ include "head.php";
 	<div class="container">
 		<div class="row">
 			<div class="span9" id="main" role="main">
+				<p class="lead">Here be dragons. Things on this page are generally experimental and may stop working, disappear, explode or crash at any moment!</p>
+
 				<article>
 					<h1>Projects</h1>
 					<ul id="projects" class="unstyled">
