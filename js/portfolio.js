@@ -1,5 +1,19 @@
 var portfolioData = [
 	{
+		"name": "The Limecrete Company",
+		"notes": "Limecrete, hempcrete, and sustainable construction experts.",
+		"url": "http://limecrete.co.uk/",
+		"tags": ["responsive", "html5", "wordpress"],
+		"image": "img/screens/limecrete.jpg"
+	},
+	{
+		"name": "Avant Hire",
+		"notes": "Web app to find your nearest Avant Hire dealer.",
+		"url": "http://avanthire.co.uk/",
+		"tags": ["responsive", "html5", "app"],
+		"image": "img/screens/avant-hire.jpg"
+	},
+	{
 		"name": "Cupiss Letterpress",
 		"notes": "Exsquisite wedding and business stationery since 1830.",
 		"url": "http://cupissletterpress.co.uk/",
@@ -33,12 +47,6 @@ var portfolioData = [
 		"url": "http://vipersounds.com/",
 		"tags": ["html5", "responsive", "ecommerce", "wordpress"],
 		"image": "img/screens/viper-sounds.jpg"
-	},
-	{
-		"name": "The Limecrete Company",
-		"notes": "Limecrete, hempcrete, and sustainable construction experts.",
-		"url": "http://www.limecrete.co.uk/",
-		"image": "img/screens/limecrete.jpg"
 	},
 	{
 		"name": "Johnny Watton",
