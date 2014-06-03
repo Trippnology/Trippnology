@@ -16,6 +16,7 @@ $format = $_GET['format'];
 /* If the "format" query parameter is used, simply return the IP
    and forget about rendering the rest of the page */
 if ($format == "text") {
+	header('Content-Type: text/plain; charset=utf8');
 	echo $userIP;
 	die;
 }
