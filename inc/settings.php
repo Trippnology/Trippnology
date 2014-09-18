@@ -8,6 +8,10 @@ $siteTagline = "We're good with technology";
 $adminEmail = "";
 $adminDevMode = true; // Load development stuff?
 $adminGoogleAnalID = "UA-18721203-1";
+// Get visitors real IP when using Cloudflare
+if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+	$_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+}
 $userIP = $_SERVER['REMOTE_ADDR'];
 
 // External sites
