@@ -13,7 +13,7 @@
 	<meta content="52.519450;1.047002" name="geo.position">
 	<meta content="52.519450, 1.047002" name="ICBM">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://cdn.trippnology.net/css/bootstrap-2.3.1.min.css">
 	<link rel="stylesheet" href="css/style.css"><!-- Placed last to override all other styles -->
 	<link rel="canonical" href="<?=$siteDomain?><?=$strCanonical?>">
 	<link rel="author" href="<?=$siteDomain?>humans.txt">
